@@ -5,9 +5,7 @@
 #include <math.h>
 
 using namespace std;
-//Testing
-//Testing 2
-// NGUYEN DUY
+
 class Restaurant {
 
 	public:
