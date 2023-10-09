@@ -2,7 +2,7 @@
 #include "Restaurant.cpp"
 #include <fstream>
 
-int MAXSIZE;
+int MAXSIZE = 30;
 
 void simulate(string filename, imp_res* r)
 {
@@ -13,7 +13,8 @@ void simulate(string filename, imp_res* r)
 		if(str == "MAXSIZE")
 		{
 			ss >> maxsize;
-			MAXSIZE = stoi(maxsize); 
+            MAXSIZE = stoi(maxsize);
+            cout << MAXSIZE << endl;
     	}
         else if(str == "RED") // RED <NAME> <ENERGY>
         {
@@ -48,6 +49,8 @@ void simulate(string filename, imp_res* r)
     			r->LIGHT(stoi(num));
     	}
     }
+
+    r->print_List_Cus();
 }
 
 int main(int argc, char* argv[]) {
