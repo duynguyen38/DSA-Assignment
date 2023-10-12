@@ -6,7 +6,7 @@
 
 using namespace std;
 
-extern int MAXSIZE;
+static int MAXSIZE;
 
 class Restaurant {
 	

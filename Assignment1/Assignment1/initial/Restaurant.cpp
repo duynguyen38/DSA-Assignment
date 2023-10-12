@@ -12,9 +12,10 @@ private:
 	//LL queue
 	customer* fqueue_cus;
 	customer* tqueue_cus;
-	//LL record customer
-	customer* fr;
-	customer* tr;
+
+	//LL record customer (ghi lai thu tu cua customer vao cua hang, de delete)
+	customer* fr; //first record
+	customer* tr; //tail record
 
 public: //ham bo tro
 	void print_List_Cus() {
@@ -30,10 +31,10 @@ public: //ham bo tro
 			customer* qcur = fqueue_cus;
 			cout << "Customers in queue: ";
 			while (qcur->next) {
-				cout << qcur->name << " " << qcur->energy << " -> ";
+				cout << qcur->name << qcur->energy << " -> ";
 				qcur = qcur->next;
 			}
-			cout << tqueue_cus->name << " " << tqueue_cus->energy;
+			cout << tqueue_cus->name << tqueue_cus->energy;
 			cout << endl;
 		}
 		else {
@@ -41,13 +42,14 @@ public: //ham bo tro
 		}
 
 
+
 		customer* rcur = fr;
 		cout << "Order of customers entering the table: ";
 		while (rcur->next) {
-			cout << rcur->name << " " << rcur->energy << " -> ";
+			cout << rcur->name << rcur->energy << " -> ";
 			rcur = rcur->next;
 		}
-		cout << tr->name << " " << tr->energy;
+		cout << tr->name << tr->energy;
 		cout << endl;
 	}
 
@@ -113,6 +115,57 @@ public: //ham bo tro
 		}
 	}
 
+
+	void swap(customer* n1, customer* n2) {
+		customer* temp = new customer;
+		temp->name = n1->name;
+		temp->energy = n1->energy;
+
+		n1->name = n2->name;
+		n1->energy = n2->energy;
+
+		n2->name = temp->name;
+		n2->energy = temp->energy;
+
+		delete temp;
+	}
+
+	int shellSort(customer* head, customer* tail, int n) { // n = 4 => interval = 2;
+		int num = 0; //so lan sort
+
+		for (int gap = n / 2; gap > 0; gap /= 2) {
+			for (int i = gap; i < n; i++) {
+
+				//loop pretemp = node[i-gap]
+				customer* temp = head;
+				customer* pretemp = head;
+				customer* prepretemp = head;
+				int k1 = i - gap;
+				while (k1 != 0) {
+					pretemp = pretemp->next;
+					k1--;
+				}
+				//temp = node[gap]
+				int k = i; // k = 3, 2, 1
+				while (k != 0) {
+					temp = temp->next;
+					k--;
+				}
+
+				//compare two node
+				int j;
+				for (j = i; j >= gap &&  abs(temp->energy) > abs(pretemp->energy); j -= gap) {
+					swap(pretemp, temp);
+					num++;
+					pretemp = pretemp->prev;
+					temp = temp->prev;
+				}
+			}
+		}
+		return num;
+	}
+
+
 public:
 	imp_res() {
 		first_cus = nullptr;
@@ -120,6 +173,10 @@ public:
 		count = 0;
 
 		fqueue_cus = nullptr;
+		tqueue_cus = nullptr;
+
+		fr = nullptr;
+		tr = nullptr;
 	};
 
 	void RED(string name, int energy)
@@ -130,13 +187,10 @@ public:
 			return;
 		}
 
-
-
 		if (is_name_duplicated(name)) {
 			cout << "Ten khach moi trung" << endl;
 			return;
 		}
-
 
 		cout << name << " " << energy << endl;
 		customer* cus = new customer(name, energy, nullptr, nullptr);
@@ -149,6 +203,7 @@ public:
 			}
 			else {
 				tqueue_cus->next = cus;
+				cus->prev = tqueue_cus;
 				tqueue_cus = cus;
 			}
 
@@ -215,12 +270,14 @@ public:
 			tr = temp;
 		}
 	}
+	
 	void BLUE(int num)
 	{
 		//func 2
 		//cout << "blue " << num << endl;
 		if (num >= count || num >= MAXSIZE) {
 			cout << "Duoi het khach hang ve" << endl;
+			x_cus = nullptr;
 			// remove
 			for (int i = 0; i < count; i++) {
 				customer* rev = first_cus;
@@ -248,7 +305,11 @@ public:
 				rev->next = nullptr;
 				delete rev;
 			}
-			if (fr == tr) delete fr;
+			if (fr == tr) {
+				delete fr;
+				fr = nullptr;
+				tr = nullptr;
+			} 
 		}
 		else {
 			for (int i = 0; i < num; i++) {
@@ -267,6 +328,10 @@ public:
 				//Delete customer out
 				rrev->next = nullptr;
 				delete rrev;
+
+				//update x_cus
+				if (rev->energy > 0) x_cus = rev->next;
+				else x_cus = rev->prev;
 
 				if (count != 1) {
 					rev->next->prev = rev->prev;
@@ -295,14 +360,54 @@ public:
 			delete newcus;
 		}
 	}
-
+	
 	void PURPLE()
 	{
+		//find customer has max energy
+		customer* find_max = fqueue_cus;
+		customer* temp = fqueue_cus->next;
+		while (temp) {
+			if (abs(find_max->energy) <= abs(temp->energy)) {
+				find_max = temp;
+			}
+			temp = temp->next;
+		}
+		cout << "Cus_Max: " << find_max->name << find_max->energy << endl;
+
+		//count node from fqueue -> find_max
+		int count = 1;
+		temp = fqueue_cus;
+		cout << "Will be sorted: ";
+		while (temp != find_max) {
+			cout << temp->name << temp->energy << " ";
+			temp = temp->next;
+			count++;
+		}
+		cout << find_max->name << find_max->energy;
+		cout << endl;
+		cout << "count: " << count << endl;
+
+		//thuc hien blue num_sort mod MAX_SIZE
+		int num_sort = shellSort(fqueue_cus, find_max, count); // so lan sort
+		BLUE(num_sort % MAXSIZE);
+
+		//print list was sorted
+		temp = fqueue_cus;
+		cout << "sorted_list: ";
+		while (temp != find_max) {
+			cout << temp->name << temp->energy << " ";
+			temp = temp->next;
+		}
+		cout << find_max->name << find_max->energy << endl;
 		//func 3
 		//cout << "purple" << endl;
 	}
+
 	void REVERSAL()
 	{
+
+
+
 		//func 4
 		//cout << "reversal" << endl;
 	}

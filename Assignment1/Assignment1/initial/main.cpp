@@ -1,8 +1,11 @@
+#define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
+#include <crtdbg.h>
+
 #include "main.h"
 #include "Restaurant.cpp"
 #include <fstream>
-
-int MAXSIZE = 30;
+//int MAXSIZE = 30;
 
 void simulate(string filename, imp_res* r)
 {
@@ -14,7 +17,7 @@ void simulate(string filename, imp_res* r)
 		{
 			ss >> maxsize;
             MAXSIZE = stoi(maxsize);
-            cout << MAXSIZE << endl;
+            //cout << MAXSIZE << endl;
     	}
         else if(str == "RED") // RED <NAME> <ENERGY>
         {
@@ -54,6 +57,7 @@ void simulate(string filename, imp_res* r)
 }
 
 int main(int argc, char* argv[]) {
+    //_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	//if (argc < 2)
     //	return 1;
 	//  string fileName = argv[1];
@@ -61,6 +65,9 @@ int main(int argc, char* argv[]) {
 	string fileName = "test.txt";
     simulate(fileName, r);
   	delete r;
+
+    _CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_DEBUG);
+    _CrtDumpMemoryLeaks();
 	return 0;
 }
 
