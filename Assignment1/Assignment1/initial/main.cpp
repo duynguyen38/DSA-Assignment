@@ -53,7 +53,7 @@ void simulate(string filename, imp_res* r)
     	}
     }
 
-    r->print_List_Cus();
+    //r->print_List_Cus();
 }
 
 int main(int argc, char* argv[]) {
@@ -70,4 +70,3 @@ int main(int argc, char* argv[]) {
     _CrtDumpMemoryLeaks();
 	return 0;
 }
-
