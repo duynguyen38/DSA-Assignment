@@ -26,7 +26,8 @@ public: //ham bo tro
 		customer* tmp = h;
 		//cout << "\nChuoi sublist co sum la: " << sum << " ===>";
 		for (int i = 0; i < count; i++) {
-			cout << tmp->name << "-" << tmp->energy << "\n";
+			//cout << tmp->name << "-" << tmp->energy << "\n";
+			tmp->print();
 			tmp = tmp->next;
 		}
 	}
@@ -35,7 +36,7 @@ public: //ham bo tro
 		if (fqueue_cus && qcount != 0) {
 			customer* qcur = fqueue_cus;
 			//cout << "Customers in queue: ";
-			while (qcur->next) {
+			while (qcur && qcur != tqueue_cus) {
 				//cout << qcur->name << "-" << qcur->energy << "\n";
 				qcur->print();
 				qcur = qcur->next;
@@ -49,7 +50,7 @@ public: //ham bo tro
 		}
 	}
 
-	void print_Cus_inTable() {
+	/*void print_Cus_inTable() {
 		customer* cur = first_cus;
 		cout << "Customers in table: ";
 		for (int i = 0; i < count; i++) {
@@ -68,7 +69,7 @@ public: //ham bo tro
 		cout << tr->name << "|" << tr->energy;
 		cout << "\n";
 
-	}
+	}*/
 
 	bool is_name_duplicated(string name) {
 		customer* cur = first_cus;
@@ -214,7 +215,7 @@ public: //ham bo tro
 	void stable_sort(customer* head, customer* tail, int n) {
 
 		//print
-		customer* temp = head;
+		//customer* temp = head;
 		/*cout << "\nList will be stable_sort: ";
 		while (temp != tail) {
 			cout  << temp->name << " " << temp->energy << " ->";
@@ -284,7 +285,11 @@ public: //ham bo tro
 		while (fqueue_cus && count < MAXSIZE && qcount != 0) {
 			customer* addcus = fqueue_cus;
 
-			addcus->name = addcus->name.substr(0, addcus->name.size() - 1); //remove order trong queue
+
+			//addcus->name = addcus->name.substr(0, addcus->name.size() - 1); // remove order trong queue
+
+			while('0' <= addcus->name[addcus->name.size() - 1] && addcus->name[addcus->name.size() - 1] <= '9')
+				addcus->name = addcus->name.substr(0, addcus->name.size() - 1); //remove order trong queue
 
 			if (fqueue_cus != tqueue_cus) {
 				fqueue_cus = fqueue_cus->next;
@@ -771,7 +776,7 @@ public:
 								if (tcheck->next == nullptr) break;
 							}
 						}
-						cout << endl;
+						//cout << endl;
 						//sap xep lai from fcheck to tcheck
 						stable_sort(fcheck, tcheck, n);
 
@@ -1047,6 +1052,7 @@ public:
 		else if (num < 0) { //print theo nguoc chieu kim dong ho tu vi tri x_cus
 			for (int i = 0; i < count; i++) {
 				//cout << temp->name << "-" << temp->energy << "\n";
+				temp->print();
 				if (temp->prev)
 					temp = temp->prev;
 			}
