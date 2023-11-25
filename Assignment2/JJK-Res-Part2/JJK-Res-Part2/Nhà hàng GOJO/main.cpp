@@ -1,12 +1,12 @@
 #include "main.h"
-#include "restaurant_MAIN.cpp"
+#include "restaurant.cpp"
 
 const int startProgam = 1;
 const int endProgam = 200;
 
 void simulate(string filename)
 {
-	JJK_RESTAURANT_OPERATIONS* NOT_LIKE_CODE = NULL;
+	JJK_RESTAURANT_OPERATIONS *NOT_LIKE_CODE = NULL;
 
 	//* nhập file
 	ifstream ss(filename);
@@ -20,7 +20,7 @@ void simulate(string filename)
 	int i = 1;
 	while (ss >> str)
 	{
-		if (str == "MAXSIZE") 	// MAXSIZE <NUM>
+		if (str == "MAXSIZE") // MAXSIZE <NUM>
 		{
 			ss >> maxsize;
 			MAXSIZE = stoi(maxsize);
@@ -43,53 +43,56 @@ void simulate(string filename)
 		else if (str == "HAND") // HAND
 		{
 			NOT_LIKE_CODE->HAND();
-		}		
+		}
 		else if (str == "LIMITLESS") // LIMITLESS <NUM>
 		{
 			ss >> num;
-			solution << "LIMITLESS " + to_string(num) +" : LINE " << i << "\n";
+			solution << "LIMITLESS " + to_string(num) + " : LINE " << i << "\n";
 			NOT_LIKE_CODE->LIMITLESS(num);
 			solution << '\n';
-		}		
+		}
 		else if (str == "CLEAVE") // CLEAVE <NUM>
 		{
 			ss >> num;
 			NOT_LIKE_CODE->CLEAVE(num);
-		}				
+		}
 		i++;
 	}
 
 	delete NOT_LIKE_CODE;
 }
 
+void copyFile(const std::string &sourcePath, const std::string &destinationPath)
+{
+	std::ifstream sourceFile(sourcePath, std::ios::binary);
+	std::ofstream destinationFile(destinationPath, std::ios::binary);
 
-void copyFile(const std::string& sourcePath, const std::string& destinationPath) {
-    std::ifstream sourceFile(sourcePath, std::ios::binary);
-    std::ofstream destinationFile(destinationPath, std::ios::binary);
+	if (!sourceFile)
+	{
+		std::cerr << "Error opening source file: " << sourcePath << std::endl;
+		return;
+	}
 
-    if (!sourceFile) {
-        std::cerr << "Error opening source file: " << sourcePath << std::endl;
-        return;
-    }
+	if (!destinationFile)
+	{
+		std::cerr << "Error opening destination file: " << destinationPath << std::endl;
+		return;
+	}
 
-    if (!destinationFile) {
-        std::cerr << "Error opening destination file: " << destinationPath << std::endl;
-        return;
-    }
+	destinationFile << sourceFile.rdbuf();
 
-    destinationFile << sourceFile.rdbuf();
-
-    if (!destinationFile) {
-        std::cerr << "Error copying data from " << sourcePath << " to " << destinationPath << std::endl;
-    }
+	if (!destinationFile)
+	{
+		std::cerr << "Error copying data from " << sourcePath << " to " << destinationPath << std::endl;
+	}
 }
 
 void printTestFail(int i)
 {
-    //copy
-    copyFile("test/solution_you/output" + to_string(i) + ".txt", "test_fail/solution_you.txt");
-    copyFile("test/solution/output" + to_string(i) + ".txt", "test_fail/solution.txt");
-    copyFile("test/input/input" + to_string(i) + ".txt", "test_fail/input_fail.txt");
+	// copy
+	copyFile("test/solution_you/output" + to_string(i) + ".txt", "test_fail/solution_you.txt");
+	copyFile("test/solution/output" + to_string(i) + ".txt", "test_fail/solution.txt");
+	copyFile("test/input/input" + to_string(i) + ".txt", "test_fail/input_fail.txt");
 
 	string file_solution_you = "test/solution_you/output" + to_string(i) + ".txt";
 	string file_solution = "test/solution/output" + to_string(i) + ".txt";
@@ -198,14 +201,14 @@ int main(int argc, char *argv[])
 			solution.close();
 		}
 		cout << "\nOK: runs without errors\n"
-				<< endl;
+			 << endl;
 		comparefile(startProgam, endProgam);
 	}
 	else if (argc == 2)
 	{
 		string s = argv[1];
 		cout << "checking : ";
-		if(s == "me")
+		if (s == "me")
 		{
 			for (int i = startProgam; i <= endProgam; i++)
 			{
@@ -214,17 +217,19 @@ int main(int argc, char *argv[])
 				simulate(folder_input + to_string(i) + ".txt");
 				solution.close();
 			}
-			cout << "\nOK: runs without errors code me !!!!!!!!!\n" << endl;		
+			cout << "\nOK: runs without errors code me !!!!!!!!!\n"
+				 << endl;
 		}
 		else
 		{
-			
+
 			int i = stoi(s);
 			cout << i << " ";
 			solution.open(folder_solution_you + to_string(i) + ".txt");
 			simulate(folder_input + to_string(i) + ".txt");
 			solution.close();
-			cout << "\nOK: runs without errors\n" << endl;
+			cout << "\nOK: runs without errors\n"
+				 << endl;
 			comparefile(stoi(s), stoi(s));
 		}
 	}
@@ -241,10 +246,10 @@ int main(int argc, char *argv[])
 			simulate(folder_input + to_string(i) + ".txt");
 			solution.close();
 		}
-		cout << "\nOK: runs without errors\n" << endl;
+		cout << "\nOK: runs without errors\n"
+			 << endl;
 		comparefile(start, end);
 	}
-
 
 	// if (COUNTDELETE == 0)
 	// {

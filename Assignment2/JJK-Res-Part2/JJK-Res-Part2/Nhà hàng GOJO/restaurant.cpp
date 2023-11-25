@@ -56,37 +56,119 @@ private:
 			return queueTime.size();
 		}
 
-		//^hàm thêm ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		//^INSERT FUNCTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		//* nhân viên được chủ giao cho bố trí khách hàng có result
 		Node *insert_recursive(Node *node, int result)
 		{
-			// TODO TODO TODO  TODO TODO TODO
+			// TODO
+			//* Step 1: kiểm tra cây rỗng hay không?
+			if (node == nullptr)
+			{
+				queueTime.push(result); //*ghi vào sổ
+				return new Node(result);
+			}
+
+			//* Step 2: thêm vào bên phải
+			if (result >= node->result)
+			{
+				node->right = insert_recursive(node->right, result);
+			}
+			//* Step 3: thêm vào bên trái
+			else
+			{
+				node->left = insert_recursive(node->left, result);
+			}
+
+			return node;
 		}
 		void insert(int result)
 		{
 			root = insert_recursive(root, result);
 		}
-		//^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		//^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-		//^hàm xóa ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		//^REMOVE FUNCTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		//* nhân viên sẽ tới tận nơi đuổi cổ khách hàng gián điệp ra khỏi nhà hàng với result là khách hàng gián điệp
 		Node *remove_recursive(Node *node, int result)
 		{
-			// TODO TODO TODO  TODO TODO TODO
+			// TODO
+			//* step 1: xét cây rỗng
+			if (node == nullptr)
+				return nullptr;
+
+			//* step 2: xét case xoá cây con bên phải
+			if (result > node->result)
+			{
+				node->right = remove_recursive(node->right, result);
+			}
+			//* step 3: xét case xoá cây con bên trái
+			else if (result < node->result)
+			{
+				node->left = remove_recursive(node->left, result);
+			}
+			//* step 4: nếu tìm thấy rồi thì, tìm node nhỏ nhất bên phải để thay
+			else if (result == node->result)
+			{
+				Node *del_node = node;
+				//* nếu node cần xoá là node lá thì xoá luôn
+				if (node->left == nullptr && node->right == nullptr)
+				{
+					node = nullptr;
+				}
+				else if (node->right = nullptr)
+				{
+					node = node->left;
+				}
+				else
+				{
+					Node *temp = node->right;
+					while (temp->left != nullptr)
+						temp = temp->left;
+
+					swap(node->result, temp->result);
+					node->right = remove_recursive(node->right, result);
+					return node;
+				}
+				delete del_node;
+			}
+			return node;
 		}
 		int CountNode(Node *node)
 		{
 			return node == NULL ? 0 : 1 + CountNode(node->left) + CountNode(node->right);
 		}
-		unsigned long long permutationFormula(int x, int n)
+		unsigned long long permutationFormula(int n, int x)
 		{
 			//! TODO TÍNH C(n,x)= x!(n-x)!/n! công thức chỉnh hợp
+			//* sử dụng tam giác pascal để C(n,x)
+			vector<vector<int>> pascal(n+1, vector<int>(n+1, 0));
+
+			for (int i = 0; i <= n; i++)
+			{
+				for (int j = 0; j <= i; j++)
+				{
+					if (j == 0 || j == i)
+						pascal[i][j] = 1;
+					else
+						pascal[i][j] = pascal[i-1][j-1] + pascal[i-1][j];
+				}
+			}
+			return pascal[n][x]; //* trả về giá trị C(n,x)
 		}
-		unsigned long long DFS(Node *node)
+		unsigned long long DFS(Node *node) //* DFS = số hoán vị cần tính tại node
 		{
 			if (node == NULL)
 				return 1;
 			// TODO TODO TODO  TODO TODO TODO  đệ quy
+			
+			//* tính n = tổng số node left + right
+			int n = CountNode(node) - 1;
+
+			//* tính x = số node left * DFS của left * DFS của right
+			int x = CountNode(node->left) * DFS(node->left) * DFS(node->right);
+
+			return permutationFormula(n, x);
+
 		}
 		//* nhân viên sẽ liệt kê ra các khách hàng gián điệp để dễ dàng đuổi
 		void remove()
@@ -97,7 +179,7 @@ private:
 			//^ tìm hiểu : https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/
 			// TODO: tính số lượng number
 			unsigned long long number = DFS(root);
-			//*: trường hợp mà postoder cũng tạo ra một cây giống đó thì chỉ có 1 node -> nên không tính
+			//*: trường hợp mà postorder cũng tạo ra một cây giống đó thì chỉ có 1 node -> nên không tính
 			if (this->size() == 1)
 				return;
 
