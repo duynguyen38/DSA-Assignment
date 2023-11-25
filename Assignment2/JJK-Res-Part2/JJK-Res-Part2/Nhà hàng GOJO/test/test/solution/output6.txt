@@ -1,0 +1,42 @@
+LIMITLESS 1 : LINE 2
+EMPTY
+LIMITLESS 1 : LINE 4
+inoder: 9 
+Tree: 9
+Queue: 9 
+LIMITLESS 1 : LINE 6
+inoder: 9 11 
+Tree: 9(NULL,11)
+Queue: 9 11 
+LIMITLESS 1 : LINE 8
+inoder: 3 9 11 
+Tree: 9(3,11)
+Queue: 9 11 3 
+LIMITLESS 1 : LINE 10
+inoder: 3 5 9 11 
+Tree: 9(3(NULL,5),11)
+Queue: 9 11 3 5 
+LIMITLESS 1 : LINE 12
+inoder: 3 5 7 9 11 
+Tree: 9(3(NULL,5(NULL,7)),11)
+Queue: 9 11 3 5 7 
+LIMITLESS 1 : LINE 14
+inoder: 1 3 5 7 9 11 
+Tree: 9(3(1,5(NULL,7)),11)
+Queue: 9 11 3 5 7 1 
+LIMITLESS 1 : LINE 16
+inoder: 1 3 5 7 9 9 11 
+Tree: 9(3(1,5(NULL,7)),11(9,NULL))
+Queue: 9 11 3 5 7 1 9 
+LIMITLESS 1 : LINE 18
+inoder: 1 3 5 7 9 9 9 11 
+Tree: 9(3(1,5(NULL,7)),11(9(NULL,9),NULL))
+Queue: 9 11 3 5 7 1 9 9 
+LIMITLESS 1 : LINE 20
+inoder: 1 3 5 7 9 9 9 9 11 
+Tree: 9(3(1,5(NULL,7)),11(9(NULL,9(NULL,9)),NULL))
+Queue: 9 11 3 5 7 1 9 9 9 
+LIMITLESS 1 : LINE 22
+inoder: 1 1 3 5 7 9 9 9 9 11 
+Tree: 9(3(1(NULL,1),5(NULL,7)),11(9(NULL,9(NULL,9)),NULL))
+Queue: 9 11 3 5 7 1 9 9 9 1 
