@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nhà hàng GOJO\main.cpp" />
+    <ClCompile Include="Nhà hàng GOJO\restaurant.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nhà hàng GOJO\main.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,13 +133,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="initial\main.cpp" />
-    <ClCompile Include="initial\restaurant.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="initial\main.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

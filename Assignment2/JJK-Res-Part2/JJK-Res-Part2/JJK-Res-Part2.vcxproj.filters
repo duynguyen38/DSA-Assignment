@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="initial\main.cpp">
+    <ClCompile Include="Nhà hàng GOJO\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="initial\restaurant.cpp">
+    <ClCompile Include="Nhà hàng GOJO\restaurant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="initial\main.h">
+    <ClInclude Include="Nhà hàng GOJO\main.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

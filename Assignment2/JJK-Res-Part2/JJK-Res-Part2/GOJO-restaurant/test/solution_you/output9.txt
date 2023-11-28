@@ -1,0 +1,120 @@
+LIMITLESS 1 : LINE 2
+EMPTY
+LIMITLESS 2 : LINE 3
+EMPTY
+LIMITLESS 3 : LINE 4
+EMPTY
+LIMITLESS 1 : LINE 6
+EMPTY
+LIMITLESS 2 : LINE 7
+inoder: 1 
+Tree: 1
+Queue: 1 
+LIMITLESS 3 : LINE 8
+EMPTY
+LIMITLESS 1 : LINE 10
+inoder: 3 
+Tree: 3
+Queue: 3 
+LIMITLESS 2 : LINE 11
+inoder: 1 
+Tree: 1
+Queue: 1 
+LIMITLESS 3 : LINE 12
+EMPTY
+LIMITLESS 1 : LINE 14
+inoder: 3 
+Tree: 3
+Queue: 3 
+LIMITLESS 2 : LINE 15
+inoder: 1 
+Tree: 1
+Queue: 1 
+LIMITLESS 3 : LINE 16
+inoder: 5 
+Tree: 5
+Queue: 5 
+LIMITLESS 1 : LINE 18
+inoder: 3 
+Tree: 3
+Queue: 3 
+LIMITLESS 2 : LINE 19
+inoder: 1 7 
+Tree: 1(NULL,7)
+Queue: 1 7 
+LIMITLESS 3 : LINE 20
+inoder: 5 
+Tree: 5
+Queue: 5 
+LIMITLESS 1 : LINE 22
+inoder: 3 9 
+Tree: 3(NULL,9)
+Queue: 3 9 
+LIMITLESS 2 : LINE 23
+inoder: 1 7 
+Tree: 1(NULL,7)
+Queue: 1 7 
+LIMITLESS 3 : LINE 24
+inoder: 5 
+Tree: 5
+Queue: 5 
+LIMITLESS 1 : LINE 26
+inoder: 3 9 
+Tree: 3(NULL,9)
+Queue: 3 9 
+LIMITLESS 2 : LINE 27
+inoder: 1 7 
+Tree: 1(NULL,7)
+Queue: 1 7 
+LIMITLESS 3 : LINE 28
+inoder: 5 11 
+Tree: 5(NULL,11)
+Queue: 5 11 
+LIMITLESS 1 : LINE 30
+inoder: 3 9 
+Tree: 3(NULL,9)
+Queue: 3 9 
+LIMITLESS 2 : LINE 31
+inoder: 1 7 13 
+Tree: 1(NULL,7(NULL,13))
+Queue: 1 7 13 
+LIMITLESS 3 : LINE 32
+inoder: 5 11 
+Tree: 5(NULL,11)
+Queue: 5 11 
+LIMITLESS 1 : LINE 34
+inoder: 3 9 15 
+Tree: 3(NULL,9(NULL,15))
+Queue: 3 9 15 
+LIMITLESS 2 : LINE 35
+inoder: 1 7 13 
+Tree: 1(NULL,7(NULL,13))
+Queue: 1 7 13 
+LIMITLESS 3 : LINE 36
+inoder: 5 11 
+Tree: 5(NULL,11)
+Queue: 5 11 
+LIMITLESS 1 : LINE 38
+inoder: 3 9 15 
+Tree: 3(NULL,9(NULL,15))
+Queue: 3 9 15 
+LIMITLESS 2 : LINE 39
+inoder: 1 7 13 
+Tree: 1(NULL,7(NULL,13))
+Queue: 1 7 13 
+LIMITLESS 3 : LINE 40
+inoder: 5 11 17 
+Tree: 5(NULL,11(NULL,17))
+Queue: 5 11 17 
+LIMITLESS 1 : LINE 42
+inoder: 3 9 15 
+Tree: 3(NULL,9(NULL,15))
+Queue: 3 9 15 
+LIMITLESS 2 : LINE 43
+inoder: 1 7 13 19 
+Tree: 1(NULL,7(NULL,13(NULL,19)))
+Queue: 1 7 13 19 
+LIMITLESS 3 : LINE 44
+inoder: 5 11 17 
+Tree: 5(NULL,11(NULL,17))
+Queue: 5 11 17 
