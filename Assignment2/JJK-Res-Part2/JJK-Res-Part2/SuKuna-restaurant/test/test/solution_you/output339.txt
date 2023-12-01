@@ -1,0 +1,718 @@
+CLEAVE 2 : LINE 7
+Heap : 18(len=1,index=4) 11(len=1,index=3) 10(len=2,index=1) 2(len=1,index=2) 9(len=1,index=0) 
+Heap : 18 11 10 2 9 
+list LRU : 9 10 2 11 18 
+customers in the area ID = 18: 80 
+customers in the area ID = 11: 304 
+customers in the area ID = 2: 64 
+customers in the area ID = 9: 260 
+customers in the area ID = 10: 282 408 
+
+KEITEIKEN 10 : LINE 8
+remove customers in the area ID = 18: 80 
+remove customers in the area ID = 11: 304 
+remove customers in the area ID = 2: 64 
+remove customers in the area ID = 9: 260 
+remove customers in the area ID = 10: 408 282 
+
+CLEAVE 10 : LINE 9
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 3 : LINE 25
+Heap : 21(len=1,index=9) 4(len=1,index=8) 15(len=1,index=7) 13(len=1,index=4) 14(len=1,index=2) 7(len=1,index=6) 9(len=3,index=3) 8(len=2,index=5) 19(len=2,index=1) 20(len=2,index=0) 
+Heap : 21 4 15 13 14 7 9 8 19 20 
+list LRU : 20 19 14 9 13 8 7 15 4 21 
+customers in the area ID = 21: 314 
+customers in the area ID = 4: 318 
+customers in the area ID = 13: 348 
+customers in the area ID = 8: 448 280 
+customers in the area ID = 19: 144 270 
+customers in the area ID = 14: 454 
+customers in the area ID = 20: 376 334 
+customers in the area ID = 15: 98 
+customers in the area ID = 7: 174 
+customers in the area ID = 9: 134 428 176 
+
+KEITEIKEN 2 : LINE 26
+remove customers in the area ID = 21: 314 
+remove customers in the area ID = 4: 318 
+
+CLEAVE 3 : LINE 27
+Heap : 15(len=1,index=7) 13(len=1,index=4) 7(len=1,index=6) 8(len=2,index=5) 14(len=1,index=2) 19(len=2,index=1) 9(len=3,index=3) 20(len=2,index=0) 
+Heap : 15 13 7 8 14 19 9 20 
+list LRU : 20 19 14 9 13 8 7 15 
+customers in the area ID = 15: 98 
+customers in the area ID = 13: 348 
+customers in the area ID = 8: 448 280 
+customers in the area ID = 20: 376 334 
+customers in the area ID = 14: 454 
+customers in the area ID = 7: 174 
+customers in the area ID = 19: 144 270 
+customers in the area ID = 9: 134 428 176 
+
+CLEAVE 10 : LINE 62
+Heap : 7(len=1,index=19) 2(len=1,index=17) 15(len=2,index=16) 1(len=1,index=14) 6(len=1,index=2) 5(len=2,index=7) 21(len=2,index=4) 20(len=2,index=18) 12(len=1,index=11) 16(len=2,index=6) 11(len=4,index=8) 19(len=4,index=10) 10(len=2,index=0) 9(len=7,index=9) 17(len=3,index=3) 8(len=3,index=1) 3(len=2,index=12) 14(len=2,index=15) 4(len=1,index=5) 13(len=4,index=13) 
+Heap : 7 2 15 1 6 5 21 20 12 16 11 19 10 9 17 8 3 14 4 13 
+list LRU : 10 8 6 17 21 4 16 5 11 9 19 12 3 13 1 14 15 2 20 7 
+customers in the area ID = 7: 174 
+customers in the area ID = 2: 22 
+customers in the area ID = 1: 126 
+customers in the area ID = 20: 376 334 
+customers in the area ID = 8: 322 448 280 
+customers in the area ID = 3: 2 254 
+customers in the area ID = 12: 410 
+customers in the area ID = 14: 370 454 
+customers in the area ID = 4: 318 
+customers in the area ID = 6: 446 
+customers in the area ID = 16: 36 372 
+customers in the area ID = 13: 348 432 264 348 
+customers in the area ID = 11: 304 94 472 304 
+customers in the area ID = 15: 392 98 
+customers in the area ID = 5: 4 46 
+customers in the area ID = 19: 102 438 144 270 
+customers in the area ID = 10: 114 282 
+customers in the area ID = 21: 356 188 
+customers in the area ID = 9: 50 50 428 344 134 428 176 
+customers in the area ID = 17: 436 100 352 
+
+KEITEIKEN 50 : LINE 63
+remove customers in the area ID = 7: 174 
+remove customers in the area ID = 2: 22 
+remove customers in the area ID = 1: 126 
+remove customers in the area ID = 12: 410 
+remove customers in the area ID = 4: 318 
+remove customers in the area ID = 6: 446 
+remove customers in the area ID = 20: 334 376 
+remove customers in the area ID = 15: 98 392 
+remove customers in the area ID = 14: 454 370 
+remove customers in the area ID = 3: 254 2 
+remove customers in the area ID = 5: 46 4 
+remove customers in the area ID = 16: 372 36 
+remove customers in the area ID = 21: 188 356 
+remove customers in the area ID = 10: 282 114 
+remove customers in the area ID = 17: 352 100 436 
+remove customers in the area ID = 8: 280 448 322 
+remove customers in the area ID = 13: 348 264 432 348 
+remove customers in the area ID = 19: 270 144 438 102 
+remove customers in the area ID = 11: 304 472 94 304 
+remove customers in the area ID = 9: 176 428 134 344 428 50 50 
+
+CLEAVE 10 : LINE 64
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 3 : LINE 109
+Heap : 8(len=1,index=16) 15(len=1,index=3) 6(len=1,index=10) 10(len=1,index=2) 3(len=4,index=9) 19(len=3,index=14) 21(len=2,index=8) 4(len=2,index=15) 9(len=2,index=17) 5(len=4,index=4) 1(len=4,index=1) 2(len=3,index=11) 7(len=3,index=12) 17(len=5,index=5) 11(len=2,index=0) 20(len=2,index=7) 18(len=2,index=13) 12(len=2,index=6) 
+Heap : 8 15 6 10 3 19 21 4 9 5 1 2 7 17 11 20 18 12 
+list LRU : 11 1 10 15 5 17 12 20 21 3 6 2 7 18 19 4 8 9 
+customers in the area ID = 8: 196 
+customers in the area ID = 15: 476 
+customers in the area ID = 10: 114 
+customers in the area ID = 4: 234 192 
+customers in the area ID = 20: 124 376 
+customers in the area ID = 18: 248 290 
+customers in the area ID = 9: 470 134 
+customers in the area ID = 12: 326 32 
+customers in the area ID = 3: 296 380 2 
+customers in the area ID = 5: 214 382 214 
+customers in the area ID = 1: 126 294 420 
+customers in the area ID = 6: 68 
+customers in the area ID = 19: 396 396 396 
+customers in the area ID = 2: 106 22 64 
+customers in the area ID = 7: 48 300 174 
+customers in the area ID = 21: 398 272 
+customers in the area ID = 17: 16 310 58 
+customers in the area ID = 11: 472 304 
+
+KEITEIKEN 2 : LINE 110
+remove customers in the area ID = 8: 196 
+remove customers in the area ID = 6: 68 
+
+CLEAVE 2 : LINE 111
+Heap : 15(len=1,index=3) 10(len=1,index=2) 21(len=2,index=8) 9(len=2,index=15) 3(len=4,index=9) 19(len=3,index=13) 12(len=2,index=6) 4(len=2,index=14) 18(len=2,index=12) 5(len=4,index=4) 1(len=4,index=1) 2(len=3,index=10) 7(len=3,index=11) 17(len=5,index=5) 11(len=2,index=0) 20(len=2,index=7) 
+Heap : 15 10 21 9 3 19 12 4 18 5 1 2 7 17 11 20 
+list LRU : 11 1 10 15 5 17 12 20 21 3 2 7 18 19 4 9 
+customers in the area ID = 15: 476 
+customers in the area ID = 10: 114 
+customers in the area ID = 9: 470 134 
+customers in the area ID = 4: 234 192 
+customers in the area ID = 20: 124 376 
+customers in the area ID = 18: 248 290 
+customers in the area ID = 3: 296 380 
+customers in the area ID = 5: 214 382 
+customers in the area ID = 1: 126 294 
+customers in the area ID = 21: 398 272 
+customers in the area ID = 19: 396 396 
+customers in the area ID = 2: 106 22 
+customers in the area ID = 7: 48 300 
+customers in the area ID = 12: 326 32 
+customers in the area ID = 17: 16 310 
+customers in the area ID = 11: 472 304 
+
+CLEAVE 10 : LINE 193
+Heap : 13(len=1,index=20) 6(len=1,index=7) 7(len=4,index=19) 14(len=3,index=16) 8(len=2,index=11) 11(len=7,index=12) 12(len=5,index=2) 18(len=6,index=14) 16(len=4,index=13) 4(len=3,index=15) 1(len=7,index=9) 2(len=8,index=1) 19(len=9,index=4) 17(len=7,index=18) 21(len=6,index=10) 10(len=7,index=17) 20(len=10,index=0) 15(len=10,index=3) 9(len=9,index=5) 3(len=7,index=8) 5(len=7,index=6) 
+Heap : 13 6 7 14 8 11 12 18 16 4 1 2 19 17 21 10 20 15 9 3 5 
+list LRU : 20 2 12 15 19 9 5 6 3 1 21 8 11 16 18 4 14 10 17 7 13 
+customers in the area ID = 13: 306 
+customers in the area ID = 6: 278 
+customers in the area ID = 14: 412 244 412 
+customers in the area ID = 18: 248 290 290 80 248 290 
+customers in the area ID = 10: 408 72 114 30 114 114 114 
+customers in the area ID = 20: 250 334 418 166 460 124 82 292 124 376 
+customers in the area ID = 16: 36 414 372 288 
+customers in the area ID = 15: 224 98 308 140 56 224 56 56 182 476 
+customers in the area ID = 9: 92 176 302 218 92 50 176 470 134 
+customers in the area ID = 8: 70 28 
+customers in the area ID = 4: 150 234 192 
+customers in the area ID = 3: 44 86 128 296 380 2 212 
+customers in the area ID = 5: 46 340 130 214 382 214 214 
+customers in the area ID = 1: 168 378 126 126 294 420 210 
+customers in the area ID = 7: 174 48 300 174 
+customers in the area ID = 11: 220 346 178 262 346 472 304 
+customers in the area ID = 2: 232 106 484 274 442 106 22 64 
+customers in the area ID = 19: 144 186 270 228 102 354 396 396 396 
+customers in the area ID = 12: 32 200 200 326 32 
+customers in the area ID = 17: 436 478 16 310 58 184 310 
+customers in the area ID = 21: 314 482 356 188 398 272 
+
+KEITEIKEN 10 : LINE 194
+remove customers in the area ID = 13: 306 
+remove customers in the area ID = 6: 278 
+remove customers in the area ID = 8: 28 70 
+remove customers in the area ID = 14: 412 244 412 
+remove customers in the area ID = 4: 192 234 150 
+remove customers in the area ID = 7: 174 300 48 174 
+remove customers in the area ID = 16: 288 372 414 36 
+remove customers in the area ID = 12: 32 326 200 200 32 
+remove customers in the area ID = 18: 290 248 80 290 290 248 
+remove customers in the area ID = 21: 272 398 188 356 482 314 
+
+CLEAVE 10 : LINE 195
+Heap : 17(len=7,index=10) 10(len=7,index=9) 11(len=7,index=8) 5(len=7,index=5) 1(len=7,index=7) 2(len=8,index=1) 19(len=9,index=3) 15(len=10,index=2) 20(len=10,index=0) 3(len=7,index=6) 9(len=9,index=4) 
+Heap : 17 10 11 5 1 2 19 15 20 3 9 
+list LRU : 20 2 15 19 9 5 3 1 11 10 17 
+customers in the area ID = 17: 436 478 16 310 58 184 310 
+customers in the area ID = 10: 408 72 114 30 114 114 114 
+customers in the area ID = 5: 46 340 130 214 382 214 214 
+customers in the area ID = 15: 224 98 308 140 56 224 56 56 182 476 
+customers in the area ID = 20: 250 334 418 166 460 124 82 292 124 376 
+customers in the area ID = 1: 168 378 126 126 294 420 210 
+customers in the area ID = 3: 44 86 128 296 380 2 212 
+customers in the area ID = 9: 92 176 302 218 92 50 176 470 134 
+customers in the area ID = 11: 220 346 178 262 346 472 304 
+customers in the area ID = 2: 232 106 484 274 442 106 22 64 
+customers in the area ID = 19: 144 186 270 228 102 354 396 396 396 
+
+CLEAVE 2 : LINE 250
+Heap : 21(len=1,index=10) 13(len=2,index=9) 16(len=2,index=17) 8(len=2,index=4) 6(len=2,index=5) 2(len=8,index=18) 4(len=4,index=6) 3(len=7,index=19) 7(len=3,index=15) 1(len=12,index=14) 10(len=12,index=13) 11(len=8,index=2) 17(len=9,index=7) 19(len=11,index=16) 14(len=5,index=1) 15(len=14,index=11) 5(len=11,index=3) 20(len=14,index=0) 18(len=3,index=12) 9(len=12,index=8) 
+Heap : 21 13 16 8 6 2 4 3 7 1 10 11 17 19 14 15 5 20 18 9 
+list LRU : 20 14 11 5 8 6 4 17 9 13 21 15 18 10 1 7 19 16 2 3 
+customers in the area ID = 21: 146 
+customers in the area ID = 13: 222 390 
+customers in the area ID = 8: 364 238 
+customers in the area ID = 3: 44 86 
+customers in the area ID = 15: 98 224 
+customers in the area ID = 5: 46 340 
+customers in the area ID = 7: 342 300 
+customers in the area ID = 20: 166 292 
+customers in the area ID = 18: 80 290 
+customers in the area ID = 6: 68 446 
+customers in the area ID = 1: 168 126 
+customers in the area ID = 9: 302 260 
+customers in the area ID = 10: 156 198 
+customers in the area ID = 16: 330 414 
+customers in the area ID = 2: 232 106 
+customers in the area ID = 11: 52 220 
+customers in the area ID = 17: 100 184 
+customers in the area ID = 4: 360 444 
+customers in the area ID = 19: 144 396 
+customers in the area ID = 14: 370 160 
+
+KEITEIKEN 50 : LINE 251
+remove customers in the area ID = 21: 146 
+remove customers in the area ID = 16: 414 330 
+remove customers in the area ID = 13: 390 222 
+remove customers in the area ID = 6: 446 68 
+remove customers in the area ID = 8: 238 364 
+remove customers in the area ID = 7: 300 300 342 
+remove customers in the area ID = 18: 290 290 80 
+remove customers in the area ID = 4: 150 234 444 360 
+remove customers in the area ID = 14: 412 244 412 160 370 
+remove customers in the area ID = 3: 212 2 380 296 128 86 44 
+remove customers in the area ID = 2: 64 22 106 442 274 484 106 232 
+remove customers in the area ID = 11: 304 472 346 262 178 346 220 52 
+remove customers in the area ID = 17: 310 184 58 310 16 478 436 184 100 
+remove customers in the area ID = 19: 396 396 396 354 102 228 270 186 144 396 144 
+remove customers in the area ID = 5: 214 214 382 214 130 340 46 424 466 340 46 
+remove customers in the area ID = 1: 210 420 294 126 126 378 168 378 210 126 126 168 
+remove customers in the area ID = 10: 114 114 114 30 114 72 408 492 72 30 198 156 
+remove customers in the area ID = 9: 134 470 176 50 92 218 302 176 92 50 260 302 
+remove customers in the area ID = 15: 476 182 56 56 224 56 140 308 98 224 56 308 224 98 
+remove customers in the area ID = 20: 376 124 292 82 124 460 166 418 334 250 82 40 292 166 
+
+CLEAVE 10 : LINE 252
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 10 : LINE 292
+Heap : 20(len=1,index=19) 6(len=1,index=18) 21(len=1,index=14) 17(len=1,index=9) 10(len=2,index=4) 4(len=2,index=15) 19(len=1,index=13) 15(len=2,index=17) 5(len=1,index=8) 14(len=3,index=12) 8(len=2,index=3) 13(len=3,index=10) 7(len=3,index=0) 11(len=3,index=1) 2(len=2,index=7) 3(len=2,index=6) 16(len=2,index=11) 9(len=2,index=16) 12(len=2,index=5) 1(len=3,index=2) 
+Heap : 20 6 21 17 10 4 19 15 5 14 8 13 7 11 2 3 16 9 12 1 
+list LRU : 7 11 1 8 10 12 3 2 5 17 13 16 14 19 21 4 9 15 6 20 
+customers in the area ID = 20: 460 
+customers in the area ID = 6: 152 
+customers in the area ID = 17: 394 
+customers in the area ID = 15: 434 182 
+customers in the area ID = 3: 128 170 
+customers in the area ID = 16: 330 414 
+customers in the area ID = 5: 382 
+customers in the area ID = 9: 470 50 
+customers in the area ID = 12: 326 116 
+customers in the area ID = 10: 366 30 
+customers in the area ID = 14: 454 328 160 
+customers in the area ID = 1: 42 126 294 
+customers in the area ID = 8: 28 28 
+customers in the area ID = 21: 356 
+customers in the area ID = 4: 150 108 
+customers in the area ID = 13: 222 306 306 
+customers in the area ID = 7: 48 174 384 
+customers in the area ID = 19: 312 
+customers in the area ID = 11: 10 52 94 
+customers in the area ID = 2: 484 316 
+
+KEITEIKEN 2 : LINE 293
+remove customers in the area ID = 20: 460 
+remove customers in the area ID = 6: 152 
+
+CLEAVE 10 : LINE 294
+Heap : 21(len=1,index=14) 17(len=1,index=9) 19(len=1,index=13) 5(len=1,index=8) 10(len=2,index=4) 4(len=2,index=15) 2(len=2,index=7) 15(len=2,index=17) 9(len=2,index=16) 14(len=3,index=12) 8(len=2,index=3) 13(len=3,index=10) 7(len=3,index=0) 11(len=3,index=1) 12(len=2,index=5) 3(len=2,index=6) 16(len=2,index=11) 1(len=3,index=2) 
+Heap : 21 17 19 5 10 4 2 15 9 14 8 13 7 11 12 3 16 1 
+list LRU : 7 11 1 8 10 12 3 2 5 17 13 16 14 19 21 4 9 15 
+customers in the area ID = 21: 356 
+customers in the area ID = 17: 394 
+customers in the area ID = 5: 382 
+customers in the area ID = 15: 434 182 
+customers in the area ID = 3: 128 170 
+customers in the area ID = 16: 330 414 
+customers in the area ID = 9: 470 50 
+customers in the area ID = 1: 42 126 294 
+customers in the area ID = 10: 366 30 
+customers in the area ID = 14: 454 328 160 
+customers in the area ID = 8: 28 28 
+customers in the area ID = 19: 312 
+customers in the area ID = 4: 150 108 
+customers in the area ID = 13: 222 306 306 
+customers in the area ID = 7: 48 174 384 
+customers in the area ID = 2: 484 316 
+customers in the area ID = 11: 10 52 94 
+customers in the area ID = 12: 326 116 
+
+CLEAVE 10 : LINE 322
+Heap : 19(len=1,index=18) 17(len=1,index=15) 13(len=3,index=16) 15(len=2,index=19) 6(len=1,index=9) 21(len=3,index=8) 2(len=4,index=6) 3(len=2,index=14) 9(len=3,index=7) 14(len=3,index=17) 8(len=4,index=3) 4(len=4,index=13) 7(len=5,index=2) 11(len=4,index=1) 12(len=6,index=5) 5(len=2,index=11) 16(len=4,index=10) 1(len=4,index=0) 20(len=5,index=4) 10(len=3,index=12) 
+Heap : 19 17 13 15 6 21 2 3 9 14 8 4 7 11 12 5 16 1 20 10 
+list LRU : 1 11 7 8 20 12 2 9 21 6 16 5 10 4 3 17 13 14 19 15 
+customers in the area ID = 19: 312 
+customers in the area ID = 17: 394 
+customers in the area ID = 15: 434 182 
+customers in the area ID = 3: 128 170 
+customers in the area ID = 5: 214 382 
+customers in the area ID = 16: 204 36 330 414 
+customers in the area ID = 9: 260 470 50 
+customers in the area ID = 1: 378 42 126 294 
+customers in the area ID = 20: 460 250 40 334 460 
+customers in the area ID = 6: 26 
+customers in the area ID = 14: 454 328 160 
+customers in the area ID = 10: 240 366 30 
+customers in the area ID = 8: 280 196 28 28 
+customers in the area ID = 13: 222 306 306 
+customers in the area ID = 21: 398 188 356 
+customers in the area ID = 4: 360 486 150 108 
+customers in the area ID = 7: 384 90 48 174 384 
+customers in the area ID = 2: 400 442 484 316 
+customers in the area ID = 11: 430 10 52 94 
+customers in the area ID = 12: 242 368 158 158 326 116 
+
+KEITEIKEN 3 : LINE 323
+remove customers in the area ID = 19: 312 
+remove customers in the area ID = 17: 394 
+remove customers in the area ID = 6: 26 
+
+CLEAVE 3 : LINE 324
+Heap : 15(len=2,index=16) 3(len=2,index=13) 13(len=3,index=14) 5(len=2,index=10) 14(len=3,index=15) 21(len=3,index=8) 2(len=4,index=6) 16(len=4,index=9) 9(len=3,index=7) 10(len=3,index=11) 8(len=4,index=3) 4(len=4,index=12) 7(len=5,index=2) 11(len=4,index=1) 12(len=6,index=5) 20(len=5,index=4) 1(len=4,index=0) 
+Heap : 15 3 13 5 14 21 2 16 9 10 8 4 7 11 12 20 1 
+list LRU : 1 11 7 8 20 12 2 9 21 16 5 10 4 3 13 14 15 
+customers in the area ID = 15: 434 182 
+customers in the area ID = 3: 128 170 
+customers in the area ID = 5: 214 382 
+customers in the area ID = 16: 204 36 330 
+customers in the area ID = 20: 460 250 40 
+customers in the area ID = 1: 378 42 126 
+customers in the area ID = 9: 260 470 50 
+customers in the area ID = 14: 454 328 160 
+customers in the area ID = 10: 240 366 30 
+customers in the area ID = 8: 280 196 28 
+customers in the area ID = 13: 222 306 306 
+customers in the area ID = 21: 398 188 356 
+customers in the area ID = 4: 360 486 150 
+customers in the area ID = 7: 384 90 48 
+customers in the area ID = 2: 400 442 484 
+customers in the area ID = 11: 430 10 52 
+customers in the area ID = 12: 242 368 158 
+
+CLEAVE 3 : LINE 333
+Heap : 15(len=2,index=16) 14(len=3,index=15) 13(len=3,index=14) 9(len=3,index=11) 5(len=3,index=0) 21(len=3,index=12) 11(len=4,index=7) 1(len=5,index=3) 3(len=3,index=6) 10(len=5,index=1) 8(len=4,index=9) 4(len=4,index=13) 7(len=5,index=8) 2(len=5,index=5) 12(len=6,index=10) 20(len=6,index=4) 16(len=5,index=2) 
+Heap : 15 14 13 9 5 21 11 1 3 10 8 4 7 2 12 20 16 
+list LRU : 5 10 16 1 20 2 3 11 7 8 12 9 21 4 13 14 15 
+customers in the area ID = 15: 434 182 
+customers in the area ID = 14: 454 328 160 
+customers in the area ID = 9: 260 470 50 
+customers in the area ID = 1: 378 378 42 
+customers in the area ID = 20: 460 460 250 
+customers in the area ID = 16: 246 204 36 
+customers in the area ID = 3: 86 128 170 
+customers in the area ID = 5: 256 214 382 
+customers in the area ID = 10: 408 156 240 
+customers in the area ID = 8: 280 196 28 
+customers in the area ID = 13: 222 306 306 
+customers in the area ID = 21: 398 188 356 
+customers in the area ID = 4: 360 486 150 
+customers in the area ID = 7: 384 90 48 
+customers in the area ID = 11: 430 10 52 
+customers in the area ID = 2: 484 400 442 
+customers in the area ID = 12: 242 368 158 
+
+KEITEIKEN 3 : LINE 334
+remove customers in the area ID = 15: 182 434 
+remove customers in the area ID = 14: 160 328 454 
+remove customers in the area ID = 13: 306 306 222 
+
+CLEAVE 10 : LINE 335
+Heap : 21(len=3,index=12) 9(len=3,index=11) 4(len=4,index=13) 3(len=3,index=6) 5(len=3,index=0) 7(len=5,index=8) 11(len=4,index=7) 1(len=5,index=3) 16(len=5,index=2) 10(len=5,index=1) 8(len=4,index=9) 20(len=6,index=4) 12(len=6,index=10) 2(len=5,index=5) 
+Heap : 21 9 4 3 5 7 11 1 16 10 8 20 12 2 
+list LRU : 5 10 16 1 20 2 3 11 7 8 12 9 21 4 
+customers in the area ID = 21: 398 188 356 
+customers in the area ID = 9: 260 470 50 
+customers in the area ID = 3: 86 128 170 
+customers in the area ID = 1: 378 378 42 126 294 
+customers in the area ID = 16: 246 204 36 330 414 
+customers in the area ID = 5: 256 214 382 
+customers in the area ID = 10: 408 156 240 366 30 
+customers in the area ID = 8: 280 196 28 28 
+customers in the area ID = 4: 360 486 150 108 
+customers in the area ID = 7: 384 90 48 174 384 
+customers in the area ID = 20: 460 460 250 40 334 460 
+customers in the area ID = 12: 242 368 158 158 326 116 
+customers in the area ID = 11: 430 10 52 94 
+customers in the area ID = 2: 484 400 442 484 316 
+
+CLEAVE 10 : LINE 363
+Heap : 14(len=1,index=10) 17(len=1,index=8) 4(len=4,index=17) 9(len=3,index=16) 5(len=4,index=12) 7(len=6,index=9) 21(len=6,index=7) 3(len=3,index=15) 19(len=5,index=1) 10(len=5,index=13) 8(len=6,index=4) 20(len=8,index=11) 12(len=8,index=2) 2(len=6,index=0) 11(len=7,index=6) 1(len=5,index=14) 13(len=3,index=5) 16(len=7,index=3) 
+Heap : 14 17 4 9 5 7 21 3 19 10 8 20 12 2 11 1 13 16 
+list LRU : 2 19 12 16 8 13 11 21 17 7 14 20 5 10 1 3 9 4 
+customers in the area ID = 14: 328 
+customers in the area ID = 17: 436 
+customers in the area ID = 9: 260 470 50 
+customers in the area ID = 3: 86 128 170 
+customers in the area ID = 1: 378 378 42 126 294 
+customers in the area ID = 13: 54 474 432 
+customers in the area ID = 19: 312 396 60 480 186 
+customers in the area ID = 16: 372 498 246 204 36 330 414 
+customers in the area ID = 5: 340 256 214 382 
+customers in the area ID = 10: 408 156 240 366 30 
+customers in the area ID = 8: 280 28 280 196 28 28 
+customers in the area ID = 4: 360 486 150 108 
+customers in the area ID = 7: 468 384 90 48 174 384 
+customers in the area ID = 20: 250 82 460 460 250 40 334 460 
+customers in the area ID = 12: 74 284 242 368 158 158 326 116 
+customers in the area ID = 21: 440 62 188 398 188 356 
+customers in the area ID = 2: 22 484 400 442 484 316 
+customers in the area ID = 11: 136 220 304 430 10 52 94 
+
+KEITEIKEN 2 : LINE 364
+remove customers in the area ID = 14: 328 
+remove customers in the area ID = 17: 436 
+
+CLEAVE 1 : LINE 365
+Heap : 9(len=3,index=14) 3(len=3,index=13) 4(len=4,index=15) 13(len=3,index=5) 5(len=4,index=10) 7(len=6,index=8) 21(len=6,index=7) 1(len=5,index=12) 19(len=5,index=1) 10(len=5,index=11) 8(len=6,index=4) 20(len=8,index=9) 12(len=8,index=2) 2(len=6,index=0) 11(len=7,index=6) 16(len=7,index=3) 
+Heap : 9 3 4 13 5 7 21 1 19 10 8 20 12 2 11 16 
+list LRU : 2 19 12 16 8 13 11 21 7 20 5 10 1 3 9 4 
+customers in the area ID = 9: 260 
+customers in the area ID = 3: 86 
+customers in the area ID = 13: 54 
+customers in the area ID = 1: 378 
+customers in the area ID = 16: 372 
+customers in the area ID = 19: 312 
+customers in the area ID = 5: 340 
+customers in the area ID = 10: 408 
+customers in the area ID = 8: 280 
+customers in the area ID = 4: 360 
+customers in the area ID = 7: 468 
+customers in the area ID = 20: 250 
+customers in the area ID = 12: 74 
+customers in the area ID = 21: 440 
+customers in the area ID = 2: 22 
+customers in the area ID = 11: 136 
+
+CLEAVE 1 : LINE 373
+Heap : 6(len=1,index=5) 17(len=1,index=4) 4(len=4,index=19) 15(len=1,index=2) 18(len=1,index=0) 7(len=6,index=13) 2(len=6,index=6) 13(len=3,index=11) 9(len=3,index=18) 5(len=4,index=14) 8(len=6,index=10) 20(len=10,index=3) 12(len=8,index=8) 21(len=7,index=1) 11(len=7,index=12) 16(len=7,index=9) 1(len=5,index=16) 19(len=5,index=7) 3(len=3,index=17) 10(len=5,index=15) 
+Heap : 6 17 4 15 18 7 2 13 9 5 8 20 12 21 11 16 1 19 3 10 
+list LRU : 18 21 15 20 17 6 2 19 12 16 8 13 11 7 5 10 1 3 9 4 
+customers in the area ID = 6: 26 
+customers in the area ID = 17: 16 
+customers in the area ID = 15: 182 
+customers in the area ID = 13: 54 
+customers in the area ID = 16: 372 
+customers in the area ID = 1: 378 
+customers in the area ID = 9: 260 
+customers in the area ID = 19: 312 
+customers in the area ID = 3: 86 
+customers in the area ID = 18: 332 
+customers in the area ID = 5: 340 
+customers in the area ID = 10: 408 
+customers in the area ID = 8: 280 
+customers in the area ID = 4: 360 
+customers in the area ID = 7: 468 
+customers in the area ID = 20: 208 
+customers in the area ID = 12: 74 
+customers in the area ID = 2: 22 
+customers in the area ID = 21: 398 
+customers in the area ID = 11: 136 
+
+KEITEIKEN 1 : LINE 374
+remove customers in the area ID = 6: 26 
+
+CLEAVE 10 : LINE 375
+Heap : 17(len=1,index=4) 15(len=1,index=2) 4(len=4,index=18) 9(len=3,index=17) 18(len=1,index=0) 7(len=6,index=12) 2(len=6,index=5) 13(len=3,index=10) 3(len=3,index=16) 5(len=4,index=13) 8(len=6,index=9) 20(len=10,index=3) 12(len=8,index=7) 21(len=7,index=1) 11(len=7,index=11) 16(len=7,index=8) 1(len=5,index=15) 19(len=5,index=6) 10(len=5,index=14) 
+Heap : 17 15 4 9 18 7 2 13 3 5 8 20 12 21 11 16 1 19 10 
+list LRU : 18 21 15 20 17 2 19 12 16 8 13 11 7 5 10 1 3 9 4 
+customers in the area ID = 17: 16 
+customers in the area ID = 15: 182 
+customers in the area ID = 9: 260 470 50 
+customers in the area ID = 13: 54 474 432 
+customers in the area ID = 16: 372 498 246 204 36 330 414 
+customers in the area ID = 1: 378 378 42 126 294 
+customers in the area ID = 3: 86 128 170 
+customers in the area ID = 19: 312 396 60 480 186 
+customers in the area ID = 10: 408 156 240 366 30 
+customers in the area ID = 18: 332 
+customers in the area ID = 5: 340 256 214 382 
+customers in the area ID = 8: 280 28 280 196 28 28 
+customers in the area ID = 4: 360 486 150 108 
+customers in the area ID = 7: 468 384 90 48 174 384 
+customers in the area ID = 20: 208 334 250 82 460 460 250 40 334 460 
+customers in the area ID = 12: 74 284 242 368 158 158 326 116 
+customers in the area ID = 2: 22 484 400 442 484 316 
+customers in the area ID = 21: 398 440 62 188 398 188 356 
+customers in the area ID = 11: 136 220 304 430 10 52 94 
+
+CLEAVE 10 : LINE 383
+Heap : 17(len=1,index=8) 15(len=1,index=6) 4(len=4,index=19) 9(len=3,index=18) 14(len=1,index=3) 7(len=6,index=14) 2(len=6,index=9) 13(len=3,index=12) 3(len=3,index=17) 18(len=2,index=2) 8(len=6,index=11) 20(len=10,index=7) 12(len=9,index=4) 21(len=8,index=0) 11(len=7,index=13) 16(len=8,index=1) 1(len=5,index=16) 19(len=5,index=10) 10(len=5,index=15) 5(len=6,index=5) 
+Heap : 17 15 4 9 14 7 2 13 3 18 8 20 12 21 11 16 1 19 10 5 
+list LRU : 21 16 18 14 12 5 15 20 17 2 19 8 13 11 7 10 1 3 9 4 
+customers in the area ID = 17: 16 
+customers in the area ID = 15: 182 
+customers in the area ID = 9: 260 470 50 
+customers in the area ID = 13: 54 474 432 
+customers in the area ID = 16: 162 372 498 246 204 36 330 414 
+customers in the area ID = 1: 378 378 42 126 294 
+customers in the area ID = 3: 86 128 170 
+customers in the area ID = 19: 312 396 60 480 186 
+customers in the area ID = 10: 408 156 240 366 30 
+customers in the area ID = 14: 454 
+customers in the area ID = 18: 416 332 
+customers in the area ID = 5: 88 340 340 256 214 382 
+customers in the area ID = 8: 280 28 280 196 28 28 
+customers in the area ID = 4: 360 486 150 108 
+customers in the area ID = 7: 468 384 90 48 174 384 
+customers in the area ID = 20: 208 334 250 82 460 460 250 40 334 460 
+customers in the area ID = 12: 410 74 284 242 368 158 158 326 116 
+customers in the area ID = 2: 22 484 400 442 484 316 
+customers in the area ID = 21: 104 398 440 62 188 398 188 356 
+customers in the area ID = 11: 136 220 304 430 10 52 94 
+
+KEITEIKEN 3 : LINE 384
+remove customers in the area ID = 17: 16 
+remove customers in the area ID = 15: 182 
+remove customers in the area ID = 14: 454 
+
+CLEAVE 2 : LINE 385
+Heap : 18(len=2,index=2) 9(len=3,index=15) 4(len=4,index=16) 3(len=3,index=14) 10(len=5,index=12) 7(len=6,index=11) 2(len=6,index=6) 13(len=3,index=9) 19(len=5,index=7) 5(len=6,index=4) 8(len=6,index=8) 20(len=10,index=5) 12(len=9,index=3) 21(len=8,index=0) 11(len=7,index=10) 16(len=8,index=1) 1(len=5,index=13) 
+Heap : 18 9 4 3 10 7 2 13 19 5 8 20 12 21 11 16 1 
+list LRU : 21 16 18 12 5 20 2 19 8 13 11 7 10 1 3 9 4 
+customers in the area ID = 18: 416 332 
+customers in the area ID = 9: 260 470 
+customers in the area ID = 3: 86 128 
+customers in the area ID = 13: 54 474 
+customers in the area ID = 16: 162 372 
+customers in the area ID = 1: 378 378 
+customers in the area ID = 19: 312 396 
+customers in the area ID = 10: 408 156 
+customers in the area ID = 5: 88 340 
+customers in the area ID = 8: 280 28 
+customers in the area ID = 4: 360 486 
+customers in the area ID = 7: 468 384 
+customers in the area ID = 20: 208 334 
+customers in the area ID = 12: 410 74 
+customers in the area ID = 2: 22 484 
+customers in the area ID = 21: 104 398 
+customers in the area ID = 11: 136 220 
+
+CLEAVE 2 : LINE 404
+Heap : 15(len=1,index=4) 6(len=2,index=8) 4(len=5,index=11) 17(len=2,index=7) 18(len=3,index=0) 7(len=7,index=5) 11(len=7,index=18) 1(len=5,index=19) 13(len=4,index=13) 5(len=6,index=16) 10(len=7,index=12) 20(len=11,index=6) 12(len=9,index=15) 21(len=9,index=1) 2(len=7,index=9) 16(len=8,index=14) 9(len=5,index=3) 19(len=5,index=17) 3(len=4,index=10) 8(len=7,index=2) 
+Heap : 15 6 4 17 18 7 11 1 13 5 10 20 12 21 2 16 9 19 3 8 
+list LRU : 18 21 8 9 15 7 20 17 6 2 3 4 10 13 16 12 5 19 11 1 
+customers in the area ID = 15: 98 
+customers in the area ID = 6: 152 320 
+customers in the area ID = 17: 58 226 
+customers in the area ID = 1: 378 378 
+customers in the area ID = 16: 162 372 
+customers in the area ID = 9: 260 470 
+customers in the area ID = 13: 12 54 
+customers in the area ID = 19: 312 396 
+customers in the area ID = 3: 254 86 
+customers in the area ID = 18: 164 416 
+customers in the area ID = 5: 88 340 
+customers in the area ID = 8: 364 280 
+customers in the area ID = 10: 324 324 
+customers in the area ID = 4: 24 360 
+customers in the area ID = 7: 216 468 
+customers in the area ID = 20: 166 208 
+customers in the area ID = 12: 410 74 
+customers in the area ID = 11: 136 220 
+customers in the area ID = 21: 20 104 
+customers in the area ID = 2: 106 22 
+
+KEITEIKEN 2 : LINE 405
+remove customers in the area ID = 15: 98 
+remove customers in the area ID = 6: 320 152 
+
+CLEAVE 10 : LINE 406
+Heap : 17(len=2,index=6) 18(len=3,index=0) 4(len=5,index=9) 13(len=4,index=11) 5(len=6,index=14) 7(len=7,index=4) 11(len=7,index=16) 1(len=5,index=17) 3(len=4,index=8) 8(len=7,index=2) 10(len=7,index=10) 20(len=11,index=5) 12(len=9,index=13) 21(len=9,index=1) 2(len=7,index=7) 16(len=8,index=12) 9(len=5,index=3) 19(len=5,index=15) 
+Heap : 17 18 4 13 5 7 11 1 3 8 10 20 12 21 2 16 9 19 
+list LRU : 18 21 8 9 7 20 17 2 3 4 10 13 16 12 5 19 11 1 
+customers in the area ID = 17: 58 226 
+customers in the area ID = 18: 164 416 332 
+customers in the area ID = 13: 12 54 474 432 
+customers in the area ID = 1: 378 378 42 126 294 
+customers in the area ID = 16: 162 372 498 246 204 36 330 414 
+customers in the area ID = 9: 260 470 260 470 50 
+customers in the area ID = 3: 254 86 128 170 
+customers in the area ID = 19: 312 396 60 480 186 
+customers in the area ID = 5: 88 340 340 256 214 382 
+customers in the area ID = 8: 364 280 28 280 196 28 28 
+customers in the area ID = 10: 324 324 408 156 240 366 30 
+customers in the area ID = 4: 24 360 486 150 108 
+customers in the area ID = 7: 216 468 384 90 48 174 384 
+customers in the area ID = 20: 166 208 334 250 82 460 460 250 40 334 
+customers in the area ID = 12: 410 74 284 242 368 158 158 326 116 
+customers in the area ID = 11: 136 220 304 430 10 52 94 
+customers in the area ID = 21: 20 104 398 440 62 188 398 188 356 
+customers in the area ID = 2: 106 22 484 400 442 484 316 
+
+CLEAVE 2 : LINE 465
+Heap : 15(len=1,index=12) 17(len=3,index=9) 4(len=7,index=18) 3(len=5,index=19) 6(len=3,index=7) 7(len=9,index=10) 11(len=10,index=14) 9(len=9,index=15) 18(len=5,index=6) 10(len=8,index=3) 5(len=7,index=13) 20(len=15,index=5) 12(len=14,index=17) 21(len=13,index=0) 2(len=11,index=4) 16(len=12,index=16) 1(len=9,index=11) 19(len=9,index=2) 13(len=6,index=1) 8(len=13,index=8) 
+Heap : 15 17 4 3 6 7 11 9 18 10 5 20 12 21 2 16 1 19 13 8 
+list LRU : 21 13 19 10 2 20 18 6 8 17 7 1 15 5 11 9 16 12 4 3 
+customers in the area ID = 15: 392 
+customers in the area ID = 17: 100 58 
+customers in the area ID = 3: 128 254 
+customers in the area ID = 9: 134 218 
+customers in the area ID = 16: 246 246 
+customers in the area ID = 1: 42 126 
+customers in the area ID = 18: 80 248 
+customers in the area ID = 19: 312 60 
+customers in the area ID = 13: 432 474 
+customers in the area ID = 6: 404 404 
+customers in the area ID = 10: 408 324 
+customers in the area ID = 8: 322 238 
+customers in the area ID = 5: 424 88 
+customers in the area ID = 4: 234 66 
+customers in the area ID = 7: 216 132 
+customers in the area ID = 20: 376 292 
+customers in the area ID = 12: 158 494 
+customers in the area ID = 11: 94 10 
+customers in the area ID = 21: 188 440 
+customers in the area ID = 2: 148 190 
+
+KEITEIKEN 10 : LINE 466
+remove customers in the area ID = 15: 392 
+remove customers in the area ID = 17: 226 58 100 
+remove customers in the area ID = 6: 68 404 404 
+remove customers in the area ID = 3: 170 128 86 254 128 
+remove customers in the area ID = 18: 332 416 164 248 80 
+remove customers in the area ID = 13: 432 474 54 12 474 432 
+remove customers in the area ID = 4: 108 150 486 360 24 66 234 
+remove customers in the area ID = 5: 382 214 256 340 340 88 424 
+remove customers in the area ID = 10: 30 366 240 156 408 324 324 408 
+remove customers in the area ID = 9: 50 470 260 470 260 92 428 218 134 
+
+CLEAVE 10 : LINE 467
+Heap : 1(len=9,index=6) 19(len=9,index=1) 7(len=9,index=5) 8(len=13,index=4) 16(len=12,index=8) 2(len=11,index=2) 11(len=10,index=7) 12(len=14,index=9) 20(len=15,index=3) 21(len=13,index=0) 
+Heap : 1 19 7 8 16 2 11 12 20 21 
+list LRU : 21 19 2 20 8 7 1 11 16 12 
+customers in the area ID = 1: 42 126 168 0 378 378 42 126 294 
+customers in the area ID = 19: 312 60 186 396 312 396 60 480 186 
+customers in the area ID = 8: 322 238 448 448 490 448 364 280 28 280 
+customers in the area ID = 12: 158 494 116 452 200 410 74 284 242 368 
+customers in the area ID = 20: 376 292 166 460 166 208 334 250 82 460 
+customers in the area ID = 16: 246 246 456 120 162 372 498 246 204 36 
+customers in the area ID = 21: 188 440 146 230 20 104 398 440 62 188 
+customers in the area ID = 7: 216 132 216 468 384 90 48 174 384 
+customers in the area ID = 2: 148 190 484 484 106 22 484 400 442 484 
+customers in the area ID = 11: 94 10 430 136 220 304 430 10 52 94 
+
+CLEAVE 100 : LINE 528
+Heap : 6(len=1,index=18) 13(len=1,index=12) 18(len=2,index=17) 10(len=4,index=10) 5(len=2,index=2) 3(len=4,index=11) 4(len=3,index=5) 1(len=13,index=9) 17(len=4,index=8) 19(len=9,index=19) 16(len=15,index=7) 2(len=12,index=16) 7(len=13,index=6) 11(len=12,index=3) 14(len=5,index=15) 8(len=16,index=13) 12(len=18,index=0) 20(len=17,index=14) 15(len=6,index=1) 21(len=18,index=4) 
+Heap : 6 13 18 10 5 3 4 1 17 19 16 2 7 11 14 8 12 20 15 21 
+list LRU : 12 15 5 11 21 4 7 16 17 1 10 3 13 8 20 14 2 18 6 19 
+customers in the area ID = 6: 68 
+customers in the area ID = 13: 180 
+customers in the area ID = 10: 366 30 156 240 
+customers in the area ID = 1: 252 462 294 462 42 126 168 0 378 378 42 126 294 
+customers in the area ID = 8: 406 70 112 322 238 448 448 490 448 364 280 28 280 196 28 28 
+customers in the area ID = 12: 200 116 74 494 158 494 116 452 200 410 74 284 242 368 158 158 326 116 
+customers in the area ID = 17: 268 184 394 16 
+customers in the area ID = 20: 418 208 376 292 166 460 166 208 334 250 82 460 460 250 40 334 460 
+customers in the area ID = 15: 434 140 476 182 392 308 
+customers in the area ID = 5: 382 382 
+customers in the area ID = 19: 312 60 186 396 312 396 60 480 186 
+customers in the area ID = 21: 314 230 104 104 62 188 440 146 230 20 104 398 440 62 188 398 188 356 
+customers in the area ID = 16: 78 330 246 246 246 456 120 162 372 498 246 204 36 330 414 
+customers in the area ID = 18: 290 290 
+customers in the area ID = 3: 44 380 212 296 
+customers in the area ID = 2: 232 148 190 484 484 106 22 484 400 442 484 316 
+customers in the area ID = 7: 258 6 426 174 216 132 216 468 384 90 48 174 384 
+customers in the area ID = 4: 24 108 402 
+customers in the area ID = 11: 388 472 94 10 430 136 220 304 430 10 52 94 
+customers in the area ID = 14: 454 34 34 34 202 
+
+KEITEIKEN 2 : LINE 529
+remove customers in the area ID = 6: 68 
+remove customers in the area ID = 13: 180 
+
+CLEAVE 100 : LINE 530
+Heap : 18(len=2,index=16) 5(len=2,index=2) 4(len=3,index=5) 10(len=4,index=10) 19(len=9,index=17) 3(len=4,index=11) 14(len=5,index=14) 1(len=13,index=9) 17(len=4,index=8) 21(len=18,index=4) 16(len=15,index=7) 2(len=12,index=15) 7(len=13,index=6) 11(len=12,index=3) 15(len=6,index=1) 8(len=16,index=12) 12(len=18,index=0) 20(len=17,index=13) 
+Heap : 18 5 4 10 19 3 14 1 17 21 16 2 7 11 15 8 12 20 
+list LRU : 12 15 5 11 21 4 7 16 17 1 10 3 8 20 14 2 18 19 
+customers in the area ID = 18: 290 290 
+customers in the area ID = 5: 382 382 
+customers in the area ID = 10: 366 30 156 240 
+customers in the area ID = 1: 252 462 294 462 42 126 168 0 378 378 42 126 294 
+customers in the area ID = 8: 406 70 112 322 238 448 448 490 448 364 280 28 280 196 28 28 
+customers in the area ID = 12: 200 116 74 494 158 494 116 452 200 410 74 284 242 368 158 158 326 116 
+customers in the area ID = 17: 268 184 394 16 
+customers in the area ID = 20: 418 208 376 292 166 460 166 208 334 250 82 460 460 250 40 334 460 
+customers in the area ID = 19: 312 60 186 396 312 396 60 480 186 
+customers in the area ID = 21: 314 230 104 104 62 188 440 146 230 20 104 398 440 62 188 398 188 356 
+customers in the area ID = 16: 78 330 246 246 246 456 120 162 372 498 246 204 36 330 414 
+customers in the area ID = 4: 24 108 402 
+customers in the area ID = 3: 44 380 212 296 
+customers in the area ID = 2: 232 148 190 484 484 106 22 484 400 442 484 316 
+customers in the area ID = 7: 258 6 426 174 216 132 216 468 384 90 48 174 384 
+customers in the area ID = 14: 454 34 34 34 202 
+customers in the area ID = 11: 388 472 94 10 430 136 220 304 430 10 52 94 
+customers in the area ID = 15: 434 140 476 182 392 308 
+

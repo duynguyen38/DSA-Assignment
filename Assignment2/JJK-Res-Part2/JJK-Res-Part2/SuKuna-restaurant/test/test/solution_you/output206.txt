@@ -1,0 +1,22 @@
+KEITEIKEN 5 : LINE 2
+remove customers in the area ID = 1: 0 
+
+CLEAVE 1 : LINE 3
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 1 : LINE 5
+Heap : 1(len=1,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 2 
+
+KEITEIKEN 5 : LINE 6
+remove customers in the area ID = 1: 2 
+
+CLEAVE 1 : LINE 7
+Heap : 
+Heap : 
+list LRU : 
+

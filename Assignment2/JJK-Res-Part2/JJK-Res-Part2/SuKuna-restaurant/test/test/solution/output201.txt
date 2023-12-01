@@ -1,0 +1,11 @@
+CLEAVE 1 : LINE 1
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 1 : LINE 3
+Heap : 1(len=1,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 2 
+

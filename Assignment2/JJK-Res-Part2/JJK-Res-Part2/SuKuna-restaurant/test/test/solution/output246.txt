@@ -1,0 +1,234 @@
+CLEAVE 10 : LINE 34
+Heap : 1(len=33,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 448 364 80 96 96 420 340 386 198 268 
+
+KEITEIKEN 3 : LINE 35
+remove customers in the area ID = 1: 284 498 372 
+remove customers in the area ID = 1: 64 376 18 
+remove customers in the area ID = 1: 134 422 190 
+
+CLEAVE 10 : LINE 36
+Heap : 1(len=24,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 448 364 80 96 96 420 340 386 198 268 
+
+CLEAVE 3 : LINE 67
+Heap : 1(len=54,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 356 276 112 
+
+KEITEIKEN 2 : LINE 68
+remove customers in the area ID = 1: 274 466 
+remove customers in the area ID = 1: 164 468 
+
+CLEAVE 10 : LINE 69
+Heap : 1(len=50,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 356 276 112 62 406 20 246 246 106 140 
+
+CLEAVE 10 : LINE 183
+Heap : 1(len=163,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 486 364 368 294 368 408 156 280 480 14 
+
+KEITEIKEN 10 : LINE 184
+remove customers in the area ID = 1: 362 476 366 42 12 480 454 476 250 286 
+remove customers in the area ID = 1: 268 198 386 340 420 96 96 80 364 448 
+remove customers in the area ID = 1: 324 148 364 182 420 386 322 84 238 266 
+remove customers in the area ID = 1: 256 350 366 74 432 444 352 274 322 306 
+remove customers in the area ID = 1: 140 106 246 246 20 406 62 112 276 356 
+remove customers in the area ID = 1: 482 106 418 154 94 296 308 30 416 352 
+remove customers in the area ID = 1: 298 118 146 430 168 276 430 328 310 210 
+remove customers in the area ID = 1: 194 40 442 110 358 70 372 134 396 34 
+remove customers in the area ID = 1: 288 392 362 308 10 154 64 110 362 144 
+remove customers in the area ID = 1: 464 408 498 174 346 52 102 428 304 158 
+
+CLEAVE 10 : LINE 185
+Heap : 1(len=63,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 486 364 368 294 368 408 156 280 480 14 
+
+CLEAVE 3 : LINE 203
+Heap : 1(len=80,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 406 48 486 
+
+KEITEIKEN 10 : LINE 204
+remove customers in the area ID = 1: 276 220 304 258 10 194 194 268 126 342 
+remove customers in the area ID = 1: 138 262 28 80 62 332 162 96 340 14 
+remove customers in the area ID = 1: 288 376 202 462 48 316 364 84 116 432 
+remove customers in the area ID = 1: 364 198 384 240 410 206 190 268 60 418 
+remove customers in the area ID = 1: 98 196 374 68 256 230 348 0 266 360 
+remove customers in the area ID = 1: 66 110 346 14 480 280 156 408 368 294 
+remove customers in the area ID = 1: 368 364 486 170 276 216 350 126 314 26 
+remove customers in the area ID = 1: 474 156 298 322 432 132 2 486 48 406 
+
+CLEAVE 10 : LINE 205
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 10 : LINE 215
+Heap : 1(len=9,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 456 304 300 4 196 258 348 464 104 
+
+KEITEIKEN 10 : LINE 216
+remove customers in the area ID = 1: 104 464 348 258 196 4 300 304 456 
+
+CLEAVE 10 : LINE 217
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 10 : LINE 258
+Heap : 1(len=40,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 42 22 336 448 180 68 158 116 464 102 
+
+KEITEIKEN 10 : LINE 259
+remove customers in the area ID = 1: 32 32 246 242 174 28 70 166 192 310 
+remove customers in the area ID = 1: 118 340 0 186 494 52 454 196 442 182 
+remove customers in the area ID = 1: 68 302 54 384 312 8 78 22 112 438 
+remove customers in the area ID = 1: 102 464 116 158 68 180 448 336 22 42 
+
+CLEAVE 1 : LINE 260
+Heap : 
+Heap : 
+list LRU : 
+
+CLEAVE 10 : LINE 292
+Heap : 1(len=31,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 86 28 232 32 192 292 416 216 412 158 
+
+KEITEIKEN 2 : LINE 293
+remove customers in the area ID = 1: 0 218 
+remove customers in the area ID = 1: 204 486 
+
+CLEAVE 10 : LINE 294
+Heap : 1(len=27,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 86 28 232 32 192 292 416 216 412 158 
+
+CLEAVE 10 : LINE 332
+Heap : 1(len=64,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 322 70 96 46 464 410 76 400 294 324 
+
+KEITEIKEN 1 : LINE 333
+remove customers in the area ID = 1: 180 
+
+CLEAVE 3 : LINE 334
+Heap : 1(len=63,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 322 70 96 
+
+CLEAVE 10 : LINE 357
+Heap : 1(len=85,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 296 56 348 108 162 22 408 132 242 182 
+
+KEITEIKEN 1 : LINE 358
+remove customers in the area ID = 1: 116 
+
+CLEAVE 3 : LINE 359
+Heap : 1(len=84,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 296 56 348 
+
+CLEAVE 10 : LINE 417
+Heap : 1(len=141,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 122 100 88 46 490 452 320 206 242 282 
+
+KEITEIKEN 1 : LINE 418
+remove customers in the area ID = 1: 350 
+
+CLEAVE 3 : LINE 419
+Heap : 1(len=140,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 122 100 88 
+
+CLEAVE 2 : LINE 464
+Heap : 1(len=184,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 80 204 
+
+KEITEIKEN 2 : LINE 465
+remove customers in the area ID = 1: 348 16 
+remove customers in the area ID = 1: 342 4 
+
+CLEAVE 10 : LINE 466
+Heap : 1(len=180,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 80 204 168 310 38 194 38 320 346 294 
+
+CLEAVE 10 : LINE 484
+Heap : 1(len=197,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 114 114 286 278 386 468 114 386 288 494 
+
+KEITEIKEN 10 : LINE 485
+remove customers in the area ID = 1: 414 320 178 364 20 184 432 474 126 108 
+remove customers in the area ID = 1: 158 412 216 416 292 192 32 232 28 86 
+remove customers in the area ID = 1: 268 98 412 126 104 436 78 202 226 320 
+remove customers in the area ID = 1: 104 22 240 8 248 152 308 40 86 300 
+remove customers in the area ID = 1: 482 366 224 154 282 420 270 324 294 400 
+remove customers in the area ID = 1: 76 410 464 46 96 70 322 388 408 424 
+remove customers in the area ID = 1: 218 382 408 228 266 150 196 28 198 182 
+remove customers in the area ID = 1: 242 132 408 22 162 108 348 56 296 164 
+remove customers in the area ID = 1: 102 8 168 274 158 210 494 80 372 10 
+remove customers in the area ID = 1: 468 294 306 350 60 454 404 428 136 348 
+
+CLEAVE 10 : LINE 486
+Heap : 1(len=97,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 114 114 286 278 386 468 114 386 288 494 
+
+CLEAVE 100 : LINE 524
+Heap : 1(len=134,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 18 450 14 412 260 212 402 80 446 454 114 228 218 458 126 440 358 208 414 290 236 250 328 406 404 410 256 24 316 284 328 44 182 178 192 166 80 114 114 286 278 386 468 114 386 288 494 282 76 376 460 422 116 70 80 204 168 310 38 194 38 320 346 294 134 454 420 182 30 120 264 392 200 380 474 182 364 354 184 4 260 156 198 416 486 210 192 352 480 452 92 68 450 32 276 424 352 408 122 100 
+
+KEITEIKEN 10 : LINE 525
+remove customers in the area ID = 1: 458 242 486 346 438 350 318 38 76 256 
+remove customers in the area ID = 1: 356 156 460 52 6 28 172 448 436 230 
+remove customers in the area ID = 1: 230 28 36 132 232 276 282 242 206 320 
+remove customers in the area ID = 1: 452 490 46 88 100 122 408 352 424 276 
+remove customers in the area ID = 1: 32 450 68 92 452 480 352 192 210 486 
+remove customers in the area ID = 1: 416 198 156 260 4 184 354 364 182 474 
+remove customers in the area ID = 1: 380 200 392 264 120 30 182 420 454 134 
+remove customers in the area ID = 1: 294 346 320 38 194 38 310 168 204 80 
+remove customers in the area ID = 1: 70 116 422 460 376 76 282 494 288 386 
+remove customers in the area ID = 1: 114 468 386 278 286 114 114 80 166 192 
+
+CLEAVE 100 : LINE 526
+Heap : 1(len=34,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 18 450 14 412 260 212 402 80 446 454 114 228 218 458 126 440 358 208 414 290 236 250 328 406 404 410 256 24 316 284 328 44 182 178 
+

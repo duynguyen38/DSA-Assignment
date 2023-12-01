@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/GOJOrestaurant",
-      "program": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/GOJOrestaurant/build/Debug/outDebug",
+      "cwd": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/GOJO-restaurant",
+      "program": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/GOJO-restaurant/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

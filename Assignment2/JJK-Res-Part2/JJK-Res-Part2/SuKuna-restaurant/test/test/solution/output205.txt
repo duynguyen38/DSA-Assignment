@@ -1,0 +1,30 @@
+CLEAVE 5 : LINE 2
+Heap : 1(len=1,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 0 
+
+CLEAVE 5 : LINE 4
+Heap : 1(len=2,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 2 0 
+
+CLEAVE 5 : LINE 6
+Heap : 1(len=3,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 0 2 0 
+
+CLEAVE 5 : LINE 8
+Heap : 1(len=4,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 0 0 2 0 
+
+CLEAVE 5 : LINE 10
+Heap : 1(len=5,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 2 0 0 2 0 
+

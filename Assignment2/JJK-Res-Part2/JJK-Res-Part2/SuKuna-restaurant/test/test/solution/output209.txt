@@ -1,0 +1,31 @@
+CLEAVE 10 : LINE 7
+Heap : 1(len=6,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 10 8 6 4 2 0 
+
+KEITEIKEN 2 : LINE 8
+remove customers in the area ID = 1: 0 2 
+remove customers in the area ID = 1: 4 6 
+
+CLEAVE 10 : LINE 9
+Heap : 1(len=2,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 10 8 
+
+CLEAVE 10 : LINE 13
+Heap : 1(len=5,index=0) 
+Heap : 1 
+list LRU : 1 
+customers in the area ID = 1: 4 2 0 10 8 
+
+KEITEIKEN 4 : LINE 14
+remove customers in the area ID = 1: 8 10 0 2 
+remove customers in the area ID = 1: 4 
+
+CLEAVE 10 : LINE 15
+Heap : 
+Heap : 
+list LRU : 
+
