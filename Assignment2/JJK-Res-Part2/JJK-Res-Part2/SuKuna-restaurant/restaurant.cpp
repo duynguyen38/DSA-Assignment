@@ -17,16 +17,97 @@ private:
 	list<Node *> LRU;		  //!  Least Recently Used này là cơ chế khu vực nào có khác vào nhà hàng lâu nhất
 private:
 	//* hàm gợi ý của anh thôi dùng hay không thì tùy các bạn nha -> nên suy nghĩ khác
-	bool Compere(int index1, int index2)
+	bool twoArea_Compare(int index1, int index2)
 	{
+		list<Node *>::iterator it1 = find(LRU.begin(), LRU.end(), areaTable[index1]);
+		list<Node *>::iterator it2 = find(LRU.begin(), LRU.end(), areaTable[index2]);
+		// bool flag = 0;
+		if (it1 != LRU.end() && it2 != LRU.end())
+		{
+			if (distance(LRU.begin(), it1) < distance(LRU.begin(), it2))
+			{
+				return 1;
+			}
+		}
+		return 0;
 	}
 
+	//* index là ID của khu vực cần dịch chuyển xuống để đảm bảo heap
+	//* key là số khách
 	void ReHeap_down(int index)
 	{
 		// TODO: với giá trị xét là areaTable[index].size()
 		// TODO: này là min heap nên areaTable[index].size() nào bé hơn thì ở trên
-		// TODO: nếu 2 thằng bằng nhau thì chọn ra khu nào có khác vào gần nhất dùng list<Node* > LRU;
+		// TODO: nếu 2 thằng bằng nhau thì chọn ra khu nào có khách vào gần nhất dùng list<Node* > LRU;
 		// TODO: ví dụ khu A và khu B có số khách bằng nhau nếu khu A mới có khách vào thì so sánh min heap thì khu B đang nhỏ hơn khu A nên ở trên khu A
+
+		//* areaTable.size() là số khu vực nhà hàng đang phục vụ
+		//* Kiểm tra có tồn tại node con nào không, nếu không
+		if (index * 2 + 1 >= areaTable.size())
+			return;
+		//* Nếu chỉ có 1 node con trái
+		else if (index * 2 + 1 == areaTable.size() - 1) //* chỉ có root và left
+		{												//* nếu key ở node left mà bé hơn, thì swap
+			if (areaTable[index * 2 + 1]->size() < areaTable[index]->size())
+			{
+				swap(areaTable[index * 2 + 1], areaTable[index]);
+			}
+			else if (areaTable[index * 2 + 1]->size() == areaTable[index]->size())
+			{
+				//* flag == 1 thì LRU -> index*2+1 -> index; => size(index*2+1) > size(index) => nothing
+				bool flag = twoArea_Compare(index * 2 + 1, index);
+				if(!flag)
+				{
+					swap(areaTable[index * 2 + 1], areaTable[index]);
+				}
+			}
+			return;
+		}
+		//* 3 node: root, left, right
+		int leftChild_idx = index * 2 + 1;	//* left
+		int rightChild_idx = index * 2 + 2; //* right
+
+		//* tìm node có key nhỏ nhất giữa 2 node con
+		int minChild = -1;
+		if (areaTable[leftChild_idx]->size() == areaTable[rightChild_idx]->size())
+		{
+			bool flag = twoArea_Compare(leftChild_idx, rightChild_idx);
+			//* flag == 1 thì LRU -> left -> right
+			if (flag)
+			{ //* chọn ra thằng vừa được thêm khách vào
+				minChild = rightChild_idx;
+			}
+			else
+				minChild = leftChild_idx;
+		}
+		else
+		{
+			minChild = areaTable[leftChild_idx]->size() < areaTable[rightChild_idx]->size() ? leftChild_idx : rightChild_idx;
+		}
+
+		//* Kiểm tra xem khu vực index hiện tại có size >= khu vực có size nhỏ nhất vừa tìm dc hay không?
+		//* Nếu có thì swap
+
+		if (areaTable[index]->size() < areaTable[minChild]->size())
+			return;
+
+		if (areaTable[index]->size() > areaTable[minChild]->size())
+		{
+			swap(areaTable[index], areaTable[minChild]);
+		}
+		//* 2 khu có số khách bằng nhau, thì xét LRU, khu nào vừa dc sử dụng thì chọn
+		else if (areaTable[index]->size() == areaTable[minChild]->size())
+		{
+			//* dùng hàm list distance
+			//* nếu flag == 1 thì khu index nằm trước khu minChild, => khu index > khu minChild => swap
+			//* nếu flag == 0 thì khu index nằm sau khu minChild, => khu index < khu minChild => nothing
+			bool flag = twoArea_Compare(index, minChild);
+			if (flag)
+			{
+				swap(areaTable[index], areaTable[minChild]);
+			}
+		}
+		ReHeap_down(minChild);
 	}
 
 	void ReHeap_up(int index)
@@ -35,20 +116,67 @@ private:
 		// TODO: này là min heap nên areaTable[index].size() nào bé hơn thì ở trên
 		// TODO: nếu 2 thằng bằng nhau thì chọn ra khu nào có khác vào gần nhất
 		// TODO: này xử lí tương tự reheap_down
+		int parent = (index - 1) / 2;
+
+		//* Kiểm tra khu index có là khu đầu tiên trong heap, hoặc có size lớn hơn cha, thì do nothing
+		if (index == 0 || areaTable[index]->size() > areaTable[parent]->size())
+			return;
+
+		if (areaTable[index]->size() < areaTable[parent]->size())
+		{
+			swap(areaTable[index], areaTable[parent]);
+		}
+		else
+		{ //* 2 khu có size bằng nhau thì xét LRU
+			//* flag == 1 khi khu index đứng trước trong LRU => khu index có size lớn hơn khu parent => do nothing
+			//* flag == 0 khi khu index đứng sau trong LRU => khu index có size nhỏ hơn khu parent => swap
+			bool flag = twoArea_Compare(index, parent);
+			if (!flag)
+			{
+				swap(areaTable[index], areaTable[parent]);
+			}
+		}
+		ReHeap_up(parent);
 	}
 
 	//* nếu node chưa tồn tại trong LRU thì thêm vô nếu tồn tại thì dịch nó lên đầu danh sách
 	void moveTop(Node *node)
 	{
 		// TODO: BƯỚC 1 Tìm vị trí của node trong danh sách
+		bool flag = false; //* check có node trong LRU hay chưa?
+		list<Node *>::iterator it;
+		for (it = LRU.begin(); it != LRU.end(); it++)
+		{
+			if (node != nullptr && *it != nullptr && node == *it)
+			{
+				flag = true;
+				break;
+			}
+		}
 
 		// TODO: BƯỚC 2 nếu nó tồn tại thì dịch nó lên đầu danh sách, nếu không thì insert ở đầu danh sách
+		if (flag)
+		{
+			LRU.splice(LRU.begin(), LRU, it);
+		}
+		else
+		{
+			LRU.push_front(node);
+		}
 	}
 
 	//* xóa một node ra khỏi danh sách liên kết không gần gọi delete nha vì đã dùng bên dưới hàm xóa
 	void removeNode(Node *node)
 	{
 		// TODO:
+		for (list<Node *>::iterator it = LRU.begin(); it != LRU.end(); it++)
+		{
+			if ((*it)->ID == node->ID)
+			{
+				LRU.erase(it);
+				break;
+			}
+		}
 	}
 
 public:
@@ -59,7 +187,15 @@ public:
 		int ID = result % MAXSIZE + 1;
 		//*bước 1: kiểm tra xem heap có đang quản lí khu ID hay không nếu chưa quản lí thì phải thêm ở bước sau
 		int index = -1;
-		// TODO TODO TODO TODO TODO bước 1
+		// TODO TODO TODO TODO TODO bước 1 - DONE
+		for (int i = 0; i < areaTable.size(); i++)
+		{
+			if (ID == areaTable[i]->ID)
+			{
+				index = i;
+				break;
+			}
+		}
 
 		//*bước 2: xem thử có khu này trong heap chưa để thêm vô
 		if (index == -1)
@@ -161,7 +297,7 @@ private:
 
 	public:
 		Node(int ID) : ID(ID) {}
-		int size() const { return head.size(); }
+		int size() const { return head.size(); } //* số lượng khách hàng đang phục vụ ở khu vực ID
 		//* thêm vô đầu danh sách
 		void insert(int result) { head.push_front(result); }
 		//* xóa ở cuối với số lượng là number cơ chế FIFO vô sớm thì cút sớm
@@ -170,6 +306,14 @@ private:
 			// TODO: xóa number khác hàng ở cuối danh sách tương ứng với vô sớm nhất
 			//^ gợi ý dùng hàm của linklist có sẵn
 			//* thêm solution << head.back() << " "; để in ra
+			for (int i = 0; i < number; i++)
+			{
+				if(!head.empty())
+				{
+					solution << head.back() << " ";
+					head.pop_back();
+				}
+			}
 		}
 		//* print ra number khách hàng mới đến gần nhất theo cơ chế LIFO các khách hàng gần nhất
 		void print(int number)

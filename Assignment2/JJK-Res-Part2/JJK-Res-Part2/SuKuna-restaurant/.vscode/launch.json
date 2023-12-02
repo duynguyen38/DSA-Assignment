@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/SuKuna-restaurant",
-      "program": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/SuKuna-restaurant/build/Debug/outDebug",
+      "cwd": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/Sukuna-Restaurant",
+      "program": "d:/DN/Desktop/Code/DSA-Assignment/Assignment2/JJK-Res-Part2/JJK-Res-Part2/Sukuna-Restaurant/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

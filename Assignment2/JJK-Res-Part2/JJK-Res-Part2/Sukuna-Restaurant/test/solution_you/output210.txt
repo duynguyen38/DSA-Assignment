@@ -50,7 +50,33 @@ customers in the area ID = 2: 10
 customers in the area ID = 3: 2 2 
 customers in the area ID = 4: 12 
 
+CLEAVE 12 : LINE 17
+Heap : 9(len=1,index=7) 6(len=1,index=4) 2(len=1,index=6) 1(len=2,index=3) 5(len=2,index=1) 3(len=2,index=2) 4(len=1,index=5) 7(len=2,index=0) 
+Heap : 9 6 2 1 5 3 4 7 
+list LRU : 7 5 3 1 6 4 2 9 
+customers in the area ID = 9: 8 
+customers in the area ID = 6: 14 
+customers in the area ID = 1: 0 0 
+customers in the area ID = 7: 6 6 
+customers in the area ID = 5: 4 4 
+customers in the area ID = 2: 10 
+customers in the area ID = 3: 2 2 
+customers in the area ID = 4: 12 
+
 CLEAVE 12 : LINE 21
+Heap : 6(len=1,index=7) 1(len=2,index=6) 3(len=2,index=5) 7(len=2,index=3) 5(len=2,index=4) 2(len=2,index=1) 9(len=2,index=2) 4(len=2,index=0) 
+Heap : 6 1 3 7 5 2 9 4 
+list LRU : 4 2 9 7 5 3 1 6 
+customers in the area ID = 6: 14 
+customers in the area ID = 1: 0 0 
+customers in the area ID = 7: 6 6 
+customers in the area ID = 4: 12 12 
+customers in the area ID = 5: 4 4 
+customers in the area ID = 3: 2 2 
+customers in the area ID = 2: 10 10 
+customers in the area ID = 9: 8 8 
+
+CLEAVE 12 : LINE 23
 Heap : 1(len=2,index=7) 5(len=2,index=5) 3(len=2,index=6) 7(len=2,index=4) 6(len=2,index=0) 2(len=2,index=2) 9(len=2,index=3) 4(len=2,index=1) 
 Heap : 1 5 3 7 6 2 9 4 
 list LRU : 6 4 2 9 7 5 3 1 
@@ -63,7 +89,7 @@ customers in the area ID = 3: 2 2
 customers in the area ID = 2: 10 10 
 customers in the area ID = 9: 8 8 
 
-CLEAVE 10 : LINE 54
+CLEAVE 10 : LINE 56
 Heap : 1(len=6,index=7) 5(len=6,index=5) 3(len=6,index=6) 7(len=6,index=4) 4(len=6,index=1) 6(len=6,index=0) 9(len=6,index=3) 2(len=6,index=2) 
 Heap : 1 5 3 7 4 6 9 2 
 list LRU : 6 4 2 9 7 5 3 1 
@@ -76,7 +102,7 @@ customers in the area ID = 3: 2 2 2 2 2 2
 customers in the area ID = 6: 14 14 14 14 14 14 
 customers in the area ID = 9: 8 8 8 8 8 8 
 
-KEITEIKEN 6 : LINE 55
+KEITEIKEN 6 : LINE 57
 remove customers in the area ID = 1: 0 0 0 0 0 0 
 remove customers in the area ID = 3: 2 2 2 2 2 2 
 remove customers in the area ID = 5: 4 4 4 4 4 4 
@@ -84,14 +110,14 @@ remove customers in the area ID = 7: 6 6 6 6 6 6
 remove customers in the area ID = 9: 8 8 8 8 8 8 
 remove customers in the area ID = 2: 10 10 10 10 10 10 
 
-CLEAVE 12 : LINE 56
+CLEAVE 12 : LINE 58
 Heap : 4(len=6,index=1) 6(len=6,index=0) 
 Heap : 4 6 
 list LRU : 6 4 
 customers in the area ID = 4: 12 12 12 12 12 12 
 customers in the area ID = 6: 14 14 14 14 14 14 
 
-CLEAVE 12 : LINE 58
+CLEAVE 12 : LINE 60
 Heap : 1(len=1,index=0) 6(len=6,index=1) 4(len=6,index=2) 
 Heap : 1 6 4 
 list LRU : 1 6 4 
@@ -99,7 +125,7 @@ customers in the area ID = 1: 0
 customers in the area ID = 6: 14 14 14 14 14 14 
 customers in the area ID = 4: 12 12 12 12 12 12 
 
-CLEAVE 12 : LINE 60
+CLEAVE 12 : LINE 62
 Heap : 1(len=1,index=1) 3(len=1,index=0) 4(len=6,index=3) 6(len=6,index=2) 
 Heap : 1 3 4 6 
 list LRU : 3 1 6 4 
@@ -108,7 +134,7 @@ customers in the area ID = 3: 2
 customers in the area ID = 6: 14 14 14 14 14 14 
 customers in the area ID = 4: 12 12 12 12 12 12 
 
-CLEAVE 12 : LINE 62
+CLEAVE 12 : LINE 64
 Heap : 1(len=1,index=2) 3(len=1,index=1) 4(len=6,index=4) 6(len=6,index=3) 5(len=1,index=0) 
 Heap : 1 3 4 6 5 
 list LRU : 5 3 1 6 4 
@@ -118,7 +144,7 @@ customers in the area ID = 6: 14 14 14 14 14 14
 customers in the area ID = 5: 4 
 customers in the area ID = 4: 12 12 12 12 12 12 
 
-CLEAVE 12 : LINE 64
+CLEAVE 12 : LINE 66
 Heap : 1(len=1,index=3) 3(len=1,index=2) 7(len=1,index=0) 6(len=6,index=4) 5(len=1,index=1) 4(len=6,index=5) 
 Heap : 1 3 7 6 5 4 
 list LRU : 7 5 3 1 6 4 
