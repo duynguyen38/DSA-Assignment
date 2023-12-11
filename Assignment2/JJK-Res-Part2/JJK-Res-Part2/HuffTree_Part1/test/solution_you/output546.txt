@@ -1,0 +1,100 @@
+LAPSE: LINE 1
+list : {H:6} -> {h:6} -> {F:3} -> {D:3} -> {c:2} -> 
+LAPSE: LINE 2
+list : {L:21} -> {l:11} -> {f:7} -> {I:6} -> 
+LAPSE: LINE 3
+list : {J:9} -> {G:9} -> {j:9} -> {k:8} -> {g:5} -> 
+LAPSE: LINE 4
+list : {h:11} -> {K:10} -> {L:9} -> {i:8} -> {I:7} -> 
+LAPSE: LINE 5
+list : {n:12} -> {h:12} -> {M:11} -> {L:9} -> {F:5} -> 
+LAPSE: LINE 6
+list : {M:11} -> {J:9} -> {j:9} -> {i:6} -> {H:5} -> {f:4} -> 
+LAPSE: LINE 7
+list : {H:11} -> {f:3} -> {e:3} -> {d:3} -> {C:2} -> 
+LAPSE: LINE 8
+list : {J:7} -> {I:7} -> {j:7} -> {F:5} -> {g:5} -> {d:3} -> 
+LAPSE: LINE 9
+list : {k:9} -> {K:8} -> {I:7} -> {j:7} -> {h:7} -> {E:4} -> 
+LAPSE: LINE 10
+list : {J:8} -> {f:7} -> {F:3} -> {D:3} -> {d:3} -> 
+LAPSE: LINE 11
+list : {m:10} -> {j:9} -> {E:7} -> {i:7} -> {H:5} -> 
+LAPSE: LINE 12
+list : {I:14} -> {k:9} -> {i:8} -> {F:4} -> {g:4} -> 
+LAPSE: LINE 13
+list : {M:11} -> {J:9} -> {k:8} -> {j:8} -> {G:4} -> {c:2} -> 
+LAPSE: LINE 14
+list : {h:5} -> {G:4} -> {E:4} -> {f:4} -> {d:3} -> {D:2} -> 
+LAPSE: LINE 15
+list : {g:10} -> {D:4} -> {E:3} -> {e:3} -> 
+LAPSE: LINE 16
+list : {I:13} -> {i:6} -> {d:3} -> {C:2} -> {c:1} -> 
+LAPSE: LINE 17
+list : {H:13} -> {n:12} -> {j:7} -> {h:7} -> {E:2} -> 
+LAPSE: LINE 18
+list : {H:5} -> {G:5} -> {E:4} -> {f:4} -> {d:4} -> 
+LAPSE: LINE 19
+list : {J:7} -> {H:7} -> {h:5} -> {g:5} -> {F:4} -> {e:4} -> 
+LAPSE: LINE 20
+list : {i:14} -> {L:9} -> {J:8} -> {H:7} -> {c:1} -> 
+LAPSE: LINE 21
+list : {L:10} -> {k:9} -> {H:5} -> {E:4} -> {f:3} -> {c:2} -> 
+LAPSE: LINE 22
+list : {I:14} -> {p:13} -> {k:9} -> {J:8} -> {f:5} -> 
+LAPSE: LINE 23
+list : {l:10} -> {H:7} -> {i:6} -> {g:6} -> {G:5} -> {F:3} -> 
+LAPSE: LINE 24
+list : {g:11} -> {l:9} -> {H:5} -> {F:4} -> {D:3} -> 
+LAPSE: LINE 25
+list : {i:13} -> {L:9} -> {j:9} -> {I:7} -> {F:5} -> 
+LAPSE: LINE 26
+list : {g:9} -> {J:8} -> {h:7} -> {H:5} -> {E:4} -> 
+LAPSE: LINE 27
+list : {o:13} -> {L:9} -> {J:8} -> {g:6} -> {C:2} -> {e:2} -> 
+LAPSE: LINE 28
+list : {K:17} -> {l:10} -> {j:9} -> {i:6} -> {F:5} -> 
+LAPSE: LINE 29
+list : {f:9} -> {H:7} -> {I:6} -> {G:5} -> {g:4} -> 
+LAPSE: LINE 30
+list : {K:8} -> {I:7} -> {i:7} -> {E:4} -> {g:4} -> {d:3} -> 
+LAPSE: LINE 31
+list : {G:10} -> {j:9} -> {g:4} -> {e:3} -> {D:2} -> 
+LAPSE: LINE 32
+list : {E:6} -> {g:4} -> {f:4} -> {e:4} -> {D:2} -> 
+LAPSE: LINE 33
+list : {L:9} -> {I:7} -> {h:6} -> {d:3} -> {C:2} -> {e:2} -> 
+LAPSE: LINE 34
+list : {H:7} -> {h:5} -> {f:4} -> {E:2} -> {c:2} -> {C:1} -> 
+LAPSE: LINE 35
+list : {h:12} -> {J:9} -> {k:9} -> {K:8} -> {I:7} -> 
+LAPSE: LINE 36
+list : {J:8} -> {k:8} -> {G:6} -> {g:6} -> {H:5} -> {f:4} -> 
+LAPSE: LINE 37
+list : {H:11} -> {J:9} -> {j:9} -> {h:5} -> {g:5} -> 
+LAPSE: LINE 38
+list : {I:13} -> {k:8} -> {h:7} -> {E:4} -> {f:4} -> 
+LAPSE: LINE 39
+list : {K:10} -> {m:10} -> {L:9} -> {I:7} -> {h:6} -> {g:6} -> 
+LAPSE: LINE 40
+list : {I:8} -> {H:6} -> {e:6} -> {E:2} -> {c:1} -> 
+LAPSE: LINE 41
+list : {J:7} -> {e:6} -> {F:5} -> {f:4} -> {D:2} -> 
+LAPSE: LINE 42
+list : {j:9} -> {I:8} -> {g:4} -> {F:3} -> {E:3} -> {e:3} -> 
+LAPSE: LINE 43
+list : {i:14} -> {L:9} -> {E:3} -> {e:3} -> {C:2} -> 
+LAPSE: LINE 44
+list : {k:10} -> {K:8} -> {G:6} -> {h:5} -> {g:5} -> {D:2} -> 
+LAPSE: LINE 45
+list : {K:10} -> {L:9} -> {i:8} -> {j:7} -> {g:5} -> {E:3} -> 
+LAPSE: LINE 46
+list : {L:10} -> {K:10} -> {k:9} -> {I:6} -> {g:6} -> {h:5} -> 
+LAPSE: LINE 47
+list : {J:8} -> {i:7} -> {h:7} -> {I:6} -> {E:4} -> {f:3} -> 
+LAPSE: LINE 48
+list : {J:17} -> {m:12} -> {l:10} -> {F:3} -> {f:3} -> 
+LAPSE: LINE 49
+list : {R:17} -> {J:8} -> {k:8} -> {h:6} -> {H:5} -> {e:4} -> 
+LAPSE: LINE 50
+list : {H:6} -> {h:5} -> {f:4} -> {e:4} -> {D:3} -> {E:2} -> 

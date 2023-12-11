@@ -1,0 +1,1000 @@
+LAPSE : LINE 1
+freq     : {{'Q',29},{'p',13},{'h',13},{'O',11},{'v',11},{'n',8},{'H',7},{'k',7}}
+root : [57]([14]([27]([13,p],[7,k]),[56]([7,H],[29,Q])),[43]([19]([8,n],[11,v]),[24]([11,O],[13,h])))
+name   = OppQhvnOhvpvQOphQvkQvpQQQOhHOOkOQOnQkQkppnQhpQQkhQpQQQhnHQHkkhpHQvvnvhhQhnHvQOvhvnOpQQQpQOQhQHnpQHQ
+result = 812
+LAPSE : LINE 2
+freq     : {{'u',25},{'t',16},{'i',14},{'o',13},{'N',10},{'K',10},{'I',6},{'G',5}}
+root : [99]([44]([20]([10,K],[10,N]),[24]([11]([5,G],[6,I]),[13,o])),[55]([25,u],[30]([14,i],[16,t])))
+name   = tKKutitNGNtiKuiootItuIuuGtoNItutNtuiuuGuououuKiuNutNouiiKiuoIKiNtutiKNuiouoioKGNuKKtIttGINiuuiuoouo
+result = 827
+LAPSE : LINE 3
+freq     : {{'o',14},{'O',12},{'M',11},{'L',11},{'q',11},{'m',10},{'k',7},{'i',7},{'J',6},{'n',3}}
+root : [92]([41]([19]([9]([3,n],[6,J]),[10,m]),[22]([11,q],[11,L])),[51]([23]([11,M],[12,O]),[28]([14,o],[14]([7,i],[7,k]))))
+name   = MkLmqnoLqqkOomkoiooLOqiOOmMMJMmokiqikqJoqqOOOMmLMomnOMMoOLqmLOiqmokJqoiOLLiLnJOJkLMmMMLJmooo
+result = 439
+LAPSE : LINE 4
+freq     : {{'O',13},{'P',12},{'q',11},{'m',11},{'M',10},{'t',9},{'l',9},{'j',9},{'G',6},{'i',5}}
+root : [95]([41]([19]([9,t],[10,M]),[22]([11,m],[11,q])),[54]([23]([11]([5,i],[6,G]),[12,P]),[31]([13,O],[18]([9,j],[9,l]))))
+name   = lOlqqqqPqGMiqOliGitmiGPOGmjjGPqljMjjtmOOqlOPmOMPttPmPjitlmMMMPlGjllMjMqOtOMmmMOtOPqjtPOPmqOmmPt
+result = 84
+LAPSE : LINE 5
+freq     : {{'t',14},{'r',14},{'p',13},{'n',13},{'s',8},{'K',7},{'i',7},{'H',6},{'F',5},{'G',4}}
+root : [91]([37]([15]([7,K],[8,s]),[22]([9]([4,G],[5,F]),[13,n])),[54]([26]([13,p],[13]([6,H],[7,i])),[28]([14,r],[14,t])))
+name   = tHsptprsGtinHsrpKFpnpirrnrrtnpsrstnttpirsKirKitiptKnrpFpHnFKGnHnttsnGrnFKriHttrrsKtnnpppFGH
+result = 330
+LAPSE : LINE 6
+freq     : {{'n',19},{'R',17},{'x',13},{'o',13},{'N',11},{'L',8},{'l',8},{'g',6},{'F',4}}
+root : [69]([33]([16]([8,l],[8,L]),[17,R]),[36]([10]([40]([19,n],[4,F]),[21]([6,g],[11,N])),[26]([13,o],[13,x])))
+name   = LoxlRgnonFonooNNLxnoooRRxRRnnRNRxlxoRRxFnnoFNngnnlNNxNRRLxlnNxngoLNRNRxLRggxonxFxLnRnlLlLllnnnRgoNR
+result = 726
+LAPSE : LINE 7
+freq     : {{'j',16},{'o',13},{'N',11},{'M',11},{'L',11},{'u',10},{'n',10},{'J',6},{'i',3}}
+root : [91]([40]([19]([9]([3,i],[6,J]),[10,n]),[21]([10,u],[11,L])),[51]([22]([11,M],[11,N]),[29]([13,o],[16,j])))
+name   = oLjMnNJMNLooNLLJjunNLjMNjiojNuoJuJNnuoujnjJMiJMjojunMLjoLMLjonLonNujMNuoLjjLijoMMMnnunNujoN
+result = 702
+LAPSE : LINE 8
+freq     : {{'H',18},{'s',13},{'q',13},{'o',12},{'O',11},{'m',11},{'i',8},{'p',5}}
+root : [91]([40]([18,H],[22]([11,m],[11,O])),[51]([25]([12,o],[13,q]),[26]([13,s],[13]([5,p],[8,i]))))
+name   = iqosoqHqpHimmOiHHoHHpsqOOOqHOHHHHssOossmipHiqOsqoHiomomOqiqqoqOOHqmqsomoHsmioopHmmHsOsHspms
+result = 423
+LAPSE : LINE 9
+freq     : {{'l',21},{'P',15},{'u',10},{'M',9},{'L',9},{'n',8},{'I',7},{'j',6},{'h',5}}
+root : [90]([39]([18]([9,L],[9,M]),[21,l]),[51]([21]([10,u],[11]([5,h],[6,j])),[30]([15,P],[15]([7,I],[8,n]))))
+name   = LlhMPLluPLhLljLPLLjhMPlInllhnljMPPllIjPPMulPIIMPllunhPlLllMPlPInlnIlujlnuMlPjuuunMnMIuLulP
+result = 452
+LAPSE : LINE 10
+freq     : {{'p',24},{'b',17},{'m',12},{'L',11},{'n',10},{'l',9},{'J',8},{'H',5},{'G',3}}
+root : [74]([27]([8]([16]([8,J],[3,G]),[33]([5,H],[17,b])),[19]([9,l],[10,n])),[47]([23]([11,L],[12,m]),[24,p]))
+name   = ppmmHHpJJnbpJLplmplLLpGHmLmJpHlJpbpmlmnpLmbbLLpmpHJLLbblbJpbpnpLmnnbpbbbllpbGplmJGbpppbmbnnppbLnnnl
+result = 365
+LAPSE : LINE 11
+freq     : {{'n',19},{'k',16},{'o',14},{'N',10},{'M',10},{'K',10},{'I',7},{'r',7}}
+root : [93]([39]([19,n],[20]([10,K],[10,M])),[54]([24]([10,N],[14,o]),[30]([14]([7,r],[7,I]),[16,k])))
+name   = IIKIkokMkKokoIonNnKnoMkoMkMkrMKKMoIKnNMnIknMKkkKrknnnNoKnIKrrMrnnNonNnnknNnkMnnNokrNroNkoNkoo
+result = 734
+LAPSE : LINE 12
+freq     : {{'u',18},{'q',16},{'R',14},{'L',11},{'n',8},{'j',8},{'r',7},{'I',6},{'H',6},{'g',3}}
+root : [68]([32]([16,q],[16]([8,j],[8,n])),[36]([9]([38]([18,u],[3,g]),[20]([6,H],[11,L])),[27]([13]([6,I],[7,r]),[14,R])))
+name   = LrLuqRLIRqHRjgrnqLHgujunquIjquujunqRuLnRqIRqRqrnIuILHRuRLrLjqquruRuRuRIRuuHrnrqLLujLqqjRgHnnuqjqH
+result = 324
+LAPSE : LINE 13
+freq     : {{'n',22},{'r',17},{'Q',13},{'q',11},{'t',9},{'l',9},{'I',8},{'H',5},{'G',5}}
+root : [68]([34]([17,r],[17]([8,I],[9,l])),[34]([10]([19]([9,t],[5,G]),[41]([5,H],[22,n])),[24]([11,q],[13,Q])))
+name   = qIrQnltHtnlrnntqnlQHnnqrrrHItrHrnqnGrqqGnrqGQrQIQqlQQnQllltntnrrHQnnnntQlQrQGnqnIlntIIqnInrIGtrqrrQ
+result = 899
+LAPSE : LINE 14
+freq     : {{'J',22},{'s',16},{'p',12},{'M',11},{'t',9},{'j',9},{'m',7},{'h',6}}
+root : [92]([40]([18]([9,j],[9,t]),[22,J]),[52]([23]([11,M],[12,p]),[29]([13]([6,h],[7,m]),[16,s])))
+name   = JspjjJtpJjthJJpmJJpMjptJMMsJMsJmhssspJshpthpJJtJJstmMMpJJJpssmsJstmhjJjpsMsjmsJMtphmtsMjJjMM
+result = 145
+LAPSE : LINE 15
+freq     : {{'R',14},{'o',13},{'m',12},{'L',11},{'u',10},{'l',9},{'n',8},{'J',7},{'k',7},{'H',6}}
+root : [97]([42]([19]([9,l],[10,u]),[23]([11,L],[12,m])),[55]([26]([13,o],[13]([6,H],[7,k])),[29]([14,R],[15]([7,J],[8,n]))))
+name   = RJJmmuoRoLmLolHumnnRLLoRRLJmLmuookLHkRLukRuoRHmuonHuHoRLmmlllRlomkmJnLlkuLulRoRnRnJJkJuokHRnlnmol
+result = 29
+LAPSE : LINE 16
+freq     : {{'u',18},{'l',16},{'p',12},{'O',11},{'L',10},{'G',10},{'k',10},{'n',3}}
+root : [90]([38]([18,u],[20]([10,G],[10,L])),[52]([23]([11,O],[12,p]),[29]([13]([3,n],[10,k]),[16,l])))
+name   = uOOpklplukpGOkkpulGlGGLpGuuOOuulppnlLLLOLpkOpOllllunllulGLukluGkLLOnGOLulpkkGuukLuuuuplOGp
+result = 675
+LAPSE : LINE 17
+freq     : {{'n',19},{'j',17},{'R',14},{'y',14},{'N',11},{'I',8},{'k',7},{'G',5}}
+root : [95]([38]([19,n],[19]([8,I],[11,N])),[57]([26]([12]([5,G],[7,k]),[14,y]),[31]([14,R],[17,j])))
+name   = RjnnjjGyNRjnjyjNRyInyRnjNjIRnINnnnIRnGyNjIjnyGNjjjGInyInRkNnnkNyykRkRynnjnkNRykRyNyRyjRGINkjjRn
+result = 127
+LAPSE : LINE 18
+freq     : {{'r',15},{'Q',14},{'w',12},{'n',12},{'M',11},{'o',9},{'H',7},{'I',5},{'h',4},{'e',4}}
+root : [93]([40]([17]([8]([4,e],[4,h]),[9,o]),[23]([11,M],[12,n])),[53]([24]([12,w],[12]([5,I],[7,H])),[29]([14,Q],[15,r])))
+name   = MnIMQnooHMwoQHQwMnQrenHIMrwHMwrohrnwIwnrwhwnwnwrerMnrrQHQoQroorHHQenrwoMMQIrMnnhQrIQwQerMhQQo
+result = 567
+LAPSE : LINE 19
+freq     : {{'p',23},{'O',12},{'M',11},{'N',10},{'K',10},{'s',8},{'j',8},{'k',7},{'h',7}}
+root : [96]([43]([20]([10,K],[10,N]),[23,p]),[53]([23]([11,M],[12,O]),[30]([14]([7,h],[7,k]),[16]([8,j],[8,s]))))
+name   = MMMsNppphjOONMKkjMKKpNppNKOsOKksOkMsNspOhpNOppKhOjppOpspMONNMspOpkjkjkNpppjpkhjNKjhpsKMKMOhKppMh
+result = 205
+LAPSE : LINE 20
+freq     : {{'P',13},{'x',13},{'q',11},{'n',11},{'N',10},{'k',10},{'I',8},{'l',8},{'j',8},{'G',5}}
+root : [97]([42]([20]([10,k],[10,N]),[22]([11,n],[11,q])),[55]([26]([13,x],[13,P]),[29]([13]([5,G],[8,j]),[16]([8,l],[8,I]))))
+name   = nklPjxnxIqklxPxxnnPxqlPInIqjGNkIlIjPljkxIjjkNGIxjIjPqnPnNqNkkqxkPlnxnNGPNPqqxNxxNPqNNPqkGnGkqPlln
+result = 315
+LAPSE : LINE 21
+freq     : {{'v',20},{'o',20},{'P',12},{'t',9},{'J',8},{'k',8},{'i',8},{'I',6},{'F',5}}
+root : [56]([96]([40]([20,o],[20,v]),[23]([11]([5,F],[6,I]),[12,P])),[33]([16]([8,i],[8,k]),[17]([8,J],[9,t])))
+name   = ooIFPoooiFkvIIvvPovvPvkvkvvtJtooFviPJJJPvIPJPkFJvvokIiJtovivvooootJPivktvittotooIovPvoiFkPtkPPoi
+result = 141
+LAPSE : LINE 22
+freq     : {{'j',15},{'Q',14},{'N',12},{'w',12},{'O',11},{'q',11},{'k',8},{'i',7},{'F',5}}
+root : [95]([42]([19]([8,k],[11,q]),[23]([11,O],[12,w])),[53]([24]([12,N],[12]([5,F],[7,i])),[29]([14,Q],[15,j])))
+name   = NQjiQNQNQqjjQOijqiwOFQjFNqjFwjOOiqOwNwkjjOQONwikNNqwONjQqQjijQNqwNQqOwOQwjjwwqjOwFkiqkFkQkkNkQq
+result = 560
+LAPSE : LINE 23
+freq     : {{'U',17},{'l',17},{'Q',16},{'J',15},{'o',12},{'n',12},{'r',7},{'h',4}}
+root : [11]([71]([33]([16,Q],[17,l]),[40]([17,U],[4,h])),[38]([23]([7,r],[12,n]),[27]([12,o],[15,J])))
+name   = UlrJlUJJnnllolUQnUnrrhQolJlUJJlQJQJQoQnQnQrlrlJUnJUolhnQJoUrUQnUlhUllQQJQJooQolUoQUhoQnnJUoJroUUnUll
+result = 581
+LAPSE : LINE 24
+freq     : {{'r',14},{'M',11},{'q',11},{'n',11},{'l',11},{'L',8},{'K',8},{'j',8},{'H',7},{'o',4}}
+root : [93]([41]([19]([8,L],[11,l]),[22]([11,n],[11,q])),[52]([22]([11,M],[11]([4,o],[7,H])),[30]([14,r],[16]([8,j],[8,K]))))
+name   = jrqqrrlnnlqrKjlorjnqoLrHKrnlqlrlHKrKLqjrlMMqLHqHLKqnLnlLHnKlHLKMrnqMHMrMMlKnjoqnjnljrMrMLojMM
+result = 151
+LAPSE : LINE 25
+freq     : {{'s',15},{'p',15},{'N',11},{'v',11},{'M',9},{'K',9},{'o',9},{'k',9},{'G',6},{'h',5}}
+root : [99]([40]([18]([9,K],[9,M]),[22]([11,v],[11,N])),[59]([26]([11]([5,h],[6,G]),[15,p]),[33]([15,s],[18]([9,k],[9,o]))))
+name   = GMNhppvpsKophkKMsssspsGKokGssKpkNvKkovKkhssvpksooMKhsGvKMNkpvGvvsNhvNGkNpMNpNpokvopNpsMooKpNpMMsvNM
+result = 612
+LAPSE : LINE 26
+freq     : {{'k',18},{'R',17},{'N',12},{'L',9},{'m',9},{'j',8},{'K',7},{'q',6},{'l',6}}
+root : [92]([36]([18,k],[18]([9,m],[9,L])),[56]([24]([12,N],[12]([6,l],[6,q])),[32]([15]([7,K],[8,j]),[17,R])))
+name   = lLjNkRqNjlkklLRNLqkmqlLjqmKkmLmKNKjLmmkNNkRkRlNRKmRkLNkkRRlKjjRRkqNkRRRqRkkKRLkKkNjmkNNRjRLm
+result = 367
+LAPSE : LINE 27
+freq     : {{'m',21},{'R',16},{'j',15},{'P',12},{'N',11},{'u',10},{'H',7},{'l',6}}
+root : [98]([42]([21,m],[21]([10,u],[11,N])),[56]([25]([12,P],[13]([6,l],[7,H])),[31]([15,j],[16,R])))
+name   = jPjmumPjNjRPlmummHujmHmPHRluHuRjPjRHRRjNRulmNmmjujlPRlNmRRNmmHNlNRPNmmjHRPRuuPRRmNjmmNPjuPjjPRmmmN
+result = 769
+LAPSE : LINE 28
+freq     : {{'r',22},{'i',15},{'P',13},{'N',13},{'p',10},{'M',9},{'K',9},{'l',8}}
+root : [99]([41]([19]([9,M],[10,p]),[22,r]),[58]([26]([13,N],[13,P]),[32]([15,i],[17]([8,l],[9,K]))))
+name   = rMNrirKMrMMPPipMPPMrKrPprMPlrNrPMilriiiKprprlrPNPilNrlrNpNiipKrriKprPPliiNNrNNlriNKpPrrKNMpiiNplPKK
+result = 1022
+LAPSE : LINE 29
+freq     : {{'L',21},{'l',17},{'o',13},{'r',12},{'N',11},{'j',9},{'J',6},{'q',6}}
+root : [95]([41]([20]([9,j],[11,N]),[21,L]),[54]([24]([12,r],[12]([6,q],[6,J])),[30]([13,o],[17,l])))
+name   = joLNorqoorjLqLjlLNlrojLlojlNrrllLNrrlJoLqrLoNNJoNLolJLqlLlrjlLoJLNlljoqJLrJllLolqjrNlLLLjrNLNLL
+result = 677
+LAPSE : LINE 30
+freq     : {{'M',20},{'q',15},{'P',13},{'K',10},{'m',9},{'j',9},{'s',8},{'n',8},{'h',5}}
+root : [97]([39]([19]([9,m],[10,K]),[20,M]),[58]([26]([13,P],[13]([5,h],[8,n])),[32]([15,q],[17]([8,s],[9,j]))))
+name   = nKPqhMnKMPMjMjKjjhmqqqMnPKsMmMjMhnmmMMMsMMsqsmMnjnPqhKMMMsPqqKPsPsjPMMKqsqnMPKmhjKPqPKmqjPPmqnmqq
+result = 433
+LAPSE : LINE 31
+freq     : {{'T',18},{'m',16},{'p',14},{'P',13},{'N',10},{'l',9},{'s',8},{'h',7},{'F',5}}
+root : [82]([33]([16,m],[17]([8,s],[9,l])),[49]([22]([40]([18,T],[10,N]),[12]([5,F],[7,h])),[27]([13,P],[14,p])))
+name   = mmpTTmhmNFmPpmPsPNTFThmTlPPsNmmhPTTFhplPsmpPsNTFmTmpNhllTlpNTPNsPppNPmTTTFThmllslmpTlTpPPpspTmpspNNh
+result = 870
+LAPSE : LINE 32
+freq     : {{'Q',15},{'P',12},{'r',12},{'h',12},{'L',9},{'I',8},{'s',8},{'l',8},{'j',8}}
+root : [92]([37]([16]([8,s],[8,I]),[21]([9,L],[12,h])),[55]([24]([12,r],[12,P]),[31]([15,Q],[16]([8,j],[8,l]))))
+name   = QjjjlhLIQshrrQIPQlLLjhhLPsLhslQrQlhIQPhhrLPQQPrPsrjPhhrjPjPrPLPlIjsIrIshlsrPLlQIrIQQhQLQlQrs
+result = 23
+LAPSE : LINE 33
+freq     : {{'R',17},{'Q',13},{'j',13},{'O',12},{'i',12},{'m',10},{'K',9},{'s',8}}
+root : [94]([39]([17]([8,s],[9,K]),[22]([10,m],[12,i])),[55]([25]([12,O],[13,j]),[30]([13,Q],[17,R])))
+name   = KRsiOsiRsRiKsRRQKjKsOjORKiOmQRRQQQmjKKsiRmmsRjimjRQijQmROiKOmKiOROOQQQjiOORjjQmjsRQQRmjjiiRjmO
+result = 171
+LAPSE : LINE 34
+freq     : {{'o',22},{'m',21},{'P',14},{'u',10},{'l',9},{'L',8},{'J',7},{'H',7}}
+root : [55]([98]([43]([21,m],[22,o]),[24]([10,u],[14,P])),[31]([14]([7,H],[7,J]),[17]([8,L],[9,l])))
+name   = ooPuollmoJmmuuHuLoHmoLomooLPomLuoJmmllJPoLHoHLoPlPmmmPPmPomolPHmJPHomLJmuomuHPmmuuolPPmJoLuPlooJlm
+result = 123
+LAPSE : LINE 35
+freq     : {{'n',15},{'s',13},{'P',12},{'o',12},{'N',11},{'K',10},{'k',10},{'l',8},{'G',5}}
+root : [96]([43]([20]([10,k],[10,K]),[23]([11,N],[12,o])),[53]([25]([12,P],[13,s]),[28]([13]([5,G],[8,l]),[15,n])))
+name   = nGknolPnNonkKPNNGkKlnoPlNnnsnKlolKoNskkklPPPKsssosnknNkoPKGooKKKlslNGkNGNonNsNPPskPnsnPPsnonKoss
+result = 733
+LAPSE : LINE 36
+freq     : {{'k',23},{'R',14},{'O',14},{'n',12},{'M',10},{'m',9},{'s',8},{'G',5}}
+root : [95]([42]([19]([9,m],[10,M]),[23,k]),[53]([25]([12,n],[13]([5,G],[8,s])),[28]([14,O],[14,R])))
+name   = RmkMGskMnMMMskOROkRmROOmnOnkksnkOknkkRkMmOOnnkGnMRRksskkOmOmsRkRMRGknnnkOGROGmsMMRkRnsOOkRmkkmk
+result = 532
+LAPSE : LINE 37
+freq     : {{'P',14},{'w',12},{'r',12},{'o',12},{'n',12},{'O',11},{'L',9},{'k',7},{'F',5},{'d',3}}
+root : [83]([35]([15]([29]([14,P],[7,k]),[8]([3,d],[5,F])),[20]([9,L],[11,O])),[48]([24]([12,n],[12,o]),[24]([12,r],[12,w])))
+name   = oPPPrnrLOnFrwowLorFPkknoLPnLrLoPFkrdOPwwOPOPOwPwrLdOnroonrwFOPPnokooworwnoLLPOwnOLnOkrkPkdFrOwwnn
+result = 159
+LAPSE : LINE 38
+freq     : {{'o',38},{'O',12},{'M',12},{'L',8},{'r',7},{'m',7},{'i',6},{'F',4}}
+root : [32]([56]([24]([12,M],[12,O]),[14]([7,m],[7,r])),[10]([18]([8,L],[4,F]),[70]([6,i],[38,o])))
+name   = LLoomOiooMOFOooMFMiLorooMorOoLOMLoroooioOMoOmmoiMoLooooMOLoMoooiMLroroOomFimForomrMoooMoOmOOoo
+result = 1017
+LAPSE : LINE 39
+freq     : {{'y',14},{'N',13},{'q',13},{'p',13},{'m',12},{'i',10},{'L',9},{'K',7},{'I',7}}
+root : [98]([44]([19]([9,L],[10,i]),[25]([12,m],[13,p])),[54]([26]([13,q],[13,N]),[28]([14,y],[14]([7,I],[7,K]))))
+name   = qiNqLLpNqpININLqyimyKImyiNLiLpppmKIKyqNqNiLmmyLLKppppKILmIiiNNKNqyiNKypmIqyyqmNiympqqymqyqpymNymip
+result = 836
+LAPSE : LINE 40
+freq     : {{'m',30},{'J',24},{'S',15},{'w',12},{'q',11},{'i',8}}
+root : [100]([43]([19]([8,i],[11,q]),[24,J]),[57]([27]([12,w],[15,S]),[30,m]))
+name   = wwSJmJqmqSwmJmJmmmwJqJJimJSiwiSqJqmiwwJJJJmmwimwmwJmSmJqmimSJSwJimmSSqSJmqJmqmmJSJmJmiwSSqmSJmSmJqmm
+result = 997
+LAPSE : LINE 41
+freq     : {{'N',25},{'s',13},{'O',11},{'m',10},{'j',8},{'J',7},{'k',7},{'q',6},{'g',6}}
+root : [68]([27]([52]([25,N],[13,s]),[14]([7,k],[7,J])),[41]([18]([8,j],[10,m]),[23]([11,O],[12]([6,g],[6,q]))))
+name   = gkjNsNNkOmNmNNkkqNOqgmOjqNJgNmsqjONNkqgskjNJJsmONmNgssJNqJsmNNmssjJOmNOssONsNNkjOjNgOJjsNNNOm
+result = 688
+LAPSE : LINE 42
+freq     : {{'Q',16},{'J',15},{'r',12},{'v',11},{'n',10},{'M',9},{'k',9},{'j',9},{'i',6}}
+root : [97]([39]([18]([9,k],[9,M]),[21]([10,n],[11,v])),[58]([27]([12,r],[15,J]),[31]([15]([6,i],[9,j]),[16,Q])))
+name   = nkJQvJiQQMQJnnvMkkQiQvQnrnJJJvvnrvrjMkQjnvrJjkQrrQJiJMjMJJnjiMirQkrQrvQvJiMjQvrkJkMJnjQrQjMvknJjr
+result = 221
+LAPSE : LINE 43
+freq     : {{'K',17},{'Q',13},{'s',13},{'p',12},{'L',11},{'k',8},{'r',7},{'i',7},{'f',5}}
+root : [93]([40]([17,K],[23]([11,L],[12,p])),[53]([25]([12]([5,f],[7,i]),[13,s]),[28]([13,Q],[15]([7,r],[8,k]))))
+name   = kQppKkKQKsQrQiKpLrQikLpLfpKskKfsisKrLQQrpsLKsLKppssKpLLKfQKiKsrpLQiKfpkssisQQkLLQkfKKispKrQrk
+result = 989
+LAPSE : LINE 44
+freq     : {{'N',22},{'l',20},{'O',12},{'v',11},{'K',10},{'p',10},{'k',7},{'i',7}}
+root : [99]([42]([20]([10,p],[10,K]),[22,N]),[57]([23]([11,v],[12,O]),[34]([14]([7,i],[7,k]),[20,l])))
+name   = OpONNNklOpNpKOvviOvlOvKOkkNOlivlNllNvllNNvNpkKiNNOllkplvilNvlKiOlKNKpkillNNpNNKkpvOlpKllNiNKNlNOvKp
+result = 67
+LAPSE : LINE 45
+freq     : {{'R',15},{'N',12},{'m',12},{'q',11},{'n',10},{'J',9},{'l',9},{'r',7},{'H',4},{'e',3}}
+root : [70]([25]([7]([14]([7,r],[3,e]),[29]([4,H],[15,R])),[18]([9,l],[9,J])),[45]([21]([10,n],[11,q]),[24]([12,m],[12,N])))
+name   = NlHrqqRlqNlRNmqHNmJmRHNemRqJRmqJnlRrNqnnmnNrenrJmRqRnqrNNlNRnlRJmRlJnlNqJNReRJmnmnHRrmmRJlrq
+result = 642
+LAPSE : LINE 46
+freq     : {{'M',20},{'x',18},{'i',14},{'I',8},{'s',8},{'j',8},{'J',7},{'k',7}}
+root : [52]([90]([38]([18,x],[20,M]),[22]([8,I],[14,i])),[30]([14]([7,k],[7,J]),[16]([8,j],[8,s])))
+name   = sMsMiMxsijMIjxiiixxJiMJJxsMikixjMIIiissxJxMjxiIMixkskJMJMIMijxkIMjMMxsIxkkiJMxMxMjIxxMjMkx
+result = 24
+LAPSE : LINE 47
+freq     : {{'t',16},{'O',12},{'v',11},{'K',10},{'p',10},{'f',9},{'L',8},{'I',7},{'j',7}}
+root : [90]([37]([17]([8,L],[9,f]),[20]([10,p],[10,K])),[53]([23]([11,v],[12,O]),[30]([14]([7,j],[7,I]),[16,t])))
+name   = jtjLpttKfvvpOOtOKvLpIffKpKvtItLfvKjvpLvKKtjIpfLOtffKIvpjLvIOOItvfjOpOfjOvKtttKOtptOLpILtOt
+result = 990
+LAPSE : LINE 48
+freq     : {{'p',17},{'P',15},{'i',13},{'O',11},{'N',11},{'L',10},{'j',9},{'n',8}}
+root : [94]([38]([17]([8,n],[9,j]),[21]([10,L],[11,N])),[56]([24]([11,O],[13,i]),[32]([15,P],[17,p])))
+name   = pNjpLnNpLNjOpPiONiLnNOPnnNniiLiPjOpPjjppOjOppNpjOjiPLNijPppPLPPNNppnLPPPNiipiPiLniPOLOnPOpiOLp
+result = 931
+LAPSE : LINE 49
+freq     : {{'Q',14},{'i',14},{'q',13},{'o',13},{'K',10},{'M',9},{'s',8},{'I',7},{'m',7}}
+root : [95]([40]([17]([8,s],[9,M]),[23]([10,K],[13,o])),[55]([27]([13,q],[14,i]),[28]([14,Q],[14]([7,m],[7,I]))))
+name   = MQQoKKsKQQiKqMoQmsQMQqosiqmQIKismoQKmoQomiIMoKssoiIIqioQqmiiqiKoiiQIIQMqQioqMKKsqMqsqiiMoomqIqM
+result = 543
+LAPSE : LINE 50
+freq     : {{'m',17},{'O',12},{'l',11},{'N',10},{'n',10},{'J',9},{'t',9},{'k',9},{'F',4}}
+root : [91]([38]([18]([9,t],[9,J]),[20]([10,n],[10,N])),[53]([23]([11,l],[12,O]),[30]([13]([4,F],[9,k]),[17,m])))
+name   = lmmNmlFmOOtlkmJmnnmNnnnlNOmFOtmOOFtlkJmkNtJlmmmntJJNNNNJlJnlkkkmkNJtOtnNnOFlnmlOJltmkOmtkOO
+result = 731
+LAPSE : LINE 51
+freq     : {{'M',33},{'j',15},{'n',13},{'O',11},{'s',8},{'l',8},{'k',5}}
+root : [47]([13]([26]([13,n],[5,k]),[59]([8,l],[33,M])),[34]([15,j],[19]([8,s],[11,O])))
+name   = nlMMlsOnslkOMMnjMnMkjjMnnjljjMOsMMjsMskOsMkMjnMjMMlljOMsnMMjOMMnMjljMlkMMMMOOnMsOnOMnMnjMMOMj
+result = 479
+LAPSE : LINE 52
+freq     : {{'M',20},{'J',16},{'r',14},{'o',14},{'n',12},{'q',6},{'j',4},{'g',4}}
+root : [14]([56]([26]([12,n],[14,o]),[28]([14,r],[6,q])),[30]([8]([4,g],[4,j]),[34]([16,J],[20,M])))
+name   = nMMrJnJnjJMjMoMnrnnMnJnrJJJrjJMMoqJrJJgMnqjnJgMJMMMoMooqrooqoMrJMornorrnJgooqMoMrrrMMqorgJ
+result = 405
+LAPSE : LINE 53
+freq     : {{'m',17},{'J',16},{'q',13},{'N',12},{'l',11},{'k',9},{'L',8},{'s',8}}
+root : [94]([37]([17,m],[20]([9,k],[11,l])),[57]([25]([12,N],[13,q]),[32]([16,J],[16]([8,s],[8,L]))))
+name   = LsJJJNmLmNsqlJNmLNlmkNlqJslklNNkqNkmqsJNsNJLkmNqmmJkJmLJJqqslJlkkmmqmqLmqLJmsLllNqqmJsmqlkmlJJ
+result = 444
+LAPSE : LINE 54
+freq     : {{'m',18},{'Q',13},{'M',12},{'w',12},{'N',11},{'L',10},{'l',8},{'k',8},{'g',6}}
+root : [98]([41]([18]([8,l],[10,L]),[23]([11,N],[12,w])),[57]([25]([12,M],[13,Q]),[32]([14]([6,g],[8,k]),[18,m])))
+name   = QmmmwmlNNgwLllwkgkLLLQlwmwwmLkmlNLLmQMMLgQMNlNLkQwQmmwMMmMgQlwMNmgNMQmQQNLmQMNkQkMNwklwmmmkMMQNgmw
+result = 883
+LAPSE : LINE 55
+freq     : {{'q',15},{'O',12},{'v',11},{'n',11},{'o',9},{'L',8},{'I',7},{'H',7},{'j',6},{'g',6}}
+root : [92]([39]([17]([8,L],[9,o]),[22]([11,n],[11,v])),[53]([24]([12,O],[12]([6,g],[6,j])),[29]([14]([7,H],[7,I]),[15,q])))
+name   = vjqnnOnLnIqqoLgovOIvOgIqoqjLOooOgqOOHjoqLnoOnqOnqngLvOHLLOInLgnogqIqqOvjvqIoqHInvHHHjqvvHvjv
+result = 878
+LAPSE : LINE 56
+freq     : {{'z',15},{'o',13},{'O',12},{'N',10},{'p',10},{'m',10},{'H',6},{'G',6},{'j',6},{'g',6}}
+root : [94]([42]([20]([10,m],[10,p]),[22]([10,N],[12,O])),[52]([24]([12]([6,g],[6,j]),[12]([6,G],[6,H])),[28]([13,o],[15,z])))
+name   = ozOHNmoGmzpNzgomzpojNpzOzmNNOmmNoOzGoOzzzOHmNHpHHNzpmOgOjojzGpjgjOOpoOzomoGOgzozGmpgGNpjpoNHgo
+result = 398
+LAPSE : LINE 57
+freq     : {{'O',14},{'r',12},{'m',9},{'l',9},{'k',9},{'j',9},{'K',8},{'s',8},{'I',7},{'J',6}}
+root : [91]([36]([18]([9,j],[9,k]),[18]([9,l],[9,m])),[55]([25]([12,r],[13]([6,J],[7,I])),[30]([14,O],[16]([8,s],[8,K]))))
+name   = rOIjlOkjKIrJrmKrmIjrkJIlOmmOrOsOIllkjskKskmKjskskKOOlrOmkIIKjrjlrsOJjmkmlrrOJsrllOJOjOsJmKK
+result = 1023
+LAPSE : LINE 58
+freq     : {{'t',25},{'P',12},{'l',11},{'p',10},{'k',9},{'J',7},{'I',7},{'H',7},{'f',3}}
+root : [66]([26]([51]([25,t],[12,P]),[14]([7,I],[7,J])),[40]([19]([9,k],[10,p]),[21]([10]([3,f],[7,H]),[11,l])))
+name   = kPHtpItttkppklIJpplllJPtPttJlltktHPftttllttpkPktPfIfIttPlHIPHkJpttJptpPtIJtPttpJPHklkHtIPlH
+result = 764
+LAPSE : LINE 59
+freq     : {{'s',16},{'r',12},{'N',11},{'L',11},{'m',11},{'u',10},{'l',8},{'i',8},{'I',5},{'E',3}}
+root : [95]([40]([18]([8]([3,E],[5,I]),[10,u]),[22]([11,m],[11,L])),[55]([23]([11,N],[12,r]),[32]([16,s],[16]([8,i],[8,l]))))
+name   = rsmlLrsNuluNisrmsNuLLuNEsriissiLmsNsusLLrlrliuiisrIumNsuuNmIsslLLirNIIrsllumrLEmNNLsNmrlmmmrLEI
+result = 515
+LAPSE : LINE 60
+freq     : {{'n',13},{'p',12},{'o',12},{'O',11},{'N',11},{'J',8},{'I',8},{'s',8},{'i',7},{'l',6}}
+root : [96]([42]([19]([8,J],[11,N]),[23]([11,O],[12,o])),[54]([25]([12,p],[13,n]),[29]([13]([6,l],[7,i]),[16]([8,s],[8,I]))))
+name   = opJJnoIpnnIpInJOniINNsonppiisoIpsospIlOIopnplOspoOnssnliOONNJNInJooolOJiONiNONJNNnpNOlpoonnlOsJi
+result = 707
+LAPSE : LINE 61
+freq     : {{'Q',15},{'P',12},{'n',12},{'v',11},{'M',10},{'l',9},{'m',7},{'h',7},{'G',6},{'j',6}}
+root : [95]([42]([19]([9,l],[10,M]),[23]([11,v],[12,n])),[53]([24]([12,P],[12]([6,j],[6,G])),[29]([14]([7,h],[7,m]),[15,Q])))
+name   = jnPMmPnPMvGlGQMQMQQMlGjnMGvnQhhvvmlMPjPlPhnPvGQMmnnPvPhlvMnhnmGvPvjPjhPQQMlQmlQQlmnvQnQmnlvQhjQ
+result = 937
+LAPSE : LINE 62
+freq     : {{'c',18},{'Q',14},{'n',11},{'m',9},{'k',9},{'L',8},{'H',7},{'h',7},{'l',6},{'G',5}}
+root : [94]([38]([18,c],[20]([9,m],[11,n])),[56]([25]([11]([5,G],[6,l]),[14,Q]),[31]([14]([7,h],[7,H]),[17]([8,L],[9,k]))))
+name   = nnmcQQHcQLclcQHQmnkLLckHnccQnccmclklQGLnhQlHkQLLHknnlnHcGGccmcLkQcQkmcmhcnQlhHGmhkGkncQhQhmmhL
+result = 461
+LAPSE : LINE 63
+freq     : {{'K',19},{'o',13},{'O',11},{'q',11},{'n',11},{'u',10},{'L',9},{'i',8},{'k',7}}
+root : [99]([41]([19]([9,L],[10,u]),[22]([11,n],[11,q])),[58]([24]([11,O],[13,o]),[34]([15]([7,k],[8,i]),[19,K])))
+name   = LiqnuoKKonKuukooKuKinqqioquLuiOoLKioknnLqKOiKKukKOOnKqoOKuoOnnqqKLKookOKOnKkLKKoLLqqnukLnKOOOkoiqui
+result = 742
+LAPSE : LINE 64
+freq     : {{'l',16},{'y',14},{'O',12},{'p',12},{'K',10},{'L',8},{'J',8},{'i',8},{'j',7}}
+root : [95]([38]([16]([8,J],[8,L]),[22]([10,K],[12,p])),[57]([26]([12,O],[14,y]),[31]([15]([7,j],[8,i]),[16,l])))
+name   = lJyKlyyKLOpjlylKpLpplipJOiyOOjOyLjOKijLJKpllKjliillypOOlpJlyliKjypKKJJLOjyyKpJiOlJlOpyOilyLLyLp
+result = 843
+LAPSE : LINE 65
+freq     : {{'L',17},{'t',17},{'m',12},{'G',11},{'q',11},{'u',10},{'k',9},{'j',6}}
+root : [93]([38]([17,L],[21]([10,u],[11,q])),[55]([23]([11,G],[12,m]),[32]([15]([6,j],[9,k]),[17,t])))
+name   = uqLqttLutLtGutGqLujLkLqGLmquLLtLmtLjGujmLmukqmGLLkqLttkGkjmkqGtmuGjkGtmtGkmqtumLtjmGttuqmtLkq
+result = 857
+LAPSE : LINE 66
+freq     : {{'v',16},{'P',13},{'p',12},{'L',10},{'K',10},{'u',10},{'M',9},{'i',6},{'h',6},{'g',6}}
+root : [98]([42]([20]([10,u],[10,K]),[22]([10,L],[12,p])),[56]([25]([12]([6,g],[6,h]),[13,P]),[31]([15]([6,i],[9,M]),[16,v])))
+name   = vhphpiPMvuuuLpphLgiLvvpguvvPKppvpMKgLgPKiugPMMvLKLLPMKMhuuLupLMvvKvPhuviKpPgMipvKivPvKuKphPPPPvMPL
+result = 347
+LAPSE : LINE 67
+freq     : {{'l',17},{'K',15},{'N',13},{'n',12},{'M',11},{'o',9},{'s',8},{'f',5}}
+root : [90]([37]([17,l],[20]([9,o],[11,M])),[53]([25]([12,n],[13,N]),[28]([13]([5,f],[8,s]),[15,K])))
+name   = nKllMlonKMsllMlnonnnnlKNfsNfNlooKMnlsNMllfNMnKMKlololMffNKNKMnNssosKKKlMNMloNNolsNKNnsKKnK
+result = 927
+LAPSE : LINE 68
+freq     : {{'Q',29},{'n',23},{'M',12},{'p',12},{'t',9},{'l',6},{'I',5},{'e',4}}
+root : [48]([21]([77]([29,Q],[9]([4,e],[5,I])),[44]([12,p],[23,n])),[27]([12,M],[15]([6,l],[9,t])))
+name   = npQItlQptQlnQMQQMnnplMntQQMnQnMQnpteMQepltnQnnIpQQpnlnnQMQnQQQnQnQntptpMtIQnQQMQenMIeMnpQpQnMlQntpQI
+result = 770
+LAPSE : LINE 69
+freq     : {{'Q',31},{'r',14},{'J',13},{'m',11},{'t',9},{'l',9},{'g',6},{'k',5}}
+root : [98]([40]([18]([9,l],[9,t]),[22]([11,m],[11]([5,k],[6,g]))),[58]([27]([13,J],[14,r]),[31,Q]))
+name   = QrtrmmmlQJQQQQQmJJQQrgmQmQJJklmlrkQlkrrrrggmJtrtmQtJQlQrrQttJQgQQQQtQmQQlgQJrmQlQgltQJJJkkJQrQrtlQ
+result = 786
+LAPSE : LINE 70
+freq     : {{'N',23},{'x',13},{'j',13},{'n',12},{'m',12},{'L',11},{'o',9},{'J',6}}
+root : [99]([46]([23,N],[23]([11,L],[12,m])),[53]([25]([12,n],[13,j]),[28]([13,x],[15]([6,J],[9,o]))))
+name   = NojNNxNnNLNxmNmxNjjxLNnxJNoJxJNmjxmNNnnJLJjNLJxomLNmojNNjoLNmLjxjmoLnNmjnnxoNLxNLxnommxmnjnoNjnjnNL
+result = 262
+LAPSE : LINE 71
+freq     : {{'O',23},{'m',18},{'w',12},{'L',11},{'n',10},{'k',10},{'K',9},{'i',6}}
+root : [99]([43]([20]([10,k],[10,n]),[23,O]),[56]([23]([11,L],[12,w]),[33]([15]([6,i],[9,K]),[18,m])))
+name   = KwwOnnnOimmkkknOiKKOkOOmLLkmnOnKOmmOwKwLwKkmOnmwKiOOLwwLLmOwkiKwwnOLinkmOLmOmOimKkmOmLOLmLOwnmkOmOO
+result = 700
+LAPSE : LINE 72
+freq     : {{'l',19},{'T',16},{'r',15},{'N',13},{'o',13},{'K',8},{'m',7},{'p',5},{'E',3}}
+root : [67]([31]([15]([7,m],[8,K]),[16,T]),[36]([8]([40]([19,l],[3,E]),[21]([5,p],[13,o])),[28]([13,N],[15,r])))
+name   = mNoKNlTroooprNNKoplrolllrNNrllrKlToKrrENmmmlTllmKmKomoNTlTTplloTlEpllprNKTTlrTTTrNNrKroNTNrrTToEolT
+result = 541
+LAPSE : LINE 73
+freq     : {{'p',12},{'q',11},{'n',11},{'m',11},{'N',10},{'L',9},{'K',9},{'H',7},{'r',7},{'h',7}}
+root : [94]([41]([19]([9,L],[10,N]),[22]([11,m],[11,n])),[53]([23]([11,q],[12,p]),[30]([14]([7,h],[7,r]),[16]([7,H],[9,K]))))
+name   = NqmhpnhHnLmrKpphqpmmHHNKnHhNnHmLNqnmmrKKpprLprqNnpNLrLqqKmKHpNNLNrnqqNmnmpmKKphKnqLnLHnqqphrLh
+result = 197
+LAPSE : LINE 74
+freq     : {{'y',14},{'o',13},{'N',12},{'M',10},{'J',9},{'m',9},{'n',8},{'i',8},{'K',7},{'j',7}}
+root : [97]([40]([18]([9,m],[9,J]),[22]([10,M],[12,N])),[57]([27]([13,o],[14,y]),[30]([14]([7,j],[7,K]),[16]([8,i],[8,n]))))
+name   = nKojiyymmNyMNooyjMimJJJinnjniyMJKoNmKiJmmNJjMNoMnmoMoJyKojnNiNJyJiyyMNomMKjnNmoNyyoiNonKyjKNyMoyM
+result = 338
+LAPSE : LINE 75
+freq     : {{'x',18},{'j',14},{'Q',13},{'l',11},{'u',10},{'m',10},{'L',9},{'H',6},{'G',6}}
+root : [97]([40]([19]([9,L],[10,m]),[21]([10,u],[11,l])),[57]([25]([12]([6,G],[6,H]),[13,Q]),[32]([14,j],[18,x])))
+name   = jQjuQQjlumjHGxQQuuxjHxjQQLQxxjmlluuljLllQjLmjmxxQuxxQxmLHQGHjGLljxHLxmGQxGHlluGxjlmLLxxummmxuxlLj
+result = 397
+LAPSE : LINE 76
+freq     : {{'w',17},{'y',14},{'p',14},{'M',9},{'I',7},{'k',7},{'G',6},{'i',6},{'g',6},{'H',5}}
+root : [74]([28]([14,y],[14]([7,k],[7,I])),[46]([20]([37]([17,w],[9,M]),[11]([5,H],[6,g])),[26]([12]([6,i],[6,G]),[14,p])))
+name   = MiwGpGkIHkHMiwHwwIpMGkgHpwMpIkwiIIwMwppwwwGIkyMGyMwgykpwwiMpwygykpyIywgyywgyyGHigMpiypypypp
+result = 1011
+LAPSE : LINE 77
+freq     : {{'l',21},{'M',20},{'s',13},{'o',12},{'v',11},{'n',10},{'K',8},{'F',5}}
+root : [100]([42]([21,l],[21]([10,n],[11,v])),[58]([25]([12,o],[13,s]),[33]([13]([5,F],[8,K]),[20,M])))
+name   = vnlnKslsoKllvossMMnKlMMFlsMvMnvKFsoolMslMloMlloMMvsKMvllloMKslononFvvvllollnKMnMMsslsvMvMFosnMlMKFon
+result = 275
+LAPSE : LINE 78
+freq     : {{'k',18},{'L',17},{'P',15},{'O',13},{'w',12},{'n',10},{'o',9},{'f',4}}
+root : [98]([40]([18,k],[22]([10,n],[12,w])),[58]([26]([13,O],[13]([4,f],[9,o])),[32]([15,P],[17,L])))
+name   = nPkLLknkOwOfOfkOLooOPkLLLwwPnnkPwowOLLnwokkfLowkLOPknokPPPnPfwOPLPokOkwkoLOwLLLOnOPwwkPPkLLnPkOnok
+result = 212
+LAPSE : LINE 79
+freq     : {{'s',21},{'M',20},{'l',19},{'O',12},{'k',10},{'J',9},{'m',9}}
+root : [59]([100]([41]([20,M],[21,s]),[22]([10,k],[12,O])),[37]([18]([9,m],[9,J]),[19,l]))
+name   = JMOkJMkMOklsklJMMOOsmOklmsslmsMOllMlllmMksmMkMsJOMllOslmsslskMllOmMJMsJsmsJMkOMJMMsssOlMlsMkJsllmOss
+result = 588
+LAPSE : LINE 80
+freq     : {{'o',14},{'O',11},{'N',11},{'p',10},{'n',10},{'m',10},{'k',9},{'J',8},{'I',8},{'s',8}}
+root : [99]([41]([20]([10,m],[10,n]),[21]([10,p],[11,N])),[58]([25]([11,O],[14,o]),[33]([16]([8,s],[8,I]),[17]([8,J],[9,k]))))
+name   = JnoIkmOOpmsoONIJOpnIoIImJnsOJNNJNmnknONoJokmokmoOOpIJmpOoNomkkooNsNsnIOmnpNsomsNnppIOkpJospsnnkNkop
+result = 351
+LAPSE : LINE 81
+freq     : {{'O',26},{'o',12},{'M',11},{'N',10},{'m',9},{'r',7},{'l',6},{'h',6},{'g',6}}
+root : [67]([25]([12]([6,g],[6,h]),[51]([13]([6,l],[7,r]),[26,O])),[42]([19]([9,m],[10,N]),[23]([11,M],[12,o])))
+name   = gmorgOgMllhOMMNOhmOOMmOOOlmlNMrOOohMOrOommgMmmMOMgOOhNooNoOhooOMOhOOoONloOlrOgNONMOmNOooNrrrN
+result = 725
+LAPSE : LINE 82
+freq     : {{'b',17},{'p',14},{'h',12},{'q',11},{'N',10},{'K',10},{'l',8},{'I',7},{'F',3}}
+root : [92]([38]([18]([8,l],[10,K]),[20]([10,N],[10]([3,F],[7,I]))),[54]([23]([11,q],[12,h]),[31]([14,p],[17,b])))
+name   = IblhqpqFbNIbhhIbqpbIhpqIbhKpNhllbppbbNbqqpbKpNKNbhNbhphqlqppKKNbhblKNKqqNpplIKbqhlKFIKFhNplb
+result = 902
+LAPSE : LINE 83
+freq     : {{'P',25},{'k',17},{'z',15},{'o',11},{'H',7},{'m',7},{'h',7},{'C',1}}
+root : [37]([8]([36]([17,k],[1,C]),[33]([19]([7,h],[11,o]),[25,P])),[29]([14]([7,m],[7,H]),[15,z]))
+name   = PkzooozzzmkkmmzPCzzPhkhHHPkkPokPmPPHhPzkPoPPokzkmHPkmPkPPPoPPzoPoomhozhPkPHkPPzkhkHzzkzPHh
+result = 174
+LAPSE : LINE 84
+freq     : {{'t',14},{'p',13},{'O',12},{'n',12},{'M',9},{'K',9},{'J',9},{'i',8},{'q',6},{'j',6}}
+root : [98]([42]([18]([9,K],[9,M]),[24]([12,n],[12,O])),[56]([25]([12]([6,j],[6,q]),[13,p]),[31]([14,t],[17]([8,i],[9,J]))))
+name   = pnnMOqOOKniKnKnOOpnnttOqnnJttpiiJjiJnqJptJiJOtMpiKpKtjpjtjnKjMppttMjtKKOJpptMJOqMpOtipJqOKMtMqinOM
+result = 612
+LAPSE : LINE 85
+freq     : {{'o',23},{'M',20},{'K',10},{'p',10},{'s',8},{'j',8},{'J',7},{'e',4}}
+root : [67]([27]([50]([23,o],[11]([4,e],[7,J])),[16]([8,j],[8,s])),[40]([20,M],[20]([10,p],[10,K])))
+name   = jKossjjjoKsMKpMMoMKoKKsoposMjoMppKMooJpooMMooooKjMMKsMJpMeJJJeoMoJMMjosMeoKMoJpspopMjoepMo
+result = 45
+LAPSE : LINE 86
+freq     : {{'R',16},{'w',12},{'r',12},{'N',10},{'m',10},{'L',9},{'I',8},{'j',8},{'h',4},{'c',2}}
+root : [75]([31]([14]([6]([2,c],[4,h]),[30]([8,j],[16,R])),[17]([8,I],[9,L])),[44]([20]([10,m],[10,N]),[24]([12,r],[12,w])))
+name   = NRwwwrRLNRLrIRwhmNjrwjrNRrRmLRImrrhjLLNLrIwRNmRhNRRjLILRIwjmILRhwjNNrcwRjwwRrjmImmrIcmmNrwR
+result = 827
+LAPSE : LINE 87
+freq     : {{'N',23},{'o',20},{'I',13},{'n',12},{'l',11},{'r',7},{'h',5}}
+root : [48]([91]([43]([20,o],[23,N]),[23]([11,l],[12,n])),[25]([12]([5,h],[7,r]),[13,I]))
+name   = nnnrnoonroIIlNrNollNhNhnNolNNooINooNroNrlnNIooloNoNNIINoNNIorlnNIhIoNNIolNIhnNhnIlIrNnlonol
+result = 268
+LAPSE : LINE 88
+freq     : {{'u',25},{'j',13},{'M',12},{'l',11},{'k',9},{'L',8},{'J',8},{'H',5}}
+root : [66]([26]([51]([25,u],[13,j]),[13]([5,H],[8,J])),[40]([17]([8,L],[9,k]),[23]([11,l],[12,M])))
+name   = jHMjLMuJkuMJLjjuukuuuMuuJuuMkjLkJLuuluLuMJuLkMHuulLlulkHjullMuMkkJjjLuHJJuljulljjMjMlHMujkl
+result = 472
+LAPSE : LINE 89
+freq     : {{'t',23},{'Q',16},{'j',15},{'O',12},{'N',10},{'l',9},{'k',9},{'G',5}}
+root : [99]([42]([19]([9,l],[10,N]),[23,t]),[57]([26]([12,O],[14]([5,G],[9,k])),[31]([15,j],[16,Q])))
+name   = tttjOOQtNQtljQQNOtkQGtOjQQGtQjQQtOGNtkjtQNGltlNjjOOjtQtONlkkkNOGtOQQtlkljjjtOOlktjtjjNttQQlNtlkktjN
+result = 571
+LAPSE : LINE 90
+freq     : {{'J',16},{'x',13},{'N',12},{'p',10},{'n',10},{'m',10},{'M',9},{'j',8},{'f',5}}
+root : [93]([39]([19]([9,M],[10,m]),[20]([10,n],[10,p])),[54]([25]([12,N],[13,x]),[29]([13]([5,f],[8,j]),[16,J])))
+name   = xmJmmJNxxMnjJmNpNMpnjJNxmJfJNNnfMmjNxpxNJmpmnJnnxfxpnJfnJjmxmJnNpppjMJpJNMMxjNxnfjxJMpMJJjMxN
+result = 209
+LAPSE : LINE 91
+freq     : {{'t',14},{'H',13},{'p',12},{'O',11},{'k',10},{'l',9},{'K',8},{'j',8},{'r',7}}
+root : [92]([38]([17]([8,K],[9,l]),[21]([10,k],[11,O])),[54]([25]([12,p],[13,H]),[29]([14,t],[15]([7,r],[8,j]))))
+name   = OHkOHtptltrkHpplkOKltKtOjjjOHHrpttpOlptHjHOrrKOktkjprtktHHHlppHkKtOKlKjKrHrkjjltkpOKHpplktlO
+result = 838
+LAPSE : LINE 92
+freq     : {{'o',18},{'s',15},{'n',12},{'O',11},{'p',10},{'l',9},{'J',7},{'I',7},{'H',7}}
+root : [96]([39]([18,o],[21]([10,p],[11,O])),[57]([26]([12,n],[14]([7,H],[7,I])),[31]([15,s],[16]([7,J],[9,l]))))
+name   = HOIsHHsllHOoopsloossJnsnpnpOOssolnoJIoHOololJonssJHonslsOIpOpoossJpnHnoOIIJnsOOpppoJIoInnoolOlpn
+result = 175
+LAPSE : LINE 93
+freq     : {{'O',14},{'M',11},{'o',11},{'m',11},{'u',10},{'p',10},{'j',9},{'I',5},{'H',5},{'h',5}}
+root : [91]([41]([20]([10,p],[10,u]),[21]([10]([5,h],[5,H]),[11,m])),[50]([22]([11,o],[11,M]),[28]([14,O],[14]([5,I],[9,j]))))
+name   = uoOopjjumjmuuOOHmIpjHmpOMuOoMojHMmohjoMjMMIpOouMOjuomMHOHoIupjpOhhMhmmhoOpmOmuIOpoMIMppmOOu
+result = 567
+LAPSE : LINE 94
+freq     : {{'N',12},{'n',12},{'q',11},{'m',10},{'L',9},{'t',9},{'j',9},{'I',8},{'J',6},{'i',5}}
+root : [91]([39]([18]([9,t],[9,L]),[21]([10,m],[11,q])),[52]([23]([11]([5,i],[6,J]),[12,n]),[29]([12,N],[17]([8,I],[9,j]))))
+name   = LmtIJLLNLjIntNqqIqqtqiqmqJmmqiNNtLjjnmnnNIJjmjtjILNnIjtiInqnNmJLqjmjniiLtqNnmNmLnNntNNJIJnt
+result = 89
+LAPSE : LINE 95
+freq     : {{'o',22},{'P',14},{'O',11},{'u',10},{'n',10},{'l',9},{'K',8},{'i',8},{'D',3}}
+root : [95]([42]([20]([10,n],[10,u]),[22,o]),[53]([22]([11,O],[11]([3,D],[8,i])),[31]([14,P],[17]([8,K],[9,l]))))
+name   = uPuoiPOOooODonPKPOlouolOoPoDKloOOKOuonooillolnPOoioKiolniloDOnPKuiPuuoOKuPuoiPnKnunPPPKonoPioln
+result = 125
+LAPSE : LINE 96
+freq     : {{'x',13},{'o',13},{'O',12},{'l',11},{'M',9},{'m',9},{'J',8},{'H',7},{'j',7},{'k',5}}
+root : [94]([41]([18]([9,m],[9,M]),[23]([11,l],[12,O])),[53]([25]([12]([5,k],[7,j]),[13,o]),[28]([13,x],[15]([7,H],[8,J]))))
+name   = oxxlxlmlJMloOmxklHoMmmOMxlOMHHHjOooMJlHlJOoxoOxljHjJoOOmOxomOJommkOkJMJoxJomjjMHljxMojxxMklkOx
+result = 481
+LAPSE : LINE 97
+freq     : {{'p',23},{'O',13},{'N',13},{'L',9},{'s',8},{'i',8},{'k',7},{'h',6},{'H',4}}
+root : [91]([40]([17]([8,s],[9,L]),[23,p]),[51]([23]([10]([4,H],[6,h]),[13,N]),[28]([13,O],[15]([7,k],[8,i]))))
+name   = pihNpkLphsssNpiONHLNhppOpsLHpskNNpspiOppLLhOiOpkpOOOkLNkphsLOiNiNpOHOiNipNLHNkkhpppsNpOLOpp
+result = 668
+LAPSE : LINE 98
+freq     : {{'a',16},{'n',13},{'O',11},{'N',11},{'K',10},{'o',9},{'m',9},{'i',7},{'h',5},{'E',3}}
+root : [71]([26]([8]([15]([7,i],[3,E]),[31]([5,h],[16,a])),[18]([9,m],[9,o])),[45]([21]([10,K],[11,N]),[24]([11,O],[13,n])))
+name   = aoKEamhnNKKnaamKaiiNKEaKimNnOnoOOOhNonoNONhOKinmONNKaKNamaonOnOhmionmnEaaiamaaaKNnnhaONnoomoiO
+result = 390
+LAPSE : LINE 99
+freq     : {{'a',16},{'q',11},{'m',11},{'L',10},{'n',10},{'J',9},{'k',8},{'h',7},{'I',5},{'G',4}}
+root : [91]([38]([18]([9,J],[9]([4,G],[5,I])),[20]([10,n],[10,L])),[53]([22]([11,m],[11,q]),[31]([15]([7,h],[8,k]),[16,a])))
+name   = maqnhnmnqLnJJkIkaLnJmkamnmnmIGJaGakqqakJqkaJmhaqaLhaqLaGJkJkhLIaLaaLmLnIGLLmmIhqaqhnqJmaqnh
+result = 213
+LAPSE : LINE 100
+freq     : {{'P',14},{'p',14},{'N',11},{'o',11},{'j',11},{'u',10},{'L',8},{'i',8},{'G',6}}
+root : [93]([40]([18]([8,L],[10,u]),[22]([11,j],[11,o])),[53]([25]([11,N],[14,p]),[28]([14,P],[14]([6,G],[8,i]))))
+name   = NGGpGLpLNGpNuGjiNoojuoLjjPoGPjouLpPiouippPjoPpjPpPLPNLPPjLjNuNipNNPppuioipiupPopoujLuPNujNioP
+result = 495
+LAPSE : LINE 101
+freq     : {{'M',21},{'l',16},{'o',14},{'q',13},{'w',12},{'J',8},{'I',6},{'h',5}}
+root : [11]([66]([30]([14,o],[16,l]),[19]([8,J],[5,h])),[36]([40]([6,I],[21,M]),[25]([12,w],[13,q])))
+name   = qMwqohMwJlJwMMloqMoMhwMhMwoqwqqMqMIlIooqwwlollwqMooJloIwqlJJJMqIllolholMlIqwMMhlMlMoJIwlMoMMMqJ
+result = 379
+LAPSE : LINE 102
+freq     : {{'i',15},{'O',14},{'y',14},{'N',12},{'r',12},{'o',11},{'m',10},{'J',6},{'I',6}}
+root : [100]([45]([21]([10,m],[11,o]),[24]([12,r],[12,N])),[55]([26]([12]([6,I],[6,J]),[14,y]),[29]([14,O],[15,i])))
+name   = NOmimOIyriJNrmJOOoNiJIoiNyorOmioOyirrmyiiNiOoymomymOrrOOiryiiooymoroiioyrIIJJNONNJIOriOOyIyNNNNyrmyy
+result = 720
+LAPSE : LINE 103
+freq     : {{'p',27},{'P',12},{'L',10},{'m',10},{'l',10},{'o',9},{'K',8},{'H',7},{'r',7}}
+root : [73]([31]([58]([27,p],[14]([7,r],[7,H])),[17]([8,K],[9,o])),[42]([20]([10,l],[10,m]),[22]([10,L],[12,P])))
+name   = LlpPpppPHmpoolKKHLPppprrppPrrrKlmpPrLlomoLHmPKPKlopLprlPPpHLpHKlHplpplKPolLpooLppLmoppKmPmmpppmLHPmp
+result = 95
+LAPSE : LINE 104
+freq     : {{'J',17},{'Q',13},{'n',12},{'M',10},{'p',10},{'t',9},{'m',9},{'j',9},{'i',6}}
+root : [95]([38]([18]([9,m],[9,t]),[20]([10,p],[10,M])),[57]([25]([12,n],[13,Q]),[32]([15]([6,i],[9,j]),[17,J])))
+name   = QntnmJtMnpJiMpjMQpjJQJQnmJnJiJMJQtnjmjnJQMiQjMMpiQnmpjJJQJtQJiMJpnnjnmpmjtjiQtptJmJMnmQQtptMpJm
+result = 117
+LAPSE : LINE 105
+freq     : {{'m',22},{'n',20},{'w',12},{'M',11},{'N',10},{'K',10},{'k',7},{'D',1}}
+root : [28]([8]([50]([22,m],[30]([12,w],[1,D])),[18]([7,k],[10,K])),[29]([20,n],[21]([10,N],[11,M])))
+name   = nkNmwKKNNmmMmnNnMmnkwKnmKnwwwnnnNMwmmnMNwnMNmnwnkwNKmmKDnmnMmnmmkMnkmMmKmKNMnNKmknmmwKkMMmnww
+result = 273
+LAPSE : LINE 106
+freq     : {{'r',14},{'O',13},{'J',13},{'L',11},{'v',11},{'l',11},{'k',9},{'n',8},{'h',5}}
+root : [95]([42]([20]([9,k],[11,l]),[22]([11,v],[11,L])),[53]([26]([13,J],[13,O]),[27]([13]([5,h],[8,n]),[14,r])))
+name   = vknOLlJkJlrOJhkLknLOLrOklvOOLJvvLlJLrJkOOhJrnkOvrLLvOJvhrrvnnJvlJhrrlnrOrlrlLkLOJnJlOvvlJhlnkrr
+result = 1009
+LAPSE : LINE 107
+freq     : {{'o',12},{'m',12},{'M',10},{'p',10},{'l',10},{'t',9},{'J',8},{'K',7},{'H',7},{'i',5}}
+root : [90]([39]([19]([9,t],[10,l]),[20]([10,p],[10,M])),[51]([24]([12,m],[12,o]),[27]([12]([5,i],[7,H]),[15]([7,K],[8,J]))))
+name   = olMJtoiJMlKompoMmiKpmpJoKMitMootMpMJllHllmtlotoHtplKompKoJlHtmHmpKMtmpKHpiJJMmiJMtmHHolmpm
+result = 163
+LAPSE : LINE 108
+freq     : {{'J',24},{'n',19},{'w',12},{'o',11},{'m',11},{'M',9},{'f',5}}
+root : [67]([26]([50]([24,J],[12,w]),[14]([5,f],[9,M])),[41]([19,n],[22]([11,m],[11,o])))
+name   = MnwJJMJooMJnwJnmJonfwoofJJJJmmJfoJwmJonnJJomMwMwwJnJwMonnmmnnfmonmMnJJnnomwnwMJfMmwnJnJJnwJ
+result = 68
+LAPSE : LINE 109
+freq     : {{'k',19},{'Q',14},{'r',12},{'M',11},{'o',11},{'K',10},{'u',10},{'j',7},{'G',3}}
+root : [97]([41]([20]([10,u],[10,K]),[21]([10]([3,G],[7,j]),[11,o])),[56]([23]([11,M],[12,r]),[33]([14,Q],[19,k])))
+name   = uorkKkQokuuMoGrrkKkjQjKMjoKKQGkMoQQrQourQukrukKKQoojrkoQukuQuMjjMKkkorkkMrkGkMQMQMKrMukKQorjkMkQr
+result = 702
+LAPSE : LINE 110
+freq     : {{'s',16},{'z',15},{'r',12},{'p',12},{'l',11},{'K',10},{'J',8},{'I',6},{'h',6},{'H',4}}
+root : [100]([43]([20]([10,K],[10]([4,H],[6,h])),[23]([11,l],[12,p])),[57]([26]([12,r],[14]([6,I],[8,J])),[31]([15,z],[16,s])))
+name   = lrJrpIHrpsKIslplKszpzrKlKrppJHlpsKpsKHszKKhzlJKhprJzhsllprszrJsIzzzpIzlIszzslzzszlJsJrrKphrIssrHsJhh
+result = 819
+LAPSE : LINE 111
+freq     : {{'p',18},{'O',13},{'o',13},{'N',11},{'n',10},{'J',9},{'L',8},{'k',5},{'f',5}}
+root : [74]([30]([13,O],[17]([8,L],[9,J])),[44]([20]([38]([18,p],[10,n]),[10]([5,f],[5,k])),[24]([11,N],[13,o])))
+name   = JfpoJNNOoNffppJoOLJpponkOOpNpJpkLfkpLnpJnNooLpOfNLpNnknkOnJpOoNNoopJOoNOpNLpnpOnJnnoOOoOLpLo
+result = 929
+LAPSE : LINE 112
+freq     : {{'o',18},{'w',17},{'N',13},{'O',11},{'M',10},{'l',10},{'m',9},{'F',4},{'g',4}}
+root : [26]([50]([24]([11,O],[13,N]),[8]([34]([17,w],[4,g]),[17]([4,F],[9,m]))),[28]([18,o],[20]([10,l],[10,M])))
+name   = wwNmNMNgOOMmMMwoowoOlmNwMoMlomlNOoooNONNNoowMmwlFglmlwOwNmomMwgOoOFMoowNlwwoNlMmNFFgwowlwOoOowlO
+result = 50
+LAPSE : LINE 113
+freq     : {{'N',24},{'r',12},{'o',12},{'k',10},{'m',9},{'L',8},{'I',7},{'q',6},{'g',5}}
+root : [69]([27]([51]([24,N],[12,r]),[15]([7,I],[8,L])),[42]([19]([9,m],[10,k]),[23]([11]([5,g],[6,q]),[12,o])))
+name   = kNkmrroLmkIqrNoNkkNkNNIkNomoNLmNNNNNrLINkrgqogkoNNommqrINroqgrmgLrNLmNkNqIromNLLoqINroorNNLgI
+result = 286
+LAPSE : LINE 114
+freq     : {{'z',20},{'H',18},{'u',17},{'o',13},{'m',10},{'L',8},{'r',7},{'f',5}}
+root : [98]([38]([18]([8,L],[10,m]),[20,z]),[60]([25]([12]([5,f],[7,r]),[13,o]),[35]([17,u],[18,H])))
+name   = HfLuuzuuomoHLozHuLruHmmHzHzmLruummzHuuoLozouzzHuzzffuHfoooHrzzzHrrHououuzmzLfHzoHrzHHLLzorzmmzmuHH
+result = 1015
+LAPSE : LINE 115
+freq     : {{'Q',16},{'N',11},{'p',10},{'n',10},{'m',10},{'M',9},{'r',7},{'h',7},{'H',6},{'g',5}}
+root : [91]([39]([19]([9,M],[10,m]),[20]([10,n],[10,p])),[52]([22]([11,N],[11]([5,g],[6,H])),[30]([14]([7,h],[7,r]),[16,Q])))
+name   = nrHmnQQrQmNhnMmMMQQrQhpHgQNpMpmHQnQnNMQQMrMNHpnrgMghmHhmQpmghNrMnpnQpNhHnQNngpQNpNrNmhpmQNm
+result = 543
+LAPSE : LINE 116
+freq     : {{'j',21},{'c',18},{'M',12},{'I',12},{'o',12},{'N',11},{'m',9}}
+root : [95]([41]([20]([9,m],[11,N]),[21,j]),[54]([24]([12,o],[12,I]),[30]([12,M],[18,c])))
+name   = cMNNjjoINojjjMMjcjmImIocImcccIcjmjmjjMjIImomNMjcoocNjIoNcmNcMjojMcIcMMcMIMNcmIjIccjoNoocjoNMNjj
+result = 675
+LAPSE : LINE 117
+freq     : {{'t',16},{'p',14},{'n',13},{'q',11},{'K',8},{'r',7},{'H',6},{'i',6},{'I',5},{'F',5}}
+root : [64]([29]([14,p],[15]([7,r],[8,K])),[35]([10]([37]([16,t],[5,F]),[21]([5,I],[11,q])),[25]([12]([6,i],[6,H]),[13,n])))
+name   = rHKKqprItitqpKqttKrFqHKpppnnFItttFIiptpitnntHnqFpnqrtipInrttnirnpKnqrqpqipnqqKnpHKpIntFHtHt
+result = 108
+LAPSE : LINE 118
+freq     : {{'q',26},{'K',18},{'Q',13},{'t',9},{'m',9},{'l',9},{'j',9},{'H',6}}
+root : [55]([15]([59]([26,q],[6,H]),[33]([9,j],[18,K])),[40]([18]([9,l],[9,m]),[22]([9,t],[13,Q])))
+name   = HqjqqqKKmqlqmjltKtKqQKQHqQljtmHqmQKQlQmqQKqKqKQjtQKHqHtqqmqtqqqmqQKqjtllqKKmQqjKKQqqjHqtjKKmtQKlllj
+result = 274
+LAPSE : LINE 119
+freq     : {{'m',28},{'P',26},{'k',17},{'N',11},{'s',8},{'H',7}}
+root : [58]([15]([26]([11,N],[7,H]),[54]([8,s],[28,m])),[43]([17,k],[26,P]))
+name   = mPPmkPsPmPkkkPPHkmPmsNPNkmkksNPsmPPmNmsmmsPPHmmmmPmPHmPHPPPkkkkmmkPmmmNNsPPNmkmsmNkPHHmNmPPNHmNkk
+result = 326
+LAPSE : LINE 120
+freq     : {{'p',26},{'s',13},{'L',11},{'I',11},{'v',11},{'j',9},{'k',8},{'G',5}}
+root : [68]([26]([52]([26,p],[13,s]),[13]([5,G],[8,k])),[42]([20]([9,j],[11,v]),[22]([11,I],[11,L])))
+name   = psspILGpIsjpGpppppIspsspspjLIIspLjvkjLvkvIkkvpGppjpvpLkkjLLskssGGpIIpLvIpjIvpjpLsvvspjIvppkvLL
+result = 1019
+LAPSE : LINE 121
+freq     : {{'n',29},{'R',15},{'M',11},{'l',10},{'L',8},{'I',8},{'q',6},{'f',5}}
+root : [63]([26]([11]([5,f],[6,q]),[55]([15,R],[29,n])),[37]([16]([8,I],[8,L]),[21]([10,l],[11,M])))
+name   = fRllIfRLqnnlnnnlnnIILqnnLnILRMRqMqfnlRnnnnIllILRnMnMnnnMfqMnnIMRRRRfRqnRRRLnLMnnMllMMILnRlnn
+result = 870
+LAPSE : LINE 122
+freq     : {{'T',19},{'S',15},{'q',13},{'M',11},{'u',10},{'l',10},{'m',7},{'h',7},{'H',5},{'f',3}}
+root : [54]([27]([13,q],[14]([7,h],[7,m])),[27]([8]([33]([15,S],[3,f]),[18]([5,H],[10,l])),[29]([19,T],[21]([10,u],[11,M]))))
+name   = mTSMHhSTSSuhSllhMffuTMHqTuquTlHSMTSmuuTTuMTMqSTSllhqlumlSSmqHqThMlqTqMqqTSTSuhhTSfqmTTqTqmTlMMmMuSHl
+result = 852
+LAPSE : LINE 123
+freq     : {{'t',16},{'i',15},{'n',11},{'H',10},{'u',10},{'p',10},{'L',9},{'J',9}}
+root : [90]([38]([18]([9,J],[9,L]),[20]([10,p],[10,u])),[52]([21]([10,H],[11,n]),[31]([15,i],[16,t])))
+name   = nttitnniitHHtuniiuitpHpuiHninpHpLttpJittJppHtiJpLutJJLpuLuHiutJuHiLnnJpnLttutLHiiJLJuLnniH
+result = 187
+LAPSE : LINE 124
+freq     : {{'N',22},{'x',13},{'q',13},{'o',13},{'M',12},{'n',8},{'i',8},{'H',5},{'e',2}}
+root : [75]([27]([7]([28]([13,x],[2,e]),[15]([5,H],[8,i])),[20]([8,n],[12,M])),[48]([22,N],[26]([13,o],[13,q])))
+name   = xMNNnNixiNqNMooooeNiHNoqMxMqqeMqMNxNNnoxHiqoxiNHnNoNnHqoxixqNNxxqxHoMMqNnNMNMoqoNqMxnnMnNqiNNoix
+result = 49
+LAPSE : LINE 125
+freq     : {{'p',13},{'h',13},{'O',11},{'q',11},{'o',11},{'K',10},{'t',9},{'I',6},{'H',6}}
+root : [90]([41]([19]([9,t],[10,K]),[22]([11,o],[11,q])),[49]([23]([11,O],[12]([6,H],[6,I])),[26]([13,h],[13,p])))
+name   = OqthHOopHOKhotoqpIopoKohqhqhOKptqKpoIppqOOOhHIhqttKHOtOpKtpHhKIphqpIhKIothpqpOtohhKqHooOKq
+result = 834
+LAPSE : LINE 126
+freq     : {{'L',18},{'q',17},{'i',15},{'Q',14},{'N',13},{'l',9},{'k',7}}
+root : [58]([93]([35]([17,q],[18,L]),[27]([13,N],[14,Q])),[31]([15,i],[16]([7,k],[9,l])))
+name   = QlNNlNiiiLLNLqkkLLQLLiLlqNqlNkiiNiqQqNQkkqkLqLQqiiiQNiqqilqLiqlLLiqLlLLqNQNqQQQliqQqLlQLNNQQk
+result = 492
+LAPSE : LINE 127
+freq     : {{'p',23},{'P',14},{'v',11},{'l',11},{'n',10},{'J',9},{'K',8},{'j',8},{'I',5}}
+root : [99]([44]([21]([10,n],[11,l]),[23,p]),[55]([24]([11,v],[13]([5,I],[8,j])),[31]([14,P],[17]([8,K],[9,J]))))
+name   = nplPjlllvnnppIPjJpJpKppjJppPJjplvljppvKvJnIPjvppppvPnlPKvpJljnKKpIKPPIPKppnJlvnJJKlPIvpPnjvpvPnPPpl
+result = 589
+LAPSE : LINE 128
+freq     : {{'K',19},{'o',14},{'p',12},{'O',11},{'m',10},{'t',9},{'n',8},{'J',7},{'h',6}}
+root : [96]([40]([19,K],[21]([10,m],[11,O])),[56]([25]([12,p],[13]([6,h],[7,J])),[31]([14,o],[17]([8,n],[9,t]))))
+name   = KtopKoooOotpKhmKKpnnOKOmptOnOpomnoKoOJmJKooOhKhmKnmKtKhmKopoOKtJOtJmptnpmpKOomKnhOJtJtKhKKpponJp
+result = 235
+LAPSE : LINE 129
+freq     : {{'r',12},{'O',11},{'n',11},{'u',10},{'L',9},{'K',9},{'l',8},{'j',8},{'h',7},{'F',5}}
+root : [90]([39]([18]([9,K],[9,L]),[21]([10,u],[11,n])),[51]([23]([11,O],[12,r]),[28]([12]([5,F],[7,h]),[16]([8,j],[8,l]))))
+name   = FrKuLnrOlLKuOOnnKhuLKLhjrrjrrhOuLKnLjnrjlKujhjOluLOlunrLOKKOlnlFuFrFunhnhOOjLOhruFjlnrlKnr
+result = 737
+LAPSE : LINE 130
+freq     : {{'n',23},{'P',12},{'w',12},{'L',11},{'m',10},{'K',8},{'j',8},{'I',7},{'i',3}}
+root : [61]([28]([12,P],[16]([8,j],[8,K])),[33]([10]([20]([10,m],[3,i]),[43]([7,I],[23,n])),[23]([11,L],[12,w])))
+name   = jPmLijLmKInnKKwjmPjLnjPIwmPnPwnmnnniwwInnwnLIPnijLLnmPLInLmnmImPwmKjKPKnLwKnPLnwLnnwnPIwKnnPwj
+result = 371
+LAPSE : LINE 131
+freq     : {{'n',18},{'r',15},{'P',12},{'M',12},{'N',11},{'K',9},{'t',9},{'h',6},{'g',6}}
+root : [98]([41]([18]([9,t],[9,K]),[23]([11,N],[12,M])),[57]([24]([12,P],[12]([6,g],[6,h])),[33]([15,r],[18,n])))
+name   = KtPMgtgMhnhnNKtgKrgnPnhrMKPKnNNNNPtnhMMnrPNrgMrKMPPMrMPMnrrnKhtnNMtNnnrnPnNrtPNttnnrrnPKNMnPhgrrKr
+result = 454
+LAPSE : LINE 132
+freq     : {{'T',16},{'r',16},{'N',11},{'L',11},{'K',9},{'t',9},{'n',8},{'j',7},{'h',7},{'i',5}}
+root : [99]([40]([18]([9,t],[9,K]),[22]([11,L],[11,N])),[59]([27]([12]([5,i],[7,h]),[15]([7,j],[8,n])),[32]([16,r],[16,T])))
+name   = KrNNrhTnNhLnNjhtintjntnKLjrTTrTLTrjijLtrtNTrKLhTrnKLrKrrtTLrrNthjihLTLTTTTTNLNKrtTKTnNthLiKiNjrnNKr
+result = 461
+LAPSE : LINE 133
+freq     : {{'m',22},{'P',13},{'O',11},{'K',10},{'l',10},{'n',8},{'k',7},{'q',6},{'G',5}}
+root : [92]([42]([20]([10,l],[10,K]),[22,m]),[50]([22]([11,O],[11]([5,G],[6,q])),[28]([13,P],[15]([7,k],[8,n]))))
+name   = mllPOmOkmKlPnmKmPmGmqKKqOqOmGPmPPkPGkGGqnnlKlOnmPOPllkmmnKqnKlmKnmmKknmOOPlmkOlKOqPmmmOmPPkm
+result = 630
+LAPSE : LINE 134
+freq     : {{'U',17},{'w',17},{'n',11},{'L',9},{'m',9},{'J',8},{'j',8},{'i',8},{'H',7},{'q',6}}
+root : [100]([37]([17]([8,J],[9,m]),[20]([9,L],[11,n])),[63]([29]([13]([6,q],[7,H]),[16]([8,i],[8,j])),[34]([17,w],[17,U])))
+name   = wjjjqwmjUHLnLLUwwLiimwUHjLJJqUUUJUiwJwLHnnULiwUHnwwqUqwjjnwUmUUwiLqnwHminmLmwnwminUUUJnnHjwHJmJJUmiq
+result = 86
+LAPSE : LINE 135
+freq     : {{'m',17},{'Q',14},{'L',11},{'l',11},{'t',9},{'k',9},{'K',7},{'I',7},{'j',6}}
+root : [91]([37]([17,m],[20]([9,t],[11,l])),[54]([24]([11,L],[13]([6,j],[7,I])),[30]([14,Q],[16]([7,K],[9,k]))))
+name   = mLkIQQImKtLmmtIlmlmttKQIjmmlkQktmIlmLLkQjmtljLjkmlIQtlQkKLQlmLlLmKmQtLKQlQkmLlIjQmkLQQKtjKk
+result = 989
+LAPSE : LINE 136
+freq     : {{'L',18},{'i',15},{'v',11},{'o',11},{'n',11},{'M',10},{'p',10},{'G',6}}
+root : [92]([39]([18,L],[21]([10,M],[11,n])),[53]([22]([11,o],[11,v]),[31]([15,i],[16]([6,G],[10,p]))))
+name   = poiLnGLnvMopinMLviLGniiovnMLnLGovLpvMLvinMopiLovLMnvpiLivpLiLinMvooLMnpGopiLiGpoiLGpiLMMLvon
+result = 794
+LAPSE : LINE 137
+freq     : {{'u',17},{'O',14},{'P',12},{'v',11},{'L',10},{'l',10},{'m',7},{'j',7},{'h',7},{'G',4}}
+root : [99]([42]([20]([10,l],[10,L]),[22]([11,v],[11]([4,G],[7,h]))),[57]([26]([12,P],[14,O]),[31]([14]([7,j],[7,m]),[17,u])))
+name   = mOvOLjlmjPvhOlOvuOjuOPjLOPPlhvLuPvOuOOlhGvvPullvGPhjOmLOluLuGLPmuuuhGhPuvOPuuuPllLujuvLOuvLPmmhmljL
+result = 536
+LAPSE : LINE 138
+freq     : {{'R',15},{'p',14},{'v',11},{'i',11},{'L',10},{'M',9},{'j',9},{'H',7},{'l',6}}
+root : [92]([39]([18]([9,j],[9,M]),[21]([10,L],[11,i])),[53]([24]([11,v],[13]([6,l],[7,H])),[29]([14,p],[15,R])))
+name   = ppRvipLLMijHppiRljHilvvLMLvLiMvMpiMlppvLvMpHiHHlRHjjjRRvplHRRvRpRvjRRMpiiMRiMRijLjRRplLLjLvp
+result = 404
+LAPSE : LINE 139
+freq     : {{'P',26},{'q',15},{'M',10},{'K',10},{'l',9},{'n',8},{'j',6},{'p',5},{'f',5}}
+root : [53]([14]([55]([26,P],[6,j]),[29]([8,n],[15,q])),[39]([19]([9,l],[10,K]),[20]([10,M],[10]([5,f],[5,p]))))
+name   = pnPPPfPqlMMPnqlKPPPlpjKqqPPlMqqqKKMqKnKPPKPPPljPMKqplKplnqlfMnjPfqPqMqjMpqPqKMPPnPPjPfnjPPlMfn
+result = 315
+LAPSE : LINE 140
+freq     : {{'j',19},{'z',15},{'p',13},{'P',12},{'N',12},{'L',11},{'m',11},{'I',6}}
+root : [99]([42]([19,j],[23]([11,L],[12,N])),[57]([25]([12,P],[13,p]),[32]([15,z],[17]([6,I],[11,m]))))
+name   = zjmzNzjmLzjIImLPPmzzpIPzNpPNNmLPjjpLjNPpzpNjLjjLjjzmzmpzpjpmINzPpLLmjIPmNjIpLNPLpPpNjjNjLPmzpjzjNPz
+result = 412
+LAPSE : LINE 141
+freq     : {{'o',23},{'N',21},{'p',12},{'n',11},{'K',10},{'j',8},{'q',6},{'G',5}}
+root : [52]([22]([43]([21,N],[11,n]),[45]([11]([5,G],[6,q]),[23,o])),[30]([12,p],[18]([8,j],[10,K])))
+name   = njopqqNpnNGNnpoopKnNoNoGGnjNpKpoqjjnooNooGojKqKnjpNonoqNGNoKjNonNonjppoNNppKNqKooKNnNooNpKNNNoKo
+result = 892
+LAPSE : LINE 142
+freq     : {{'s',16},{'J',15},{'P',13},{'M',11},{'o',9},{'m',9},{'k',9},{'i',8},{'r',7}}
+root : [97]([38]([18]([9,k],[9,m]),[20]([9,o],[11,M])),[59]([28]([13,P],[15,J]),[31]([15]([7,r],[8,i]),[16,s])))
+name   = JPPMsoPMoJoJssMmmiPssssimmoJPPkMosmkmsksJmsrMiJkrkrJioksokMMJmJMJmPiPMJkiPJMPkJsiPoPrsiPJrroMrsJs
+result = 990
+LAPSE : LINE 143
+freq     : {{'r',19},{'l',17},{'Q',13},{'n',12},{'M',11},{'I',8},{'i',8},{'H',5}}
+root : [93]([38]([19,r],[19]([8,I],[11,M])),[55]([25]([12,n],[13,Q]),[30]([13]([5,H],[8,i]),[17,l])))
+name   = IlrMinMMrlQrrrlQliIlrlIlQQrQnlilnrrIMirMllrnQlIIMQHrrlllrnMlHMQrMiQIMQrHiHnlnrQnrnnIQinnrMiQH
+result = 237
+LAPSE : LINE 144
+freq     : {{'O',25},{'l',17},{'J',15},{'v',11},{'q',11},{'h',6},{'g',6}}
+root : [51]([12]([52]([25,O],[6,g]),[27]([6,h],[15,J])),[39]([17,l],[22]([11,q],[11,v])))
+name   = lJOJvOqqvlglOlOOJOJOvlvJvqhqgOJJJvJhllqvqhllOOqJOqOJOhlllOlvgOgOOOllOqJJlJvvqhqvggOOOlOhOJO
+result = 96
+LAPSE : LINE 145
+freq     : {{'n',29},{'R',14},{'N',13},{'m',11},{'M',10},{'K',9},{'p',5},{'f',5}}
+root : [96]([40]([19]([9,K],[10,M]),[21]([10]([5,f],[5,p]),[11,m])),[56]([27]([13,N],[14,R]),[29,n]))
+name   = NRRKmRnnmRNNnMnMpmnfKNnKNNfKnnpnmnpnNnNnMnNmnNRnKnmRmRnNnpMmnRRfMRfMnMNnKRMfnpNKnRRmMnKMnmnRnnKm
+result = 783
+LAPSE : LINE 146
+freq     : {{'Q',13},{'O',13},{'n',12},{'N',11},{'u',10},{'m',10},{'i',8},{'H',7},{'j',4},{'h',4}}
+root : [92]([39]([18]([8]([4,h],[4,j]),[10,m]),[21]([10,u],[11,N])),[53]([25]([12,n],[13,O]),[28]([13,Q],[15]([7,H],[8,i]))))
+name   = NimnnNQOuOmOmQinQHQOQOQuuuuQHNQQmiNmuNnNuOmmHQumnOihOHHOjnuiNmiOHnONHnNnnQiQuhONjmhnQhNOnjij
+result = 574
+LAPSE : LINE 147
+freq     : {{'k',19},{'Q',15},{'M',10},{'J',9},{'t',9},{'o',9},{'l',8},{'K',7},{'h',5}}
+root : [91]([37]([18]([9,t],[9,J]),[19,k]),[54]([22]([10,M],[12]([5,h],[7,K])),[32]([15,Q],[17]([8,l],[9,o]))))
+name   = lMkokMQtlktJKJtltKQkkhhJKQooQtllMkMMQktQQtJthhKkkohJkkJlokoMMMKQoMJQoQKQkkkklJJMKQkolkQtQkQ
+result = 460
+LAPSE : LINE 148
+freq     : {{'m',30},{'y',14},{'O',12},{'L',10},{'J',9},{'l',8},{'I',5},{'g',4}}
+root : [92]([36]([17]([8,l],[9,J]),[19]([9]([4,g],[5,I]),[10,L])),[56]([26]([12,O],[14,y]),[30,m]))
+name   = ygygOlmLLlymLlmmyOLyJJlOmOymlmymmmyyOmmmIlOOlygyOmJOmLJLmJmJmmOJyLmmImmlmLyyImJLOOmmmmJgILmI
+result = 701
+LAPSE : LINE 149
+freq     : {{'K',17},{'l',17},{'J',15},{'x',13},{'s',13},{'k',9},{'i',8}}
+root : [92]([34]([17,K],[17]([8,i],[9,k])),[58]([26]([13,s],[13,x]),[32]([15,J],[17,l])))
+name   = sJlxxKxJxlJlikKJilKksllKJxKlJKksJkJKlKiJJkxKKKlJxliKJKJslsJslskKkJxllKxlsssxklskiKsiixxlisKx
+result = 645
+LAPSE : LINE 150
+freq     : {{'P',14},{'o',13},{'n',10},{'t',9},{'l',9},{'L',8},{'K',8},{'m',7},{'h',7},{'F',5}}
+root : [90]([36]([17]([8,L],[9,l]),[19]([9,t],[10,n])),[54]([25]([12]([5,F],[7,h]),[13,o]),[29]([14,P],[15]([7,m],[8,K]))))
+name   = PtoolntlhPKKlFtlPFmPnnhLohtooFmKnlPLPhhFPFotlmooloPloKnPmLnPthPPtnLmPotnlnotLLKnPKmomKKhLL
+result = 9
+LAPSE : LINE 151
+freq     : {{'s',13},{'N',12},{'M',12},{'o',12},{'n',12},{'O',11},{'u',10},{'I',6},{'j',6},{'g',6}}
+root : [100]([47]([23]([11,O],[12,n]),[24]([12,o],[12,M])),[53]([24]([12,N],[12]([6,g],[6,j])),[29]([13,s],[16]([6,I],[10,u]))))
+name   = oINggoNMnnssnjsgOOuIssOMONuoMnuMosOsMIusonuMnNNMgjInOIOosjsjMjNNgoosusnNsMnnMNjIOnuNOooMMOuuNonNOgou
+result = 978
+LAPSE : LINE 152
+freq     : {{'L',21},{'R',15},{'t',14},{'N',10},{'u',10},{'m',9},{'l',9},{'i',7},{'f',5}}
+root : [100]([41]([20]([10,u],[10,N]),[21,L]),[59]([26]([12]([5,f],[7,i]),[14,t]),[33]([15,R],[18]([9,l],[9,m]))))
+name   = NmtNiLRRLNfNiuuLfRfLRNLRmtNiLlultmLlmuLtttLRLutLlLLtmtlLltfLLNuRLmtRLtulfumRuLuimRRmiLNilNitNRRRltRL
+result = 629
+LAPSE : LINE 153
+freq     : {{'q',20},{'m',12},{'O',11},{'M',10},{'p',10},{'n',10},{'k',9},{'J',8},{'I',8}}
+root : [98]([40]([20,q],[20]([10,p],[10,M])),[58]([23]([11,O],[12,m]),[35]([16]([8,I],[8,J]),[19]([9,k],[10,n]))))
+name   = nJkOnMOkkOpIqOpOmqppqImMnqJpIqqOqIOMIpqOqpmMMmMJmJqMOqJJIpqnnqqJqnmkmJmnkpmkqmMqkqnIqmkOkOnqMMIpnm
+result = 762
+LAPSE : LINE 154
+freq     : {{'u',17},{'P',14},{'k',13},{'m',11},{'L',9},{'i',8},{'H',7},{'J',6},{'p',5}}
+root : [90]([37]([17,u],[20]([9,L],[11,m])),[53]([24]([11]([5,p],[6,J]),[13,k]),[29]([14,P],[15]([7,H],[8,i]))))
+name   = LPipuHmPiHuimmkuJPHiHPkkLiHpPmPmkmiPJPLLuuPuuLuJLpmJumikukLPkkLikkmHLuupuukJJmPPPkpuPuHmku
+result = 185
+LAPSE : LINE 155
+freq     : {{'K',17},{'p',13},{'w',12},{'n',12},{'O',11},{'o',11},{'m',7},{'h',7},{'G',6}}
+root : [96]([41]([18]([7,m],[11,o]),[23]([11,O],[12,n])),[55]([25]([12,w],[13,p]),[30]([13]([6,G],[7,h]),[17,K])))
+name   = nowhKpGwGppmKnhKKnphnGGooKppnnKOKmwhwnowphpoKKmOopwomwOKOoonoKwOwGKmmOnKnpnhwwhOOnOGpKKoKOpOKpwm
+result = 27
+LAPSE : LINE 156
+freq     : {{'n',26},{'M',12},{'O',11},{'N',11},{'p',10},{'k',10},{'J',8},{'i',5}}
+root : [55]([13]([25]([12,M],[5,i]),[51]([8,J],[26,n])),[42]([20]([10,k],[10,p]),[22]([11,N],[11,O])))
+name   = nNMpJMinOkOnkMOpnOnnnNpnnNNnNpiknJMMnOnniMnpJNkNknOMNOOpMnpikJkMnniMOppkNOkkMJJnOnNnJMJpnnnNn
+result = 829
+LAPSE : LINE 157
+freq     : {{'Q',13},{'w',12},{'r',12},{'n',10},{'K',8},{'J',8},{'j',8},{'H',7},{'h',7},{'i',6}}
+root : [91]([38]([16]([8,J],[8,K]),[22]([10,n],[12,r])),[53]([25]([12,w],[13,Q]),[28]([13]([6,i],[7,h]),[15]([7,H],[8,j]))))
+name   = nKQiQQwjirwnwQrnrjJKrQnJjHwwQrKwnhhQrHQinKJnhjwhHwjiwihHwQQrijQrJnhjnnwKjHQrrKHJwhrKQKrHJJJ
+result = 0
+LAPSE : LINE 158
+freq     : {{'K',18},{'n',12},{'M',11},{'v',11},{'N',10},{'p',10},{'m',9},{'i',8},{'h',5}}
+root : [94]([40]([19]([9,m],[10,p]),[21]([10,N],[11,v])),[54]([23]([11,M],[12,n]),[31]([13]([5,h],[8,i]),[18,K])))
+name   = KiKmMhnvpnKKiMKhiNipmnpvpKNMiNnmKvKMNMmMhNpKnvKmhKKnvvmNvppinpvmiKvinKNMnvnmMpKnMKvnKMhKMNpmNN
+result = 289
+LAPSE : LINE 159
+freq     : {{'o',23},{'N',21},{'M',11},{'v',11},{'I',8},{'k',7},{'j',7},{'i',7}}
+root : [72]([29]([52]([23,o],[14]([7,i],[7,j])),[15]([7,k],[8,I])),[43]([21,N],[22]([11,v],[11,M])))
+name   = ooiooIokkojMNIiIvvNoNNvokMNoMMikvIoioojiovooNvNjoNNoiNoMNMkNMvvjNkjkNjIooNoNIovMNiMoNMvNvIjNNMI
+result = 885
+LAPSE : LINE 160
+freq     : {{'n',23},{'e',20},{'K',17},{'q',14},{'L',8},{'m',7},{'i',7},{'E',4}}
+root : [57]([100]([43]([20,e],[23,n]),[25]([11]([4,E],[7,i]),[14,q])),[32]([15]([7,m],[8,L]),[17,K]))
+name   = inmqmeneKEniLKnqeqinEmqEmqnKeneqqeeKKnnnLEeennenqnLeKeLmenmKeKniqnieninLKKLLKiqKeKnenneqqqqeKmKKLeKn
+result = 610
+LAPSE : LINE 161
+freq     : {{'L',28},{'M',11},{'q',11},{'m',11},{'t',9},{'l',8},{'i',8},{'h',5}}
+root : [52]([13]([24]([11,M],[5,h]),[52]([8,i],[28,L])),[39]([17]([8,l],[9,t]),[22]([11,m],[11,q])))
+name   = MqmlhqLqiMlhiiLLMmLtLMiMLLtLqLLLLiimLLLLMmMLtltLLhqttlLhtmMtiLmqMLqqqMLLmLhmllLLLimlqmltqmM
+result = 63
+LAPSE : LINE 162
+freq     : {{'L',17},{'a',16},{'O',13},{'M',12},{'k',9},{'n',8},{'l',8},{'j',7},{'h',7}}
+root : [97]([38]([17,L],[21]([9,k],[12,M])),[59]([27]([13,O],[14]([7,h],[7,j])),[32]([16,a],[16]([8,l],[8,n]))))
+name   = LajLMkahOOOLkLklLOLOnhOllanMLaOaaMkknOanjLnLMlahnaLlMMkOLlnLjajajjaOOOMMLkaMMlhklMjMLLaahhkaLhnOL
+result = 62
+LAPSE : LINE 163
+freq     : {{'T',18},{'m',13},{'O',11},{'o',11},{'l',11},{'n',8},{'k',8},{'I',6},{'G',6}}
+root : [92]([40]([18,T],[22]([11,l],[11,o])),[52]([23]([11,O],[12]([6,G],[6,I])),[29]([13,m],[16]([8,k],[8,n]))))
+name   = mmomnlTkkmOTTlooGmmoIInnGTOOTGmolmnnOITklnnOomTllmOOoIkknTOTTTIGoolomkolGlGOkTTTTTlOlTImmkTO
+result = 142
+LAPSE : LINE 164
+freq     : {{'L',19},{'u',15},{'q',13},{'i',13},{'v',11},{'N',10},{'k',10},{'J',9}}
+root : [100]([40]([19]([9,J],[10,k]),[21]([10,N],[11,v])),[60]([26]([13,i],[13,q]),[34]([15,u],[19,L])))
+name   = qvkvNqkkuqLvvkLLNuivLqLkNuqJiNiiJkLuqivuqLLqJJNuLuJqLqiLJkNuLvNLiuqJLNuvLkqJiuquiiLNkLvviNLuikJLuiuv
+result = 818
+LAPSE : LINE 165
+freq     : {{'q',14},{'p',14},{'N',12},{'K',10},{'k',10},{'o',9},{'s',8},{'J',7},{'I',5},{'i',5}}
+root : [94]([39]([19]([9,o],[10,k]),[20]([10,K],[10]([5,i],[5,I]))),[55]([26]([12,N],[14,p]),[29]([14,q],[15]([7,J],[8,s]))))
+name   = qKpokNqJqskiqosNqJpkKIskJkpNqKoiiipNqKkqkpssqKNINKpKNkkopoNKNpsJpppsJNsNpKqqopipqIqKJqkoINoIJo
+result = 63
+LAPSE : LINE 166
+freq     : {{'q',16},{'N',12},{'o',11},{'p',10},{'m',10},{'M',9},{'t',9},{'k',9},{'I',8},{'H',5}}
+root : [99]([40]([19]([9,M],[10,m]),[21]([10,p],[11,o])),[59]([25]([12,N],[13]([5,H],[8,I])),[34]([16,q],[18]([9,k],[9,t]))))
+name   = poNtpmNIomIkqmHMIqpqMkmmkoNtqNmkqMtkHpHNookIqHoMqNqqIqppNqtpptqqMqoHmtoIoNptkNtpoIktMMMqNNqmINmkmMo
+result = 776
+LAPSE : LINE 167
+freq     : {{'m',22},{'l',16},{'Q',14},{'O',13},{'M',12},{'t',9},{'K',7},{'j',6}}
+root : [99]([43]([21]([9,t],[12,M]),[22,m]),[56]([26]([13,O],[13]([6,j],[7,K])),[30]([14,Q],[16,l])))
+name   = tOjmOlQlllQmQOQjlmMmOjlKOQmKOjmmmllKlMOtmtllKtljlMQOQOjQKMlmQtKmMMtmlQmmmMMMOlmtmQQQMtMmmMmOOOmtmQK
+result = 860
+LAPSE : LINE 168
+freq     : {{'r',17},{'P',14},{'O',11},{'v',11},{'i',11},{'M',10},{'J',9},{'m',7},{'h',6}}
+root : [96]([41]([19]([9,J],[10,M]),[22]([11,i],[11,v])),[55]([24]([11,O],[13]([6,h],[7,m])),[31]([14,P],[17,r])))
+name   = iMiiOvrihimPvOvPrviriOJOiPPrPiPMmPvMhmMJJPPPvmOrOrOvPvMOhPhMmrrJMmJMrPJJvMvihirrmrOJrrrrrOOJhvPM
+result = 572
+LAPSE : LINE 169
+freq     : {{'U',17},{'Q',16},{'M',11},{'l',11},{'u',10},{'J',7},{'m',7},{'k',7},{'j',7},{'i',7}}
+root : [100]([39]([17]([7,J],[10,u]),[22]([11,l],[11,M])),[61]([28]([14]([7,i],[7,j]),[14]([7,k],[7,m])),[33]([16,Q],[17,U])))
+name   = uiUMluUQUlkJuMQikQQMUMJiUUQmMJUkuukMjmlQlQUQUUjuQlUUQlUljQumlUiMljMkJQjuQJmjiQmijkUQuJUMQlMUmmJMkliu
+result = 522
+LAPSE : LINE 170
+freq     : {{'P',14},{'N',13},{'o',11},{'p',10},{'l',10},{'t',9},{'L',8},{'i',8},{'j',7},{'F',3}}
+root : [93]([39]([19]([9,t],[10,l]),[20]([10,p],[10]([3,F],[7,j]))),[54]([24]([11,o],[13,N]),[30]([14,P],[16]([8,i],[8,L]))))
+name   = otNooLPpPNpNlNtPPLpLjiPoiNpNLtNlNltolLiplpotPFtPPjPPliloLPoLiFiLPtjpttpllNlNNjiNFNpjoPjiojpoP
+result = 405
+LAPSE : LINE 171
+freq     : {{'z',15},{'p',14},{'P',13},{'q',13},{'L',10},{'o',9},{'k',8},{'K',7},{'G',6},{'e',4}}
+root : [99]([42]([19]([9,o],[10,L]),[23]([10]([4,e],[6,G]),[13,q])),[57]([27]([13,P],[14,p]),[30]([15,z],[15]([7,K],[8,k]))))
+name   = zzzLpPGKqeGzkzepkLpkpqLPoKpPqkLGqqpePqpkokpoLzoqpLzpGzKoozqoPzKGPKPPpqPGqPkzzpPKLPPkLpqLLKepqzoqzzo
+result = 55
+LAPSE : LINE 172
+freq     : {{'L',20},{'u',17},{'S',15},{'n',12},{'s',8},{'i',6},{'g',6},{'G',5},{'k',5}}
+root : [34]([66]([32]([15,S],[17,u]),[10]([18]([8,s],[5,k]),[38]([5,G],[20,L]))),[24]([12,n],[12]([6,g],[6,i])))
+name   = LikiukSnLSunuSsSGuSuGLiuGkSsuLSSLuSLLinkunsLsiLnnunLunLGuSkisSgunLunnLsSuLLLuugSsgSgsgLLLGLSng
+result = 419
+LAPSE : LINE 173
+freq     : {{'q',19},{'s',17},{'P',13},{'n',11},{'p',10},{'K',9},{'h',7},{'G',6},{'I',5}}
+root : [97]([40]([19,q],[21]([10,p],[11,n])),[57]([24]([11]([5,I],[6,G]),[13,P]),[33]([16]([7,h],[9,K]),[17,s])))
+name   = qGpIGqKPKqpsKnspInKsqnnqshGppsKssqsqnGqsPqspGpqpqKPqnqnnPPGhsnnPPqIPqPhIphKsKhKqPPsnPqIssqpsqsPhh
+result = 206
+LAPSE : LINE 174
+freq     : {{'M',23},{'m',18},{'L',17},{'v',11},{'o',11},{'l',9},{'g',6}}
+root : [55]([15]([55]([23,M],[6,g]),[32]([9,l],[17,L])),[40]([18,m],[22]([11,o],[11,v])))
+name   = LmMMomLomMlvMLLLmlvvmmMLmooMMgLvMLlooMmMMgLgmLlgLmovMLLLgmmlmvoMMoMMlLvMMmvvMMlvLMmollmmMLovgMm
+result = 275
+LAPSE : LINE 175
+freq     : {{'o',20},{'k',19},{'K',18},{'P',12},{'v',11},{'j',7},{'G',5}}
+root : [53]([92]([39]([19,k],[20,o]),[23]([11,v],[12,P])),[30]([12]([5,G],[7,j]),[18,K]))
+name   = GkjkkKkKGKPKGvoKoKvKjovKkPvkkokKkPjojvPoPKKPokoKkvGPooGKkkoookPvPvKPkooKjookvvjokKPkoPKvkKjo
+result = 604
+LAPSE : LINE 176
+freq     : {{'n',23},{'N',10},{'p',10},{'l',10},{'L',9},{'t',9},{'J',8},{'I',8},{'j',7}}
+root : [71]([32]([55]([23,n],[15]([7,j],[8,I])),[17]([8,J],[9,t])),[39]([19]([9,L],[10,l]),[20]([10,p],[10,N])))
+name   = nJntLJnnJlpInLnlJpnnjNtIlnNlntnIJjtjNLtplnLNpnnlJNLlLtlItLLlINJltnNNjNtpIjjJnnnnnnnjpppnIIpNLp
+result = 414
+LAPSE : LINE 177
+freq     : {{'n',18},{'T',16},{'L',9},{'K',9},{'J',9},{'k',9},{'s',8},{'i',6},{'g',6}}
+root : [90]([36]([18,n],[18]([9,J],[9,K])),[54]([21]([9,L],[12]([6,g],[6,i])),[33]([16,T],[17]([8,s],[9,k]))))
+name   = nnTTkLTLLKikKsLKsKnngTTnsLnLnJnKkTJiJisLigLTTJnksnnTJiksJTKgKnnLsJnkTngnTskJTTkKnigJTTkgnK
+result = 779
+LAPSE : LINE 178
+freq     : {{'P',26},{'S',18},{'l',15},{'n',10},{'k',10},{'t',9},{'H',5},{'f',4}}
+root : [97]([38]([18]([9,t],[9]([4,f],[5,H])),[20]([10,k],[10,n])),[59]([26,P],[33]([15,l],[18,S])))
+name   = SnlSPPHPkPntnPHtPSPSPlPfkPfPSSPSlPnnltSkPflPSSPkPlHSPnkSPtlPlnklSnkPltntnHtHltSStlfllPPlPkSkPSSPk
+result = 319
+LAPSE : LINE 179
+freq     : {{'m',19},{'r',17},{'I',14},{'O',11},{'p',10},{'k',9},{'J',8},{'q',6}}
+root : [94]([38]([19,m],[19]([9,k],[10,p])),[56]([25]([11,O],[14,I]),[31]([14]([6,q],[8,J]),[17,r])))
+name   = krpIkpJJrIqJrpkrOrprkmrmmOmOmmOOrrJqkmprmmIOrpmkmIrOIkpmrqJmmJkqIpqJOOrrIIrmmrIIkOmIpImImJIOqp
+result = 793
+LAPSE : LINE 180
+freq     : {{'M',21},{'o',12},{'q',11},{'N',10},{'n',10},{'J',9},{'r',7},{'h',7},{'g',5}}
+root : [92]([41]([20]([10,n],[10,N]),[21,M]),[51]([23]([11,q],[12,o]),[28]([12]([5,g],[7,h]),[16]([7,r],[9,J]))))
+name   = qJNMMqqMMnooonrnhJonNMNoMNqhNrorMJMMJNJonoqoNgMMohqMhhnMNgNrNMqrqJrnMqqnMqMrggJhnMMoMgJnhJoM
+result = 703
+LAPSE : LINE 181
+freq     : {{'t',23},{'l',18},{'k',18},{'N',10},{'K',10},{'J',7},{'H',6}}
+root : [51]([13]([54]([23,t],[6,H]),[31]([7,J],[18,k])),[38]([18,l],[20]([10,K],[10,N])))
+name   = ttklHNJtktllNtlkKNklKJNtHtltlNttkttNtKJtJlHtkkKkkllNtkktJlHlKttlltJKtklNlHHNtkklkktKklJkKKNK
+result = 502
+LAPSE : LINE 182
+freq     : {{'T',17},{'v',16},{'R',14},{'O',13},{'i',12},{'l',11},{'E',4},{'n',3},{'d',1}}
+root : [16]([4]([8]([4,E],[1,d]),[19]([3,n],[11,l])),[46]([33]([17]([12,i],[13,O]),[17,T]),[30]([14,R],[16,v])))
+name   = lvTlOROiivvnOOiRiRRTETRvRvEEviTivviTTORRdilTTROlTlTlTvOOlTvTRRllOOlTvROOvvOviRivETRvnTnliTi
+result = 104
+LAPSE : LINE 183
+freq     : {{'n',18},{'k',17},{'O',11},{'N',11},{'l',11},{'K',10},{'u',10},{'H',6}}
+root : [94]([39]([18,n],[21]([10,K],[11,l])),[55]([22]([11,N],[11,O]),[33]([16]([6,H],[10,u]),[17,k])))
+name   = nOllkHnKHnKlunkOOOlknnKkNOkOONOklnuullKunNnNnkkNuknHkkNHknOkNHnKNluulKNKNNnnlkOkkkulnnunuOKKHK
+result = 282
+LAPSE : LINE 184
+freq     : {{'l',18},{'J',16},{'S',15},{'o',14},{'u',10},{'K',9},{'k',8},{'m',7}}
+root : [97]([37]([18,l],[19]([9,K],[10,u])),[60]([29]([14,o],[15,S]),[31]([15]([7,m],[8,k]),[16,J])))
+name   = mkJlluuKSJokJSoSJuoloooSlSSlkJumuumSlumJJJmlJJoooKKoKJkomoSSuklSKlKmlJSSKJklllSKSoJkklllSulluoJKJ
+result = 942
+LAPSE : LINE 185
+freq     : {{'L',17},{'q',17},{'i',15},{'O',14},{'r',14},{'o',12},{'M',11}}
+root : [100]([40]([17,L],[23]([11,M],[12,o])),[60]([28]([14,r],[14,O]),[32]([15,i],[17,q])))
+name   = orMiqqOioOrLrMqroiMLrLOMoqLqLiiiqLrrrMLOOiqoriMiLqLiOqLOMOMOOoqoLrLqOoLqoiOLqMoioqqoriqrMMLrrOiqiLOL
+result = 163
+LAPSE : LINE 186
+freq     : {{'l',16},{'J',15},{'q',13},{'N',12},{'m',10},{'t',9},{'K',8},{'i',8}}
+root : [91]([35]([16]([8,i],[8,K]),[19]([9,t],[10,m])),[56]([25]([12,N],[13,q]),[31]([15,J],[16,l])))
+name   = JqNJJKNNNqlqqlimmJmtlKqqlJJlqJmKJmtmtqltttlJKKlJNlJqNtlmNimtlNNqJKNllimKJtqlNJiillmJqiiNiqK
+result = 592
+LAPSE : LINE 187
+freq     : {{'P',28},{'l',14},{'w',12},{'n',12},{'L',10},{'K',7},{'j',7},{'h',7}}
+root : [69]([28]([56]([28,P],[14,l]),[14]([7,h],[7,j])),[41]([17]([7,K],[10,L]),[24]([12,n],[12,w])))
+name   = wllPwjPLlKPLnllhhjnllLjKLPwwPPnKPPPnnPPnlnjLnwPlPPLKwlwKLKnjPPPnwnPwjPPlPLLnhlwhhhlwPLPKlPwPPPjhP
+result = 44
+LAPSE : LINE 188
+freq     : {{'m',20},{'Q',16},{'r',12},{'l',11},{'M',10},{'L',8},{'s',8},{'I',7},{'i',6}}
+root : [98]([41]([20,m],[21]([10,M],[11,l])),[57]([25]([12,r],[13]([6,i],[7,I])),[32]([16,Q],[16]([8,s],[8,L]))))
+name   = ImQQlIrsLIlilsmsMsmlMmrLImsmlmMLQrmmQrmMmlmQQlQILmMMQIriiQlQmLmrLLQrLmQlrrmsiMQmlMrMQiMsQirImmslQr
+result = 188
+LAPSE : LINE 189
+freq     : {{'K',17},{'O',14},{'k',14},{'w',12},{'n',10},{'m',10},{'M',9},{'i',8}}
+root : [94]([37]([17]([8,i],[9,M]),[20]([10,m],[10,n])),[57]([26]([12,w],[14,k]),[31]([14,O],[17,K])))
+name   = iKmKOkknkkwKniKMikwkinOMknmknnOwwOikmOmKKkmmkOMKKMKwiOKKKKmkKnMwmKMOKknwKiwMiOMmOMnOnwOOwkmOww
+result = 150
+LAPSE : LINE 190
+freq     : {{'P',15},{'s',15},{'x',13},{'l',9},{'L',8},{'J',8},{'j',8},{'m',7},{'I',6},{'c',2}}
+root : [91]([33]([16]([8,J],[8,L]),[17]([8]([2,c],[6,I]),[9,l])),[58]([28]([13,x],[15,s]),[30]([15,P],[15]([7,m],[8,j]))))
+name   = jlsLPsLxlIjPIJJJxjssPxmLlJPPsJssJssIclmlLPxjmsxxsjlLmLIcxLlmJJjPPxIPPxIPjPlPmxlsmPxxsxsPLsj
+result = 1004
+LAPSE : LINE 191
+freq     : {{'m',19},{'K',17},{'T',16},{'n',12},{'J',9},{'t',9},{'o',9},{'j',9}}
+root : [100]([37]([18]([9,t],[9,J]),[19,m]),[63]([28]([12,n],[16,T]),[35]([17,K],[18]([9,j],[9,o]))))
+name   = KmTmjmJnKmomTJnJKjtnjtKoKJnjJmjmtotTKnTnmnJToKmKmmTnTJKnmomTtKtKonmmmjTKTJmTjjjKttKTJTTmoKoKTtmTnoKn
+result = 191
+LAPSE : LINE 192
+freq     : {{'j',17},{'y',14},{'p',12},{'M',11},{'q',11},{'n',11},{'L',9},{'J',6},{'E',4}}
+root : [95]([41]([19]([9,L],[10]([4,E],[6,J])),[22]([11,n],[11,q])),[54]([23]([11,M],[12,p]),[31]([14,y],[17,j])))
+name   = nMyyjjqpjqEpjLMLpjyjMMjpynMnjLpnELjLjqnjyqyyLMqJpMnMJMnyjqqypLJMppnqjpnELpMjJqJnqjJyyqpnyyyLjjE
+result = 319
+LAPSE : LINE 193
+freq     : {{'M',23},{'S',16},{'j',14},{'q',11},{'t',9},{'K',7},{'i',6},{'g',6}}
+root : [92]([39]([16]([7,K],[9,t]),[23,M]),[53]([23]([11,q],[12]([6,g],[6,i])),[30]([14,j],[16,S])))
+name   = MMqtjMKiqjKMqKiqSjtjMSSjMKtgjMMSMSjqSMgiMjMgMMtiqMKiSqMSMSStjMMtMSjSSSqqiSjqSMKqMgttgtKjjMgj
+result = 428
+LAPSE : LINE 194
+freq     : {{'p',29},{'m',19},{'O',13},{'P',12},{'L',11},{'M',10},{'f',5}}
+root : [57]([15]([28]([13,O],[5,f]),[57]([10,M],[29,p])),[42]([19,m],[23]([11,L],[12,P])))
+name   = MpmLpmpPOpppLpmOMOppMLMmPOpLPpOLmpPMmLLpLmmpPMmOPLfMPOfPmppPfppMmPOpppmpfpMmpLfmOppmOmOpmMLOOmpPmpP
+result = 999
+LAPSE : LINE 195
+freq     : {{'N',25},{'l',18},{'x',13},{'o',12},{'q',11},{'j',9},{'I',6},{'H',4}}
+root : [98]([42]([19]([9,j],[10]([4,H],[6,I])),[23]([11,q],[12,o])),[56]([25,N],[31]([13,x],[18,l])))
+name   = loqjxNqNloNNNHNNxxljqoIqxjoNoNxHxoxljjjlxoxxlNqINqoqoNNlINlxjqIlloIqlHlNllqlNNlHjlNoNNNNNNxlqxIoNj
+result = 59
+LAPSE : LINE 196
+freq     : {{'M',33},{'o',23},{'l',11},{'u',10},{'K',7},{'m',7},{'h',6}}
+root : [53]([13]([24]([11,l],[6,h]),[57]([7,m],[33,M])),[40]([17]([7,K],[10,u]),[23,o]))
+name   = oMuoKMKMooohouMmKMMhooolMlulouMhMMMmMlMMuMoMuumooomMllMMKMuMuMohMlmoMMolKoummoKMMhoMohMMKoMlllMMo
+result = 984
+LAPSE : LINE 197
+freq     : {{'Q',13},{'O',13},{'m',12},{'q',11},{'M',10},{'K',10},{'l',9},{'k',9},{'r',7},{'j',6}}
+root : [100]([43]([20]([10,K],[10,M]),[23]([11,q],[12,m])),[57]([26]([13,O],[13,Q]),[31]([13]([6,j],[7,r]),[18]([9,k],[9,l]))))
+name   = jkQkqQrrQKjMMMjOMlMrKQKlMmMqmmQOjqOmKQkKmKqQOkmrmQQlMOOOqQOmqkOklKkkOmqQOKqKlMmqrlOqkjmlQrOMKrjlqlmQ
+result = 751
+LAPSE : LINE 198
+freq     : {{'K',17},{'o',12},{'q',11},{'u',10},{'n',10},{'M',9},{'k',9},{'j',9},{'I',8}}
+root : [95]([38]([18]([9,k],[9,M]),[20]([10,n],[10,u])),[57]([23]([11,q],[12,o]),[34]([17,K],[17]([8,I],[9,j]))))
+name   = MjIoKIunkIqjMquoqqKMKuKqjqkIojMInqjuknoqkoKKKjnnnooIokMqkMjKoKKuKkjnKKoKujukMnKMIquonuKuKnoMkIq
+result = 184
+LAPSE : LINE 199
+freq     : {{'p',29},{'k',15},{'O',12},{'M',11},{'s',8},{'m',7},{'F',5},{'H',4}}
+root : [91]([35]([15]([7,m],[8,s]),[20]([9]([4,H],[5,F]),[11,M])),[56]([27]([12,O],[15,k]),[29,p]))
+name   = FpsHFpkmppsMMOmOpMpkkHOOpMpOpOkskkkpppFkpkHOpmmsmMpOpkpFOMpkpOFsppHmOppMsMkMpMkMsskOpppppmk
+result = 655
+LAPSE : LINE 200
+freq     : {{'L',20},{'i',15},{'R',14},{'r',14},{'m',10},{'t',9},{'J',8},{'n',8}}
+root : [98]([39]([19]([9,t],[10,m]),[20,L]),[59]([28]([14,r],[14,R]),[31]([15,i],[16]([8,n],[8,J]))))
+name   = RtJirmRnrrLmJiLrLtJnLLtrLmimtRLRtriRiLiimJnLRJrtnRrrinLnrLLLJnRmLtiRrttrLiiiJLLRrmRimrmLmiiLnRRJLR
+result = 735
