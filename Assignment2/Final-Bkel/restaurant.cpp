@@ -2,7 +2,7 @@
 
 int MAXSIZE = 0;
 
-class JJK_RESTAURANT_OPERATIONS;
+class JJK_RESTAURANT;
 class Gojo_RESTAURANT;
 class Sukuna_RESTAURANT;
 class HuffTree_AVL;
@@ -13,28 +13,28 @@ class Gojo_RESTAURANT
 	class Tree_BST;
 
 private:
-	vector<Tree_BST> areaTable;
+	vector<Tree_BST> Zone_Manage; //* xem là vector bao gồm các khu vực phục vụ
 
 public:
-	Gojo_RESTAURANT() : areaTable(MAXSIZE + 1) {}
+	Gojo_RESTAURANT() : Zone_Manage(MAXSIZE + 1) {}
 	void insert_to_AreaTable(int result)
 	{
-		//* khách mới vào sẽ chọn khu có ID = result % MAXSIZE + 1 
+		//* khách mới vào sẽ chọn khu có ID = result % MAXSIZE + 1
 		//* chỉ khách này tới chỗ đó rồi cho nhân viên khu đó xử lí
 		int ID = result % MAXSIZE + 1;
-		areaTable[ID].insert(result);
+		Zone_Manage[ID].insert(result);
 	}
-	void remove_KOKUSEN()
+	void KOKUSEN() //* KOKUSEN == remove khách tại GOJO
 	{
 		for (int i = 1; i < MAXSIZE + 1; i++)
-			areaTable[i].remove();
+			Zone_Manage[i].remove();
 	}
 
-	void print_LIMITLESS(int number)
+	void LIMITLESS(int number)
 	{
 		if (number <= 0 || number > MAXSIZE)
 			return;
-		areaTable[number].print();
+		Zone_Manage[number].print();
 	}
 
 private:
@@ -67,7 +67,7 @@ private:
 			if (node == nullptr)
 			{
 				recording.push(result); //*ghi vào sổ
-				COUNTDELETE--;
+				// COUNTDELETE--;
 				return new Node(result);
 			}
 
@@ -138,7 +138,7 @@ private:
 					return node;
 				}
 				delete del_node;
-				COUNTDELETE++;
+				// COUNTDELETE++;
 			}
 			return node;
 		}
@@ -150,7 +150,7 @@ private:
 		unsigned long long permutation(unsigned long long n, unsigned long long x)
 		{
 			//! TÍNH C(n,x)
-			//* sử dụng tam giác pascal để C(n,x)
+			//* sử dụng tam giác pascal để tính C(n,x)
 			vector<vector<unsigned long long>> pascal(n + 1, vector<unsigned long long>(n + 1, 0));
 
 			for (unsigned long long i = 0; i <= n; i++)
@@ -227,15 +227,14 @@ class Sukuna_RESTAURANT
 	class Node;
 
 private:
-	vector<Node *> areaTable;
+	vector<Node *> Zone_Manage;
 	list<Node *> LRU;
 
 private:
-
 	bool twoArea_Compare(int index1, int index2)
 	{
-		list<Node *>::iterator it1 = find(LRU.begin(), LRU.end(), areaTable[index1]);
-		list<Node *>::iterator it2 = find(LRU.begin(), LRU.end(), areaTable[index2]);
+		list<Node *>::iterator it1 = find(LRU.begin(), LRU.end(), Zone_Manage[index1]);
+		list<Node *>::iterator it2 = find(LRU.begin(), LRU.end(), Zone_Manage[index2]);
 		// bool flag = 0;
 		if (it1 != LRU.end() && it2 != LRU.end())
 		{
@@ -251,22 +250,22 @@ private:
 	{
 		//* areaTable.size() là số khu vực nhà hàng đang phục vụ
 		//* Kiểm tra có tồn tại node con nào không, nếu không
-		if (index * 2 + 1 >= areaTable.size())
+		if (index * 2 + 1 >= Zone_Manage.size())
 			return;
 		//* Nếu chỉ có 1 node con trái
-		else if (index * 2 + 1 == areaTable.size() - 1) //* chỉ có root và left
+		else if (index * 2 + 1 == Zone_Manage.size() - 1) //* chỉ có root và left
 		{												//* nếu key ở node left mà bé hơn, thì swap
-			if (areaTable[index * 2 + 1]->size() < areaTable[index]->size())
+			if (Zone_Manage[index * 2 + 1]->size() < Zone_Manage[index]->size())
 			{
-				swap(areaTable[index * 2 + 1], areaTable[index]);
+				swap(Zone_Manage[index * 2 + 1], Zone_Manage[index]);
 			}
-			else if (areaTable[index * 2 + 1]->size() == areaTable[index]->size())
+			else if (Zone_Manage[index * 2 + 1]->size() == Zone_Manage[index]->size())
 			{
 				//* flag == 1 thì LRU -> index*2+1 -> index; => size(index*2+1) > size(index) => nothing
 				bool flag = twoArea_Compare(index * 2 + 1, index);
 				if (!flag)
 				{
-					swap(areaTable[index * 2 + 1], areaTable[index]);
+					swap(Zone_Manage[index * 2 + 1], Zone_Manage[index]);
 				}
 			}
 			return;
@@ -277,7 +276,7 @@ private:
 
 		//* tìm node có key nhỏ nhất giữa 2 node con
 		int minChild = -1;
-		if (areaTable[leftChild_idx]->size() == areaTable[rightChild_idx]->size())
+		if (Zone_Manage[leftChild_idx]->size() == Zone_Manage[rightChild_idx]->size())
 		{
 			bool flag = twoArea_Compare(leftChild_idx, rightChild_idx);
 			//* flag == 1 thì LRU -> left -> right
@@ -290,21 +289,21 @@ private:
 		}
 		else
 		{
-			minChild = areaTable[leftChild_idx]->size() < areaTable[rightChild_idx]->size() ? leftChild_idx : rightChild_idx;
+			minChild = Zone_Manage[leftChild_idx]->size() < Zone_Manage[rightChild_idx]->size() ? leftChild_idx : rightChild_idx;
 		}
 
 		//* Kiểm tra xem khu vực index hiện tại có size >= khu vực có size nhỏ nhất vừa tìm dc hay không?
 		//* Nếu có thì swap
 
-		if (areaTable[index]->size() < areaTable[minChild]->size())
+		if (Zone_Manage[index]->size() < Zone_Manage[minChild]->size())
 			return;
 
-		if (areaTable[index]->size() > areaTable[minChild]->size())
+		if (Zone_Manage[index]->size() > Zone_Manage[minChild]->size())
 		{
-			swap(areaTable[index], areaTable[minChild]);
+			swap(Zone_Manage[index], Zone_Manage[minChild]);
 		}
 		//* 2 khu có số khách bằng nhau, thì xét LRU, khu nào vừa dc sử dụng thì chọn
-		else if (areaTable[index]->size() == areaTable[minChild]->size())
+		else if (Zone_Manage[index]->size() == Zone_Manage[minChild]->size())
 		{
 			//* dùng hàm list distance
 			//* nếu flag == 1 thì khu index nằm trước khu minChild, => khu index > khu minChild => swap
@@ -312,7 +311,7 @@ private:
 			bool flag = twoArea_Compare(index, minChild);
 			if (flag)
 			{
-				swap(areaTable[index], areaTable[minChild]);
+				swap(Zone_Manage[index], Zone_Manage[minChild]);
 			}
 		}
 		reheapDown(minChild);
@@ -324,12 +323,12 @@ private:
 		int parent = (index - 1) / 2;
 
 		//* Kiểm tra khu index có là khu đầu tiên trong heap, hoặc có size lớn hơn cha, thì do nothing
-		if (index == 0 || areaTable[index]->size() > areaTable[parent]->size())
+		if (index == 0 || Zone_Manage[index]->size() > Zone_Manage[parent]->size())
 			return;
 
-		if (areaTable[index]->size() < areaTable[parent]->size())
+		if (Zone_Manage[index]->size() < Zone_Manage[parent]->size())
 		{
-			swap(areaTable[index], areaTable[parent]);
+			swap(Zone_Manage[index], Zone_Manage[parent]);
 		}
 		else
 		{ //* 2 khu có size bằng nhau thì xét LRU
@@ -338,7 +337,7 @@ private:
 			bool flag = twoArea_Compare(index, parent);
 			if (!flag)
 			{
-				swap(areaTable[index], areaTable[parent]);
+				swap(Zone_Manage[index], Zone_Manage[parent]);
 			}
 		}
 		reheapUp(parent);
@@ -386,10 +385,10 @@ public:
 	Sukuna_RESTAURANT() {}
 	~Sukuna_RESTAURANT()
 	{
-		for (unsigned int i = 0; i < areaTable.size(); i++)
+		for (unsigned int i = 0; i < Zone_Manage.size(); i++)
 		{
-			delete areaTable[i];
-			COUNTDELETE++;
+			delete Zone_Manage[i];
+			// COUNTDELETE++;
 		}
 	}
 
@@ -399,9 +398,9 @@ public:
 		//* Step 1: kiểm tra xem heap có đang quản lí khu ID hay không? nếu chưa quản lí thì phải thêm ở bước sau
 		int index = -1;
 
-		for (unsigned int i = 0; i < areaTable.size(); i++)
+		for (unsigned int i = 0; i < Zone_Manage.size(); i++)
 		{
-			if (ID == areaTable[i]->ID)
+			if (ID == Zone_Manage[i]->ID)
 			{
 				index = i;
 				break;
@@ -411,37 +410,37 @@ public:
 		//* Step 2: do chưa được quản lý nên phải thêm vô
 		if (index == -1)
 		{
-			areaTable.push_back(new Node(ID));
-			COUNTDELETE--;
-			index = areaTable.size() - 1;
-			areaTable[index]->insert(result);
-			this->move_to_Top(areaTable[index]);
+			Zone_Manage.push_back(new Node(ID));
+			// COUNTDELETE--;
+			index = Zone_Manage.size() - 1;
+			Zone_Manage[index]->insert(result);
+			this->move_to_Top(Zone_Manage[index]);
 			this->reheapUp(index);
 		}
-		//*bước 3: thêm khách hàng mới vào khu khách hàng muốn thêm vào 
+		//*bước 3: thêm khách hàng mới vào khu khách hàng muốn thêm vào
 		//*        và tiến hành reheapDown bàn này xuống vì có số khách đông hơn
 		else
 		{
-			areaTable[index]->insert(result);
-			this->move_to_Top(areaTable[index]);
+			Zone_Manage[index]->insert(result);
+			this->move_to_Top(Zone_Manage[index]);
 			this->reheapDown(index);
 		}
 	}
 
-	void remove_KEITEIKEN(int number)
+	void KEITEIKEN(int number) //* remove
 	{
-		if (areaTable.size() <= 0)
+		if (Zone_Manage.size() <= 0)
 			return;
 
 		//* TẠO ra heap mới sao chép từ heap cũ
-		vector<Node *> new_AreaTable(areaTable.begin(), areaTable.end());
+		vector<Node *> new_ZoneManage(Zone_Manage.begin(), Zone_Manage.end());
 		queue<Node *> DeleteList; //! danh sách các khu cấn xóa
-		for (int i = 0; areaTable.size() && i < number; i++)
+		for (int i = 0; Zone_Manage.size() && i < number; i++)
 		{
 			//* lấy ra phần tử đầu tiên trong heap
-			Node *nodeDelete = areaTable[0];
-			swap(areaTable[0], areaTable[areaTable.size() - 1]);
-			areaTable.pop_back();
+			Node *nodeDelete = Zone_Manage[0];
+			swap(Zone_Manage[0], Zone_Manage[Zone_Manage.size() - 1]);
+			Zone_Manage.pop_back();
 			this->reheapDown(0);
 
 			//* đưa vào danh sách cần xóa
@@ -449,7 +448,7 @@ public:
 		}
 
 		//* trả lại heap
-		areaTable = new_AreaTable;
+		Zone_Manage = new_ZoneManage;
 
 		//* đuổi num khách hàng tại num khu vực
 		while (DeleteList.size())
@@ -462,20 +461,20 @@ public:
 
 			//* tìm vị trí của nó trong heap
 			int index = 0;
-			while (areaTable[index] != nodeDelete)
+			while (Zone_Manage[index] != nodeDelete)
 				index++;
 
 			//* trường hợp xóa hết thì xóa nó trong heap sau đó reheapDown khu xuống vì đang ở đầu hàng
 			if (nodeDelete->size() == 0)
 			{
-				swap(areaTable[index], areaTable[areaTable.size() - 1]);
+				swap(Zone_Manage[index], Zone_Manage[Zone_Manage.size() - 1]);
 				//! xóa nó khỏi danh sách liên kết
-				this->removeNode(areaTable[areaTable.size() - 1]);
-				delete areaTable[areaTable.size() - 1];
-				COUNTDELETE++;
+				this->removeNode(Zone_Manage[Zone_Manage.size() - 1]);
+				delete Zone_Manage[Zone_Manage.size() - 1];
+				// COUNTDELETE++;
 
 				//! xóa trong heap nữa
-				areaTable.pop_back();
+				Zone_Manage.pop_back();
 			}
 			this->reheapDown(index);
 		}
@@ -483,13 +482,13 @@ public:
 
 	void print_preOrder(unsigned int index, int number)
 	{
-		if (index >= this->areaTable.size() || number <= 0)
+		if (index >= this->Zone_Manage.size() || number <= 0)
 			return;
-		this->areaTable[index]->print(number);
+		this->Zone_Manage[index]->print(number);
 		print_preOrder(index * 2 + 1, number);
 		print_preOrder(index * 2 + 2, number);
 	}
-	void print_LIMITLESS(int number) { print_preOrder(0, number); }
+	void LIMITLESS(int number) { print_preOrder(0, number); }
 
 private:
 	class Node
@@ -521,7 +520,9 @@ private:
 		}
 	};
 };
+//*-------------------------------------------------------------------------------------------------------------------
 
+//********************************************************************************************************************
 class HuffTree_AVL
 {
 	class Node;
@@ -538,8 +539,7 @@ public:
 			clear(node->left);
 			clear(node->right);
 			delete node;
-			COUNTDELETE++;
-
+			// COUNTDELETE++;
 		}
 	}
 
@@ -548,7 +548,7 @@ public:
 
 		vector<pair<char, int>> newFreq;
 
-		//int size = freq.size();
+		// int size = freq.size();
 		while (!freq.empty())
 		{
 			pair<char, int> maxFreq = freq[0];
@@ -609,9 +609,6 @@ public:
 			freq_prev.push_back(pair);
 		}
 
-		// for(auto pair: freq_prev){
-		//     cout << pair.first << " " << pair.second << endl;
-		// }
 
 		if (freq_prev.size() < 3)
 			return {};
@@ -794,15 +791,15 @@ public:
 
 		return node;
 	}
-	
-	Node *buildHuff(vector<pair<char, int>> freq)
+
+	Node *buildHuffTree(vector<pair<char, int>> freq)
 	{
 		//* Step 1 : chuyển freq thành build (thành các node riêng biệt)
 		vector<Node *> build;
 		for (const auto &pair : freq)
 		{
 			build.push_back(new Node(pair.second, pair.first));
-			COUNTDELETE--;
+			// COUNTDELETE--;
 		}
 
 		while (build.size() > 1)
@@ -820,7 +817,7 @@ public:
 
 			newNode = new Node{weight, '\0', left, right};
 			newNode->height = getHeight(newNode);
-			COUNTDELETE--;
+			// COUNTDELETE--;
 			//* Cân bằng AVL TREE
 			newNode = balanceTree(newNode);
 			newNode = balanceTree(newNode);
@@ -845,7 +842,7 @@ public:
 		return build[0];
 	}
 
-	void encodingHuffman_REC(vector<string> &encoding, Node *node, string s = "")
+	void encoding_REC(vector<string> &encoding, Node *node, string s = "")
 	{
 		if (node->left == nullptr && node->right == nullptr)
 		{
@@ -853,20 +850,20 @@ public:
 			return;
 		}
 
-		encodingHuffman_REC(encoding, node->left, s += '0');
+		encoding_REC(encoding, node->left, s += '0');
 
 		s = s.erase(s.size() - 1);
-		encodingHuffman_REC(encoding, node->right, s += '1');
+		encoding_REC(encoding, node->right, s += '1');
 	}
 	//* đầu vào là 1 cây và name đã được mã hóa Caesar -> đầu ra là result kết quả cần tìm.
-	int encodingHuffman(Node *root, string nameCaesar)
+	int encodingHuff(Node *root, string nameCaesar)
 	{
 		if (root->left == nullptr && root->right == nullptr)
 			return 0;
 
 		//* Step 1: đi tính chuỗi mã hoá binary của các kí tự đã mã hóa
 		vector<string> encoding_to_binary(256, "");
-		encodingHuffman_REC(encoding_to_binary, root);
+		encoding_REC(encoding_to_binary, root);
 
 		//* Step 2: lấy ra 10 kí tự nhị phân cuối sau khi mã hóa nameCaesar thành mã nhị phân lấy từ phải đên trái
 		//* nameCaesar = "aab"; => 001
@@ -907,11 +904,11 @@ public:
 			return -1;
 
 		this->clear(root);
-		root = this->buildHuff(freq);
+		root = this->buildHuffTree(freq);
 		if (root->left == nullptr && root->right == nullptr)
 			return 0;
 
-		int result = this->encodingHuffman(root, name);
+		int result = this->encodingHuff(root, name);
 
 		return result;
 	}
@@ -944,11 +941,12 @@ private:
 		Node(int weight, char c = '\0', Node *left = nullptr, Node *right = nullptr) : weight(weight), c(c), left(left), right(right) {}
 	};
 };
+//*-------------------------------------------------------------------------------------------------------------------
 
-class JJK_RESTAURANT_OPERATIONS
+class JJK_RESTAURANT
 {
 private:
-	HuffTree_AVL New_customers_arrive;
+	HuffTree_AVL New_Customer;
 	Gojo_RESTAURANT hash;
 	Sukuna_RESTAURANT heap;
 
@@ -966,7 +964,7 @@ public:
 			return;
 		}
 
-		int result = New_customers_arrive.encode(name);
+		int result = New_Customer.encode(name);
 		if (result == -1)
 			return;
 
@@ -976,30 +974,30 @@ public:
 			heap.insert_to_AreaTable(result);
 	}
 
-	//* xử lí nhà hàng gojo
+	//* Xử lý các Command ở nhà hàng GOJO
 	void KOKUSEN()
 	{
-		hash.remove_KOKUSEN();
+		hash.KOKUSEN();
 	}
 	void LIMITLESS(int num)
 	{
-		hash.print_LIMITLESS(num);
+		hash.LIMITLESS(num);
 	}
 
-	//* xử lí nhà hàng Sukuna
+	//* Xử lý các Command ở nhà hàng SUKUNA
 	void KEITEIKEN(int num)
 	{
-		heap.remove_KEITEIKEN(num);
+		heap.KEITEIKEN(num);
 	}
 	void CLEAVE(int num)
 	{
-		heap.print_LIMITLESS(num);
+		heap.LIMITLESS(num);
 	}
 
 	//* in ra HuffTree_AVL
 	void HAND()
 	{
-		New_customers_arrive.print_HAND();
+		New_Customer.print_HAND();
 	}
 };
 
@@ -1013,7 +1011,7 @@ void simulate(string filename)
 	ss >> input_str;
 	ss >> MAXSIZE;
 
-	JJK_RESTAURANT_OPERATIONS *CALL_COMMAND = new JJK_RESTAURANT_OPERATIONS();
+	JJK_RESTAURANT *CALL_COMMAND = new JJK_RESTAURANT();
 
 	while (ss >> input_str)
 	{
